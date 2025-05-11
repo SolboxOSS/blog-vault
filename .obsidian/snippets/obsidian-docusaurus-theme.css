@@ -1,0 +1,285 @@
+/* 📘 Docusaurus Classic Theme-inspired styles for Obsidian preview */
+
+/* Images */
+.markdown-preview-view img {
+  //  border-top: 4px solid #3b82f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0.2rem;
+    background-color: white;
+    display: block;
+    margin: 1.5rem auto;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s ease;
+  }
+  .markdown-preview-view img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Captions */
+  .markdown-preview-view figure {
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .markdown-preview-view figcaption {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+  }
+
+  /* 이미지 크기 정의 */
+.img-small {
+  width: 200px;
+  height: auto;
+}
+
+.img-medium {
+  width: 400px;
+  height: auto;
+}
+
+.img-large {
+  width: 800px;
+  height: auto;
+}
+
+/* 이미지 컬럼 컨테이너 수정 (flexbox 기반) */
+.img-grid-2,
+.img-grid-3 {
+  display: flex;
+  flex-wrap: nowrap; /* 줄바꿈 방지 */
+  gap: 1rem;
+  justify-content: center; /* 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+
+/* 이미지 크기와 상관없이 균등 너비 유지 */
+.img-grid-2 img {
+  width: calc(50% - 0.5rem); /* 2열이므로 50% - 간격 조정 */
+  height: auto;
+  object-fit: contain; /* 이미지 비율 유지 */
+  border-radius: 8px;
+}
+
+.img-grid-3 img {
+  width: calc(33.33% - 0.66rem); /* 3열이므로 약 33% 너비로 설정 */
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* Typography */
+body {
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  color: #1a202c;
+  background-color: #ffffff;
+  line-height: 1.75;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin: 1.5rem 0 1rem;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+/* Alerts */
+.alert {
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+.alert-info {
+  background-color: #e7f3ff;
+  border-left: 4px solid #2196f3;
+  color: #0c5460;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-left: 4px solid #ff9800;
+  color: #856404;
+}
+
+.alert-error {
+  background-color: #f8d7da;
+  border-left: 4px solid #dc3545;
+  color: #721c24;
+}
+
+.alert-success {
+  background-color: #d1fae5;
+  border-left: 4px solid #10b981;
+  color: #065f46;
+}
+
+/* Inline code and code blocks */
+code {
+  background-color: #f3f4f6;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.95em;
+}
+
+pre {
+  background-color: #1e1e1e;
+  color: #f8f8f2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  font-family: "Fira Code", monospace;
+}
+
+/* Prism tokens for syntax highlighting */
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #6a9955;
+}
+.token.punctuation {
+  color: #d4d4d4;
+}
+.token.property, .token.tag, .token.constant, .token.symbol {
+  color: #569cd6;
+}
+.token.selector, .token.attr-name {
+  color: #d7ba7d;
+}
+.token.function, .token.class-name {
+  color: #4ec9b0;
+}
+.token.keyword {
+  color: #c586c0;
+}
+
+
+/* Tip body indentation */
+.alert .tip-body {
+  margin-left: 1.8em;
+}
+
+/* 🌙 Dark mode support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: #e5e7eb;
+  }
+
+  .alert-info {
+    background-color: #1e3a8a;
+    border-left-color: #60a5fa;
+    color: #bfdbfe;
+  }
+
+  .alert-warning {
+    background-color: #78350f;
+    border-left-color: #facc15;
+    color: #fde68a;
+  }
+
+  .alert-error {
+    background-color: #7f1d1d;
+    border-left-color: #f87171;
+    color: #fecaca;
+  }
+
+  .alert-success {
+    background-color: #064e3b;
+    border-left-color: #34d399;
+    color: #d1fae5;
+  }
+
+  pre {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+  }
+
+  table {
+    background-color: #2a2a2a;
+    color: #f1f5f9;
+  }
+
+  th {
+    background-color: #374151;
+  }
+
+  td {
+    background-color: #1f2937;
+  }
+}
+
+/* 📊 Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+/* 🖼️ Lightbox support */
+input.image-lightbox-toggle {
+  display: none;
+}
+
+.markdown-preview-view img.lightbox {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+.image-lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+input.image-lightbox-toggle:checked + .image-lightbox-overlay {
+  display: flex;
+}
+
+.image-lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.image-lightbox-overlay label {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
