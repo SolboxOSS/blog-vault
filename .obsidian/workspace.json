@@ -15,7 +15,8 @@
               "state": {
                 "file": "howto/Quick Start Guide.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Quick Start Guide"
@@ -89,25 +90,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "92c8553912765665",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "howto/Quick Start Guide.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Quick Start Guide"
-            }
-          },
-          {
             "id": "0cb246cf30ddaa63",
             "type": "leaf",
             "state": {
@@ -150,13 +132,42 @@
               "icon": "lucide-list",
               "title": "Outline of Quick Start Guide"
             }
+          },
+          {
+            "id": "490e1b3cce235b1c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "howto/Quick Start Guide.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Quick Start Guide"
+            }
+          },
+          {
+            "id": "f65c1b44d5259c1f",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {},
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,14 +177,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "df5791695a611798",
+  "active": "f65c1b44d5259c1f",
   "lastOpenFiles": [
+    "support/images/rename-test.png",
+    "howto/Quick Start Guide.md",
+    "support/images/Pasted image 20250512000753.png",
+    "support/images/image_1746976049637.png",
+    "support/images/image_1746975736205.png",
+    "howto/img/Pasted image 20250508160511.png",
+    "howto/img/Pasted image 20250508164537.png",
+    "Settings/Obsidian/Quick Start.md",
+    "support/images/Pasted image 20250511233844.png",
     "support/images/Pasted image 20250511231215.png",
     "support/images/Pasted image 20250511231112.png",
-    "howto/Quick Start Guide.md",
     "support/images",
     "support",
     "howto/Cloud Storage Settings/S3 Compliant.md",

@@ -116,4 +116,3 @@ RcloneView를 이용한 파일 동기화.
 - 👉[기초 설치 가이드](app://obsidian.md/tutorials/install-guide)
 - 👉[고급 동기화 팁](app://obsidian.md/guides/advanced-sync)
 
-

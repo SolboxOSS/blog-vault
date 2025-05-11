@@ -150,3 +150,6 @@ Obsidian 좌측 하단 Settings(⚙️) →
 **🧩 추천 커뮤니티 플러그인: Dangling Links Plugin**
 
 ![[img/Pasted image 20250502170202.png]]
+
+## 마크다운 문법의 이미지 링크 적용하기. 
+![](support/images/Pasted%20image%2020250511233844.png)
