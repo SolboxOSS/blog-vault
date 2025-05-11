@@ -1,0 +1,4 @@
+# Obsidian user settings (local only)
+.obsidian/workspace.json
+.obsidian-vault/.obsidian/workspace
+.obsidian-vault/.obsidian/cache
