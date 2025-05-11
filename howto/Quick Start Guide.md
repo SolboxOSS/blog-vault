@@ -40,7 +40,17 @@ author: Jay
 :::
 
 화면의 오른쪽 창에서 '+' 버튼을 눌러서 remote 추가 창을 뛰웁니다.
+
+- Markdown image insert test
 ![](/support/images/Pasted%20image%2020250508144524.png)
+
+- html image insert test
+<img src="/support/images/Pasted%20image%2020250508144524.png" alt="large image" width="auto" class="img-small" />
+<div class="img-grid-2">
+  <img src="/support/images/Pasted%20image%2020250508144524.png" alt="이미지1" />
+  <img src="/support/images/Pasted%20image%2020250508144524.png" alt="이미지2" />
+</div>
+
 
 
 검색창에서 'google' 을 검색한 후 'Google Drive'를 선택합니다. 
@@ -51,11 +61,7 @@ author: Jay
 ![](img/Pasted%20image%2020250508160223.png)
 
   
-  
-  <img src="img/Pasted%20image%2020250508154442.png" alt="Image 1" class="img-medium img-left"/>
-  
-    <img src="img/Pasted%20image%2020250508154442.png" alt="Image 1" class="img-large"/>
-    
+     
 :::note 참고
 Google 등 SSO(Sing Sign On)를 지원하는 클라우드 스토리지들은 Options을 그냥 스킵하시면 SSO 인증 후 연결이 완료 됩니다.
 Google Drive와 같이 SSO 방식의 접속을 지원하는 클라우드 스토리지는 Dropbox, Google photos, Microsoft Onedrive, Box, pCloud, Yandex Disk, premiumize.me, put.io,HiDrive 등이 있습니다.
