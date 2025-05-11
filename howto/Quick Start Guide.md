@@ -26,7 +26,7 @@ author: Jay
 하세요. 
 :::note
 설치시에 license agreement에 동의하셔야 합니다. 
-![](img/Pasted%20image%2020250506191753.png)
+![](/support/images/Pasted%20image%2020250506191753.png)
 :::
 
 설치완료 후 아래의 화면이 보이실 겁니다. 
@@ -40,7 +40,7 @@ author: Jay
 :::
 
 화면의 오른쪽 창에서 '+' 버튼을 눌러서 remote 추가 창을 뛰웁니다.
-![](img/Pasted%20image%2020250508144524.png)
+![](/support/images/Pasted%20image%2020250508144524.png)
 
 
 검색창에서 'google' 을 검색한 후 'Google Drive'를 선택합니다. 
@@ -50,15 +50,12 @@ author: Jay
 다음 화면은 입력을 하지 않고 스킵합니다. 
 ![](img/Pasted%20image%2020250508160223.png)
 
-
-<div class="img-grid-2">
-
-  <img src="img/Pasted%20image%2020250508154442.png" alt="Image 1" />
-
-  <img src="img/Pasted%20image%2020250508160223.png" alt="Image 2" />
-
-</div>
-
+  
+  
+  <img src="img/Pasted%20image%2020250508154442.png" alt="Image 1" class="img-medium img-left"/>
+  
+    <img src="img/Pasted%20image%2020250508154442.png" alt="Image 1" class="img-large"/>
+    
 :::note 참고
 Google 등 SSO(Sing Sign On)를 지원하는 클라우드 스토리지들은 Options을 그냥 스킵하시면 SSO 인증 후 연결이 완료 됩니다.
 Google Drive와 같이 SSO 방식의 접속을 지원하는 클라우드 스토리지는 Dropbox, Google photos, Microsoft Onedrive, Box, pCloud, Yandex Disk, premiumize.me, put.io,HiDrive 등이 있습니다.

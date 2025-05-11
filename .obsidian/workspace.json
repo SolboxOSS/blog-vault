@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 430.5
   },
   "right": {
     "id": "490103162d0954c7",
@@ -169,8 +169,13 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "d498fc960ebff14f",
+  "active": "df5791695a611798",
   "lastOpenFiles": [
+    "support/images/Pasted image 20250511231215.png",
+    "support/images/Pasted image 20250511231112.png",
+    "howto/Quick Start Guide.md",
+    "support/images",
+    "support",
     "howto/Cloud Storage Settings/S3 Compliant.md",
     "howto/Cloud Storage Settings/Oracle.md",
     "howto/Cloud Storage Settings/Google Drive.md"
