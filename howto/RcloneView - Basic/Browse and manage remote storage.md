@@ -2,7 +2,7 @@
 sidebar_position: "2"
 id: File-management
 title: File Management
-slug: /howto/file-management
+slug: /file-management
 description: File management guide using explorer of RcloneView
 keywords:
   - rclone

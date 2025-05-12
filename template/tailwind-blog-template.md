@@ -1,21 +1,61 @@
 ---
-sidebar_position: "{{sidebar에서 게제 순서}}"
+sidebar_position: "1"
 id: example-post
-title: RcloneView 클라우드 동기화 완전 가이드
-slug: 
-description: "{{summary}}"
+title: RcloneView 샘플 포스트
+slug: /template/tailwind-blog-template
+description: Post Examples
 keywords:
+  - document
+  - template
+  - example
+  - blog
   - rcloneview
-  - rclone
-  - cloud
-  - sync
 tags:
   - RcloneView
   - Sync
-  - Cloud
+  - document
+  - template
 date: <% tp.date.now("YYYY-MM-DD") %>
 author: Jay
 ---
+```text Front Matter
+---
+
+sidebar_position: "{{sidebar에서 게제 순서}}"
+
+id: example-post
+
+title: RcloneView 클라우드 동기화 완전 가이드
+
+slug: /template/tailwind-blog-template
+
+description: "{{summary}}"
+
+keywords:
+
+- rcloneview
+
+- rclone
+
+- cloud
+
+- sync
+
+tags:
+
+- RcloneView
+
+- Sync
+
+- Cloud
+
+date: <% tp.date.now("YYYY-MM-DD") %>
+
+author: Jay
+
+---
+```
+
 
 # RcloneView 클라우드 동기화 완전 가이드
 
@@ -67,8 +107,8 @@ rcloneview config
 :::
 
 ## 이미지 효과 테스트
+<img src="/support/images/Pasted%20image%2020250509180458.png" alt="small image" class="img-small img-left" />
 
-![[img/Pasted image 20250505230112.png]]
 
 ## tailwind css 테스트
 
