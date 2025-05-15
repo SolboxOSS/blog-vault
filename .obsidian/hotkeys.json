@@ -1,11 +1,27 @@
 {
   "workspace:new-tab": [],
-  "insert-template": [
+  "templater-obsidian:templater/HTML-image-insert.md": [
     {
       "modifiers": [
-        "Ctrl"
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Mod"
       ],
       "key": "T"
+    }
+  ],
+  "templater-obsidian:templater/auto-Front-matter.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
     }
   ]
 }

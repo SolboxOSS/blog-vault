@@ -18,18 +18,19 @@ tags:
 date: <% tp.date.now("YYYY-MM-DD") %>
 author: Jay
 ---
+
 ```md title="howto/hello.md"
 ---
 
-sidebar_position: 1
+sidebar_position: "{{sidebar에서 게제 순서}}"
 
 id: example-post
 
-title: RcloneView Sample Post
+title: RcloneView 클라우드 동기화 완전 가이드
 
 slug: /template/tailwind-blog-template
 
-description: This is sample Post for writer
+description: "{{summary}}"
 
 keywords:
 
