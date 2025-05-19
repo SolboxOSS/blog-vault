@@ -1,0 +1,140 @@
+{
+  "customFileOrder": {
+    "/": [
+      "en",
+      "Scripts",
+      "Settings",
+      "support",
+      "template",
+      "templater"
+    ],
+    "en": [
+      "en/howto",
+      "en/tutorials"
+    ],
+    "en/howto": [
+      "en/howto/Cloud Storage Settings",
+      "en/howto/img",
+      "en/howto/RcloneView - Advanced",
+      "en/howto/RcloneView - Basic",
+      "en/howto/Remote Storage Connection Settings",
+      "en/howto/Quick Start Guide.md",
+      "en/howto/test new note.md"
+    ],
+    "en/howto/Cloud Storage Settings": [
+      "en/howto/Cloud Storage Settings/Google Drive.md",
+      "en/howto/Cloud Storage Settings/Oracle.md",
+      "en/howto/Cloud Storage Settings/S3 Compliant.md"
+    ],
+    "en/howto/img": [
+      "en/howto/img/Pasted image 20250508154442.png",
+      "en/howto/img/Pasted image 20250508160223.png",
+      "en/howto/img/Pasted image 20250508160259.png",
+      "en/howto/img/Pasted image 20250508160511.png",
+      "en/howto/img/Pasted image 20250508163942.png",
+      "en/howto/img/Pasted image 20250508164017.png",
+      "en/howto/img/Pasted image 20250508164537.png",
+      "en/howto/img/Pasted image 20250508170238.png",
+      "en/howto/img/Pasted image 20250508170443.png"
+    ],
+    "en/howto/RcloneView - Advanced": [
+      "en/howto/RcloneView - Advanced/Auto re-mount on startup.md",
+      "en/howto/RcloneView - Advanced/Folder Comparison with filter.md",
+      "en/howto/RcloneView - Advanced/Job Scheduling and Automated Execution.md",
+      "en/howto/RcloneView - Advanced/Remote Rclone Connection Using Multi-Window.md"
+    ],
+    "en/howto/RcloneView - Basic": [
+      "en/howto/RcloneView - Basic/Browse and manage remote storage.md",
+      "en/howto/RcloneView - Basic/Compare folder contents.md",
+      "en/howto/RcloneView - Basic/Connect with external rclone.md",
+      "en/howto/RcloneView - Basic/Free License vs. Plus License.md",
+      "en/howto/RcloneView - Basic/General Settings.md",
+      "en/howto/RcloneView - Basic/Job Management.md",
+      "en/howto/RcloneView - Basic/Mount cloud storage as a local drive.md",
+      "en/howto/RcloneView - Basic/Real-time transfer monitoring.md",
+      "en/howto/RcloneView - Basic/Remote Manager.md",
+      "en/howto/RcloneView - Basic/Synchronize remote storages.md"
+    ],
+    "en/howto/Remote Storage Connection Settings": [
+      "en/howto/Remote Storage Connection Settings/Connect using CLI.md",
+      "en/howto/Remote Storage Connection Settings/S3.md",
+      "en/howto/Remote Storage Connection Settings/WebDav.md"
+    ],
+    "en/tutorials": [
+      "en/tutorials/Sync Google Drive with Dropbox Seamlessly.md",
+      "en/tutorials/Templates",
+      "en/tutorials/Google Drive to OneDrive Transfer Guide.md",
+      "en/tutorials/Dropbox to Google Drive Migration Tutorial.md",
+      "en/tutorials/OneDrive to Dropbox File Transfer Steps.md",
+      "en/tutorials/How to Sync Google Photos to OneDrive.md",
+      "en/tutorials/Transfer Files Between MEGA and Google Drive.md",
+      "en/tutorials/Sync Dropbox with OneDrive Automatically.md",
+      "en/tutorials/Move Files from Box to Google Drive.md",
+      "en/tutorials/Google Drive to Amazon S3 Migration Guide.md",
+      "en/tutorials/How to Backup OneDrive to Google Drive.md",
+      "en/tutorials/intro.md"
+    ],
+    "en/tutorials/Templates": [
+      "en/tutorials/Templates/_category_.json",
+      "en/tutorials/Templates/Image size adjusting.md",
+      "en/tutorials/Templates/Info. Boxes (=callout).md",
+      "en/tutorials/Templates/tailwind-blog-template.md"
+    ],
+    "Scripts": [],
+    "Settings": [
+      "Settings/Docusaurus",
+      "Settings/Obsidian"
+    ],
+    "Settings/Docusaurus": [
+      "Settings/Docusaurus/Github 설치.md",
+      "Settings/Docusaurus/Quick Start.md"
+    ],
+    "Settings/Obsidian": [
+      "Settings/Obsidian/img",
+      "Settings/Obsidian/Quick Start.md"
+    ],
+    "Settings/Obsidian/img": [
+      "Settings/Obsidian/img/convert_obsidian_images_with_check.py",
+      "Settings/Obsidian/img/obsidian.css",
+      "Settings/Obsidian/img/Pasted image 20250430142536.png",
+      "Settings/Obsidian/img/Pasted image 20250430144626.png",
+      "Settings/Obsidian/img/Pasted image 20250430144732.png",
+      "Settings/Obsidian/img/Pasted image 20250502165129.png",
+      "Settings/Obsidian/img/Pasted image 20250502170202.png",
+      "Settings/Obsidian/img/Pasted image 20250502173348.png",
+      "Settings/Obsidian/img/Pasted image 20250502175335.png",
+      "Settings/Obsidian/img/Pasted image 20250502182725.png",
+      "Settings/Obsidian/img/Pasted image 20250502184615.png",
+      "Settings/Obsidian/img/Pasted image 20250505210815.png",
+      "Settings/Obsidian/img/Pasted image 20250506000919.png",
+      "Settings/Obsidian/img/Pasted image 20250506002726.png",
+      "Settings/Obsidian/img/Pasted image 20250506002845.png"
+    ],
+    "support": [
+      "support/images"
+    ],
+    "support/images": [
+      "support/images/Pasted image 20250505230112.png",
+      "support/images/Pasted image 20250506191753.png",
+      "support/images/Pasted image 20250508144524.png",
+      "support/images/Pasted image 20250509180458.png",
+      "support/images/Pasted image 20250511233844.png"
+    ],
+    "template": [
+      "template/convert_obsidian_images_with_check.py",
+      "template/Image size adjusting.md",
+      "template/Info. Boxes (=callout).md",
+      "template/markdown-card-template.md",
+      "template/obsidian-to-docusaurus-image-converter.md",
+      "template/tailwind-blog-template.md"
+    ],
+    "templater": [
+      "templater/auto-Front-matter.md",
+      "templater/callout-insert.md",
+      "templater/Grid-HTML-image-insert.md",
+      "templater/HTML-image-insert.md"
+    ]
+  },
+  "draggingEnabled": true,
+  "selectedSortOrder": "manual-sorting"
+}
