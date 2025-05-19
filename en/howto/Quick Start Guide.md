@@ -18,9 +18,8 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 author: Jay
 ---
 
-# Quick Start Guide
 
-## RcloneView 설치
+# RcloneView 설치
 
 [RcloneView homepage](https://rcloneview.com/src/download.html) 에서 설치파일을 다운로드 후 프로그램 설치를 완료
 하세요. 
@@ -30,11 +29,11 @@ author: Jay
 :::
 
 
+설치완료 후 시작 시 아래의 화면이 보이면 성공적으로 설치를 완료 하였습니다.
 
+<img src="/support/images/Completed-install.png" alt="Completed-install" class="img-medium img-center" />
 
-설치완료 후 아래의 화면이 보이실 겁니다. 
-
-## 원격 스토리지 추가
+# 원격스토리지 추가
 
 다음으로 구글 드라이브를 추가해 보겠습니다. 
 
@@ -44,38 +43,38 @@ author: Jay
 
 화면의 오른쪽 창에서 '+' 버튼을 눌러서 remote 추가 창을 뛰웁니다.
 
-- Markdown image insert test
-<img src="/support/images/Pasted%20image%2020250508144524.png" alt="Add Remote" class="img-small img-center" />
+<img src="/support/images/add-new-remote.png" alt="add new remote" class="img-medium img-center" />
+아래와 같이 New remote modal 창에서 순차적으로 입력을 완료하고 저장 합니다. 
 
-- html image insert test
-<img src="/support/images/Pasted%20image%2020250508144524.png" alt="large image" width="auto" class="img-small" />
+1. 검색창에서 'google'을 검색한 후 
+2. 'Google Drive'를 선택합니다. 
+3. 'Next' 버튼을 클릭합니다.
+4. Option 모달창에서 별도의 선택없이 'Next'를 클릭합니다.
+
+
+
 <div class="img-grid-2">
-  <img src="/support/images/Pasted%20image%2020250508144524.png" alt="이미지1" />
-  <img src="/support/images/Pasted%20image%2020250508144524.png" alt="이미지2" />
+<img src="/support/images/howto/new-remote-step1.png" alt="Add new google remote" class="img-medium img-center" />
+<img src="/support/images/howto/add-remote-step2.png" alt="Add google drive option" class="img-medium img-center" />
 </div>
 
-
-
-검색창에서 'google' 을 검색한 후 'Google Drive'를 선택합니다. 
-
-![](en/howto/img/Pasted%20image%2020250508154442.png)
-
-다음 화면은 입력을 하지 않고 스킵합니다. 
-![](en/howto/img/Pasted%20image%2020250508160223.png)
-
-  
-     
+      
 :::note 참고
 Google 등 SSO(Sing Sign On)를 지원하는 클라우드 스토리지들은 Options을 그냥 스킵하시면 SSO 인증 후 연결이 완료 됩니다.
 Google Drive와 같이 SSO 방식의 접속을 지원하는 클라우드 스토리지는 Dropbox, Google photos, Microsoft Onedrive, Box, pCloud, Yandex Disk, premiumize.me, put.io,HiDrive 등이 있습니다.
 SSO를 지원하는 클라우드 스토리지 중 Options 항목 입력이 필요한 Zoho WorkDrive, Google Cloud Storage, Citrix ShareFile, Google Drive Shared with me, Box for Business 는 다음 링크를 참조하셔서 설정하시길 바랍니다. 
 :::
 
-추가하는 드라이브에 대한 이름을 지정 합니다. 
-![](en/howto/img/Pasted%20image%2020250508160259.png)
+5. 추가하는 드라이브에 대한 이름을 지정 합니다. 
+6. 'Next' 버튼을 누릅니다.
+7. 저장 버튼을 눌러 리모트 추가를 완료 합니다. 
 
-저장 버튼을 눌러 리모트 추가를 완료 합니다. 
-![](en/howto/img/Pasted%20image%2020250508160511.png)
+<div class="img-grid-2">
+<img src="/support/images/howto/add-remote-step3.png" alt="add google drive step3" class="img-medium img-center" />
+<img src="/support/images/howto/add-remote-step4.png" alt="add google drive step4" class="img-medium img-center" />
+</div>
+
+
 
 :::note 참고
 '*' 로 표시된 필수 입력사항을 입력하지 않았을 경우 'save' 가 불가능하며, 안내 메시지에 따라 입력을 완료하신 후 'Save'를 완료하시면 됩니다.

@@ -8,20 +8,20 @@
       "key": "I"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
   "templater-obsidian:templater/auto-Front-matter.md": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "F"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
     }
   ]
 }

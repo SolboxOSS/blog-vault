@@ -114,11 +114,18 @@
       "support/images"
     ],
     "support/images": [
-      "support/images/Pasted image 20250505230112.png",
+      "support/images/howto",
+      "support/images/add-new-remote.png",
+      "support/images/Completed-install.png",
       "support/images/Pasted image 20250506191753.png",
-      "support/images/Pasted image 20250508144524.png",
       "support/images/Pasted image 20250509180458.png",
       "support/images/Pasted image 20250511233844.png"
+    ],
+    "support/images/howto": [
+      "support/images/howto/add-remote-step3.png",
+      "support/images/howto/add-remote-step4.png",
+      "support/images/howto/add-remote-step2.png",
+      "support/images/howto/new-remote-step1.png"
     ],
     "template": [
       "template/convert_obsidian_images_with_check.py",
@@ -129,10 +136,10 @@
       "template/tailwind-blog-template.md"
     ],
     "templater": [
+      "templater/auto-grid-html-image-insert.md",
+      "templater/clipboard-html-image-insert.md",
       "templater/auto-Front-matter.md",
-      "templater/callout-insert.md",
-      "templater/Grid-HTML-image-insert.md",
-      "templater/HTML-image-insert.md"
+      "templater/callout-insert.md"
     ]
   },
   "draggingEnabled": true,
