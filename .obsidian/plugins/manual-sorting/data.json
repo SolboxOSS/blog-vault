@@ -14,7 +14,6 @@
     ],
     "en/howto": [
       "en/howto/Cloud Storage Settings",
-      "en/howto/img",
       "en/howto/RcloneView - Advanced",
       "en/howto/RcloneView - Basic",
       "en/howto/Remote Storage Connection Settings",
@@ -25,17 +24,6 @@
       "en/howto/Cloud Storage Settings/Google Drive.md",
       "en/howto/Cloud Storage Settings/Oracle.md",
       "en/howto/Cloud Storage Settings/S3 Compliant.md"
-    ],
-    "en/howto/img": [
-      "en/howto/img/Pasted image 20250508154442.png",
-      "en/howto/img/Pasted image 20250508160223.png",
-      "en/howto/img/Pasted image 20250508160259.png",
-      "en/howto/img/Pasted image 20250508160511.png",
-      "en/howto/img/Pasted image 20250508163942.png",
-      "en/howto/img/Pasted image 20250508164017.png",
-      "en/howto/img/Pasted image 20250508164537.png",
-      "en/howto/img/Pasted image 20250508170238.png",
-      "en/howto/img/Pasted image 20250508170443.png"
     ],
     "en/howto/RcloneView - Advanced": [
       "en/howto/RcloneView - Advanced/Auto re-mount on startup.md",
@@ -115,13 +103,18 @@
     ],
     "support/images": [
       "support/images/howto",
-      "support/images/add-new-remote.png",
-      "support/images/Completed-install.png",
       "support/images/Pasted image 20250506191753.png",
       "support/images/Pasted image 20250509180458.png",
       "support/images/Pasted image 20250511233844.png"
     ],
     "support/images/howto": [
+      "support/images/howto/Completed-install.png",
+      "support/images/howto/add-new-remote.png",
+      "support/images/howto/google-login-complete.png",
+      "support/images/howto/google-trust-rclone.png",
+      "support/images/howto/google-password-login.png",
+      "support/images/howto/google-choose-another-account.png",
+      "support/images/howto/google-choose-account.png",
       "support/images/howto/add-remote-step3.png",
       "support/images/howto/add-remote-step4.png",
       "support/images/howto/add-remote-step2.png",
