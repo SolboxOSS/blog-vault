@@ -19,7 +19,7 @@ author: Jay
 ---
 
 
-# Installing RcloneView
+## Installing RcloneView
 
 Download the installation file from the [RcloneView homepage](https://rcloneview.com/src/download.html). Run the installer and follow the instructions to complete the installation.
 
@@ -28,7 +28,7 @@ When the installation is complete, you will see the following screen, confirming
 <img src="/support/images/howto/Completed-install.png" alt="Completed-install" class="img-medium img-center" />
 
 
-# Adding a Remote Storage (Google Drive Example)
+## Adding a Remote Storage (Google Drive Example)
 
 Next, we'll demonstrate how to add Google Drive as a remote storage.
 Click the '+' button in the right pane of the application window to open the "Add New Remote" dialog.
@@ -66,7 +66,7 @@ However, certain SSO-compatible storages like Zoho WorkDrive, Google Cloud Stora
 Fields marked with an asterisk (*) are required. You won't be able to save unless all required fields are completed. Please follow the on-screen prompts and fill in all necessary information before clicking "Save".
 :::
 
-# Connecting Your Remote Storage (SSO: Single Sign-On)
+## Connecting Your Remote Storage (SSO: Single Sign-On)
 
 You will be redirected to the Google SSO login page.
 Select an existing Google account from the list.
@@ -96,7 +96,7 @@ You are now ready to manage and synchronize your Google Drive files using Rclone
 
 
 
-# What's Next?
+## What's Next?
 
 - Basic File Management with RcloneView
 - File Synchronization with RcloneView

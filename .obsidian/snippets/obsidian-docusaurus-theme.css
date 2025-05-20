@@ -29,25 +29,26 @@
   }
 
 /* 이미지 크기 정의 (기본 중앙정렬 포함) */
+/* 이미지 크기 클래스 정의 (중앙정렬 추가) */
 .img-small {
-  width: 200px !important;
-  height: auto !important;
-  display: block !important;
-  margin: 1.5rem auto !important; /* 기본 중앙 정렬 */
+  height: 150px !important;
+  width: auto !important;
+  margin: 1.5rem auto !important; /* 중앙정렬 */
+  display: block !important;      /* 명시적 block 설정 */
 }
 
-.img-medium {
-  width: 400px !important;
-  height: auto !important;
-  display: block !important;
-  margin: 1.5rem auto !important; /* 기본 중앙 정렬 */
+.img-medium{
+  height: 300px !important;
+  width: auto !important;
+  margin: 1.5rem auto !important; /* 중앙정렬 */
+  display: block !important;      /* 명시적 block 설정 */
 }
 
 .img-large {
-  width: 800px !important;
-  height: auto !important;
-  display: block !important;
-  margin: 1.5rem auto !important; /* 기본 중앙 정렬 */
+  height: 500px !important;
+  width: auto !important;
+  margin: 1.5rem auto !important; /* 중앙정렬 */
+  display: block !important;      /* 명시적 block 설정 */
 }
 
 /* 이미지 정렬 옵션 클래스 */
