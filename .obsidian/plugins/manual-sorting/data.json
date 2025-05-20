@@ -17,8 +17,7 @@
       "en/howto/RcloneView - Advanced",
       "en/howto/RcloneView - Basic",
       "en/howto/Remote Storage Connection Settings",
-      "en/howto/Quick Start Guide.md",
-      "en/howto/test new note.md"
+      "en/howto/Quick Start Guide.md"
     ],
     "en/howto/Cloud Storage Settings": [
       "en/howto/Cloud Storage Settings/Google Drive.md",
@@ -70,16 +69,26 @@
     ],
     "Scripts": [],
     "Settings": [
-      "Settings/Docusaurus",
-      "Settings/Obsidian"
+      "Settings/Obsidian",
+      "Settings/Docusaurus"
     ],
     "Settings/Docusaurus": [
-      "Settings/Docusaurus/Github 설치.md",
       "Settings/Docusaurus/Quick Start.md"
     ],
     "Settings/Obsidian": [
-      "Settings/Obsidian/img",
-      "Settings/Obsidian/Quick Start.md"
+      "Settings/Obsidian/Obsidian 환경 설정하기.md",
+      "Settings/Obsidian/문서 작성하기.md",
+      "Settings/Obsidian/Docusaurus 에서 확인하기.md",
+      "Settings/Obsidian/attachments",
+      "Settings/Obsidian/img"
+    ],
+    "Settings/Obsidian/attachments": [
+      "Settings/Obsidian/attachments/Pasted image 20250520154835.png",
+      "Settings/Obsidian/attachments/Pasted image 20250520153901.png",
+      "Settings/Obsidian/attachments/Pasted image 20250520150042.png",
+      "Settings/Obsidian/attachments/Pasted image 20250520151859.png",
+      "Settings/Obsidian/attachments/Pasted image 20250520144558.png",
+      "Settings/Obsidian/attachments/Pasted image 20250520142625.png"
     ],
     "Settings/Obsidian/img": [
       "Settings/Obsidian/img/convert_obsidian_images_with_check.py",
@@ -102,6 +111,7 @@
       "support/images"
     ],
     "support/images": [
+      "support/images/Obsidian",
       "support/images/howto",
       "support/images/Pasted image 20250506191753.png",
       "support/images/Pasted image 20250509180458.png",
@@ -120,6 +130,9 @@
       "support/images/howto/add-remote-step2.png",
       "support/images/howto/new-remote-step1.png"
     ],
+    "support/images/Obsidian": [
+      "support/images/Obsidian/obsidian-plugin-templater.png"
+    ],
     "template": [
       "template/convert_obsidian_images_with_check.py",
       "template/Image size adjusting.md",
@@ -129,6 +142,7 @@
       "template/tailwind-blog-template.md"
     ],
     "templater": [
+      "templater/emoji-insert.md",
       "templater/auto-grid-html-image-insert.md",
       "templater/clipboard-html-image-insert.md",
       "templater/auto-Front-matter.md",

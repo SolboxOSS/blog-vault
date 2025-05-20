@@ -2,8 +2,6 @@
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-style-settings",
   "obsidian-minimal-settings",
-  "img2html",
-  "obsidian-paste-image-rename",
-  "templater-obsidian",
-  "manual-sorting"
+  "manual-sorting",
+  "templater-obsidian"
 ]
