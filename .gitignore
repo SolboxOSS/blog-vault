@@ -1,14 +1,17 @@
-# Obsidian 사용자 설정 및 캐시
-.obsidian/workspace
-.obsidian/workspace.json
+# Obsidian 사용자별 캐시 및 임시 파일
 .obsidian/cache
-.obsidian/graph.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
 .obsidian/app.json
+.obsidian/appearance.json
 .obsidian/hotkeys.json
-
-# 플러그인 및 테마 (공동 작업 시 불필요한 경우 추가)
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+.obsidian/sync.json
 .obsidian/plugins
 .obsidian/themes
+.obsidian/trash
+
 
 # MacOS 메타데이터 파일
 .DS_Store
