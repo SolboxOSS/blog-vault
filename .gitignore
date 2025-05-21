@@ -1,4 +1,38 @@
-# Obsidian user settings (local only)
+# Obsidian 사용자 설정 및 캐시
+.obsidian/workspace
 .obsidian/workspace.json
-.obsidian-vault/.obsidian/workspace
-.obsidian-vault/.obsidian/cache
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/app.json
+.obsidian/hotkeys.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+.obsidian/sync.json
+
+
+# 플러그인 및 테마 (공동 작업 시 불필요한 경우 추가)
+.obsidian/plugins/*
+!.obsidian/plugins/*/manifest.json
+.obsidian/themes/*
+.obsidian/trash/*
+
+
+# MacOS 메타데이터 파일
+.DS_Store
+
+# Windows 썸네일 캐시
+Thumbs.db
+
+# 시스템에서 생성되는 임시 파일
+*.tmp
+*.log
+desktop.ini
+
+# VS Code 편집기 설정 (VS Code 사용하는 경우)
+.vscode/
+
+# 기타 임시 폴더 및 파일
+.trash/
+tmp/
+node_modules/
