@@ -67,7 +67,8 @@ Obsidian 좌측 하단 Settings(⚙️) →
 - Obsidian 좌측 하단 Settings(⚙️) →
 - **Community plugins** →  **Browse** 버튼 클릭
 - “Templater” 검색 → 설치 → Enable
-<img src="/support/images/Obsidian/obsidian-plugin-templater.png" alt="obsidian plugin templater" class="img-medium img-center" />
+
+
 
 **❗Templater 환경 변수 설정**
 
@@ -93,8 +94,6 @@ Obsidian의 사이드바 Tree에서 페이지 순서를 수동으로 바꿀수 �
 필수는 아니나 설치하면 편리함.
 
 
-
-
 ### Markdown Cheat Sheet 플러그인 (선택사항)
 
 1. **설정 → Community plugins → Browse** 로 이동
@@ -108,20 +107,25 @@ Obsidian의 사이드바 Tree에서 페이지 순서를 수동으로 바꿀수 �
 > 특히, Callouts를 이용하면, 현재의 Tip 박스와 같이 다양한 인포메이션 박스 템플릿을 사용할 수 있음. 
 
 
-## ✅ Obsidian Settings 변경 (선택사항)
+### 🧩 깨진 링크 확인: Broken Links Plugin (선택사항)
+![](attachments/Pasted%20image%2020250521231557.png)
+
+## ✅ Obsidian Settings 변경
 
 **📋 Files and links 설정 **
 
 🔗 Settings(⚙️) > Files & Links 메뉴로 이동
 1. New link format 을 'Relative path to file' 로 설정.
-2. Use [[wikilkinks]] 를 비활성화.
+2. Use [wikilkinks]를 비활성화.
 3. Default location for new attatchments 를 'In subfolder under current folder' 로 설정.
 4. Subfolder name 을 'attatchments' 로 설정.
 
 ![](attachments/Pasted%20image%2020250520175414.png)
 > [!danger] 
-> - Docusaurus와 연동하는 이미지는 Templater의 clipboard-html-image-insert 템플릿을 통해 저장하여야 함. 
+> - Docusaurus에 html 문법을 이용해  삽입하는 이미지는 Templater의 clipboard-html-image-insert 템플릿을 통해 저장하여야 함. 
 > - 이 템플릿을 이용하여 저장하는 이미지는 /support/images/[현재폴더이름]/  아래에 자동 저장되며, Docusaurus의 /static/images/[현재폴더이름]/ 에 그대로 복사하여 사용함.
+> 🔗 [Obsidian 의 .md 파일과 첨부파일(이미지) 복사하기](Docusaurus%20에서%20확인하기.md#Obsidian%20의%20.md%20파일과%20첨부파일(이미지)%20복사하기)
+
 
 
 ## ✅ Obsidian으로 Tech blog Template 사용 (선택사항)
@@ -140,21 +144,4 @@ Obsidian의 사이드바 Tree에서 페이지 순서를 수동으로 바꿀수 �
 > 
 
 
-## ✅ Images 폴더 관리 방법 
-
-## 🎯 목표
-
-- Obsidian에서 이미지를 붙여넣으면 해당 폴더의 /support/images/[현재폴더이름] 에 저장
-- Docusaurus로 이동시, 해당 폴더 전체를 /static/images/[현재폴더이름] 로 copy & past 적용.
-
-> [!note] 
-> - 아래와 같이 vault의 특정폴더(howto)에 .md 파일을 작성시(Quick Start.md) /support/images/howto폴더아래에 이미지를 붙여넣고, 작업 완료 후 해당 폴더 전체를 docusaurus의 /static/images/howto 로 옮기면 됨.
-> - Templater의 clipboard-html-image-insert를 이용하면 자동 처리 됨.
-
-
-## ✅ 링크깨진 파일 관리 방법 (검증안됨) 
-
-**🧩 추천 커뮤니티 플러그인: Dangling Links Plugin**
-
-![[img/Pasted image 20250502170202.png]]
 

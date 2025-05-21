@@ -3,5 +3,7 @@
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "manual-sorting",
-  "templater-obsidian"
+  "templater-obsidian",
+  "broken-links",
+  "obsidian-copy-block-link"
 ]

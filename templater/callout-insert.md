@@ -8,7 +8,7 @@ var type = await tp.system.suggester(
 
 var name = await tp.system.prompt("Callout 이름(Rename)을 변경하세요. (기본값으로 하려면 빈칸으로):");
 
-var calloutHeader = "::: " + type;
+var calloutHeader = ":::" + type;
 if (name && name.trim().length > 0) {
   calloutHeader += " " + name.trim();
 }

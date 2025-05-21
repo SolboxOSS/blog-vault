@@ -101,13 +101,8 @@ You are now ready to manage and synchronize your Google Drive files using Rclone
 - Basic File Management with RcloneView
 - File Synchronization with RcloneView
 
-
-## Markdown Image Insert Test
-
-![](attachments/Pasted%20image%2020250520182148.png)
-
 ## 📎 Related documents
 
-- 👉[기초 설치 가이드](app://obsidian.md/tutorials/install-guide)
+- 👉[Remote Storage Connection Settings](category/Remote-Storage-Connection-Settings)
 - 👉[고급 동기화 팁](app://obsidian.md/guides/advanced-sync)
 
