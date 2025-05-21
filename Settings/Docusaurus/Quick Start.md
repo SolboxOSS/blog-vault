@@ -28,18 +28,10 @@ npm run serve
 
 Open [`http://localhost:3000`](http://localhost:3000/) and follow the tutorial.
 
-## [[Github 설치]]
-
-
 
 ## Base URL을 /Support/로 변경
 
 1. docusaurus.config.js 의 baseUrl: '/' 를 '/support/' 로 변경.
-
-
-2. 
-
-## Tailwind css 설치
 
 
 
@@ -52,8 +44,6 @@ npm run build
 ```
 
 2. Docusaurus /build/ 폴더를 RcloneView /support/ 폴더로 복사.
-3. RcloneView /Support/의 index.html에 RcloneView header Bar code 추가.
-
 
 
 
@@ -153,7 +143,7 @@ Docusaurus의 테마에 맞도록 수정.
 
   
 
-### **1. CSS 파일 위치 변경 (혹은 복사)**
+### **2. CSS 파일 위치 변경 (혹은 복사)**
 
   
 ```
@@ -164,7 +154,7 @@ src/css/obsidian-docusaurus-theme.css
 
 ---
 
-### **2.** **docusaurus.config.js**
+### **3.** **docusaurus.config.js**
 
 
 ```
@@ -178,5 +168,7 @@ theme: {
 
 > 기존의 custom.css에 추가 배열 형식으로 지정 가능
 
----
 
+
+
+![](attachments/Pasted%20image%2020250520175414.png)
