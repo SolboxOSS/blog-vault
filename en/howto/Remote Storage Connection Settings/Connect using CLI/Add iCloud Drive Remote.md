@@ -157,6 +157,7 @@ Launch **RcloneView**.
 <img src="/support/images/en/howto/Remote Storage Connection Settings/Connect using CLI/add-icloud-verify-step1.png" alt="add icloud drive verify step1" class="img-medium img-center" />
 <img src="/support/images/en/howto/Remote Storage Connection Settings/Connect using CLI/add-icloud-verify-step2.png" alt="add icloud drive verify step2" class="img-medium img-center" />
 </div>
+
 :::danger Important Considerations
 - **Advanced Data Protection**: If you have enabled **Advanced Data Protection (ADP)** on your Apple ID, Rclone will not be able to access your iCloud Drive. To use Rclone with iCloud Drive, you must disable ADP. You can do this on your iPhone by navigating to:
 
