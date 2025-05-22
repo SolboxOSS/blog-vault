@@ -103,6 +103,6 @@ You are now ready to manage and synchronize your Google Drive files using Rclone
 
 ## 📎 Related documents
 
-- 👉[Remote Storage Connection Settings](../category/Remote-Storage-Connection-Settings)
+- 👉[Remote Storage Connection Settings](category/Remote-Storage-Connection-Settings)
 - 👉[고급 동기화 팁](app://obsidian.md/guides/advanced-sync)
 
