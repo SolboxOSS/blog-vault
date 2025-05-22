@@ -117,7 +117,7 @@ Obsidian의 사이드바 Tree에서 페이지 순서를 수동으로 바꿀수 �
 🔗 Settings(⚙️) > Files & Links 메뉴로 이동
 1. New link format 을 'Relative path to file' 로 설정.
 2. Use [wikilkinks]를 비활성화.
-3. Default location for new attatchments 를 'In subfolder under current folder' 로 설정.
+3. Default location for new attatchments 를 'In subfolder under current folder' 로 설정. ^af5b5b
 4. Subfolder name 을 'attatchments' 로 설정.
 
 ![](attachments/Pasted%20image%2020250520175414.png)
