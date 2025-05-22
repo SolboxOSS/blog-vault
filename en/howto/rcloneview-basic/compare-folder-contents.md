@@ -1,0 +1,2 @@
+
+# Compare folder contents

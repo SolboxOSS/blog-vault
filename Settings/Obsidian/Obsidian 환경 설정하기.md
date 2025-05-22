@@ -88,6 +88,7 @@ Obsidian 좌측 하단 Settings(⚙️) →
 > 
 > ![](Settings/Obsidian/attachments/Pasted%20image%2020250520142625.png)
 
+
 ### 📌 Manual sorting 플러그인 (권장사항)
 
 Obsidian의 사이드바 Tree에서 페이지 순서를 수동으로 바꿀수 있게해주는 플러그인.
@@ -111,6 +112,11 @@ Obsidian의 사이드바 Tree에서 페이지 순서를 수동으로 바꿀수 �
 ![](attachments/Pasted%20image%2020250521231557.png)
 
 ## ✅ Obsidian Settings 변경
+
+**📋 Appearance > Show inline title 설정 **
+- File name을 최상단에 위치하는 것으로 H1과 혼동의 여지가 있으므로 'Off' 해두는 것이 좋음.
+
+![](attachments/Pasted%20image%2020250523005012.png)
 
 **📋 Files and links 설정 **
 

@@ -12,6 +12,8 @@ tags:
   - howto
   - Cloud
   - Sync
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-05-23
 author: Jay
 ---
+
+# Job scheduling and automated executon
