@@ -1,20 +1,24 @@
 ---
 sidebar_position: 1
-id: add-icloud-drive-remote
-title: Add iCloud Drive Remote
-slug: /en/howto/remote-storage-connection-settings/connect-using-cli/add-icloud-drive-remote
-description: This is sample Post for writer
+id: add-icloud-drive
+title: Add iCloud Drive
+slug: /en/howto/remote-storage-connection-settings/connect-using-cli/add-icloud-drive
+description: This guide explains how to add iCloud Drive as a remote using CLI commands.
 keywords:
   - rcloneview
   - howto
   - cloud
   - sync
   - rclone
+  - icloud
+  - cli
 tags:
   - RcloneView
   - howto
   - Cloud
   - Sync
+  - icloud
+  - cli
 date: 2025-05-21
 author: Jay
 ---
@@ -24,7 +28,7 @@ The iCloud remote can currently only be added via the Rclone CLI.
 Currently, remotes like iCloud, which support interactive two-factor authentication (2FA), can only be configured via the CLI. Support for configuring these remotes through the UI will be implemented in future releases.
 :::
 
-## How to Add iCloud Drive to Rclone on Windows
+## How to Add iCloud Drive using Rclone CLI (Windows)
 
 #### Step 1: Open Command Prompt
 
@@ -63,7 +67,7 @@ Enter name for new remote.
 name> Myicloud
 ```
 
-- **Storage**: Choose iCloud Drive(59) from the list of storage options. If it’s not listed, ensure you’re using Rclone v1.69 or newer.
+- **Storage**: Select iCloud Drive by typing `iclouddrive` or its corresponding number `59` from the list of storage options. If it’s not listed, ensure you’re using Rclone v1.69 or later.
 
 ```
 Storage> 59
@@ -157,6 +161,7 @@ Launch **RcloneView**.
 <img src="/support/images/en/howto/Remote Storage Connection Settings/Connect using CLI/add-icloud-verify-step1.png" alt="add icloud drive verify step1" class="img-medium img-center" />
 <img src="/support/images/en/howto/Remote Storage Connection Settings/Connect using CLI/add-icloud-verify-step2.png" alt="add icloud drive verify step2" class="img-medium img-center" />
 </div>
+
 :::danger Important Considerations
 - **Advanced Data Protection**: If you have enabled **Advanced Data Protection (ADP)** on your Apple ID, Rclone will not be able to access your iCloud Drive. To use Rclone with iCloud Drive, you must disable ADP. You can do this on your iPhone by navigating to:
 
