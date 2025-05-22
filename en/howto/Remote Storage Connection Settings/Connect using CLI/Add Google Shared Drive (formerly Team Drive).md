@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
-id: add-google-shared-drive--formerly-team-drive
+id: add-google-shared-drive-formerly-team-drive
 title: Add Google Shared Drive (formerly Team Drive)
-slug: /en/howto/remote-storage-connection-settings/connect-using-cli/add-google-shared-drive--formerly-team-drive
+slug: /en/howto/remote-storage-connection-settings/connect-using-cli/add-google-shared-drive-formerly-team-drive
 description: This is sample Post for writerThis guide explains how to add Google Shared Drive(formerly Team Drive) as a remote using CLI commands.
 keywords:
   - rcloneview
