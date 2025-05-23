@@ -100,6 +100,6 @@ You are now ready to manage and synchronize your Google Drive files using Rclone
 
 ## 📎 Related documents
 
-- 👉[Add iCloud Drive using CLI](./remote-storage-connection-settings/connect-using-cli/add-icloud-drive#how-to-add-icloud-drive-using-rclone-cli-windows)
+- 👉[Add iCloud Drive using CLI](./remote-storage-connection-settings/connect-using-cli/add-icloud-drive.md#how-to-add-icloud-drive-using-rclone-cli-windows)
 
 
