@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: This guide explains how to add iCloud Drive as a remote using CLI commands.
+description: How to add iCloud Drive.
 keywords:
   - rcloneview
   - howto
@@ -33,7 +33,7 @@ Currently, remotes like iCloud, which support interactive two-factor authenticat
 
 - Press Win + R, type cmd, and press Enter.
 
-![](attachments/Pasted%20image%2020250522002251.png)
+<img src="/support/images/en/howto/remote-storage-connection-settings/connect-using-cli/windows-command-prompt.png" alt="windows command prompt" class="img-medium img-left" />
 
 #### Step 2: Start Rclone Configuration
 
@@ -66,7 +66,7 @@ Enter name for new remote.
 name> Myicloud
 ```
 
-- **Storage**: Select iCloud Drive by typing `iclouddrive` or its corresponding number `59` from the list of storage options. If it’s not listed, ensure you’re using Rclone v1.69 or later.
+- **Storage**: Select iCloud Drive by typing `iclouddrive` or its corresponding number (usually `59`) from the list of storage options.If it’s not listed, ensure you’re using Rclone v1.69 or later.
 
 ```
 Storage> 59
