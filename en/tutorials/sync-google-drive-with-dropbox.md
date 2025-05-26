@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 id: sync-google-drive-with-dropbox-seamlessly
 title: Sync Google Drive with Dropbox Seamlessly
 slug: /en/tutorials/sync-google-drive-with-dropbox-seamlessly

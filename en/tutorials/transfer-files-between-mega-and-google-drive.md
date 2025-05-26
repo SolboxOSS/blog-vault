@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 id: transfer-files-between-mega-and-google-drive
 title: Transfer Files Between MEGA and Google Drive
 slug: /en/tutorials/transfer-files-between-mega-and-google-drive

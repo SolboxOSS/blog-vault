@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 20
 id: how-to-backup-onedrive-to-google-drive
 title: How to Backup OneDrive to Google Drive
 slug: /en/tutorials/how-to-backup-onedrive-to-google-drive

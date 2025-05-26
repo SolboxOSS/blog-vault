@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 id: move-files-from-box-to-google-drive
 title: Move Files from Box to Google Drive
 slug: /en/tutorials/move-files-from-box-to-google-drive

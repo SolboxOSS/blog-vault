@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 id: onedrive-to-dropbox-file-transfer-steps
 title: OneDrive to Dropbox File Transfer Steps
 slug: /en/tutorials/onedrive-to-dropbox-file-transfer-steps

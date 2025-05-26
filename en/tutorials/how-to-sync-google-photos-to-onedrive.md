@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 id: how-to-sync-google-photos-to-onedrive
 title: How to Sync Google Photos to OneDrive
 slug: /en/tutorials/how-to-sync-google-photos-to-onedrive

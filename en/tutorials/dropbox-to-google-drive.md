@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 id: dropbox-to-google-drive-migration-tutorial
 title: Dropbox to Google Drive Migration Tutorial
 slug: /en/tutorials/dropbox-to-google-drive-migration-tutorial

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 id: sync-dropbox-with-onedrive-automatically
 slug: /en/tutorials/sync-dropbox-with-onedrive-automatically
 description: This is sample Post for writer

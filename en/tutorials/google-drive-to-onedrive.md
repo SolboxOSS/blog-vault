@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 id: google-drive-to-onedrive-transfer-guide
 title: Google Drive to OneDrive Transfer Guide
 slug: /en/tutorials/google-drive-to-onedrive-transfer-guide

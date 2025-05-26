@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 id: google-drive-to-amazon-s3-migration-guide
 title: Google Drive to Amazon S3 Migration Guide
 slug: /en/tutorials/google-drive-to-amazon-s3-migration-guide
