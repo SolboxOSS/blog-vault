@@ -31,21 +31,21 @@
 /* 이미지 크기 정의 (기본 중앙정렬 포함) */
 /* 이미지 크기 클래스 정의 (중앙정렬 추가) */
 .img-small {
-  height: 150px !important;
+  max-height: 150px !important;
   width: auto !important;
   margin: 1.5rem auto !important; /* 중앙정렬 */
   display: block !important;      /* 명시적 block 설정 */
 }
 
 .img-medium{
-  height: 300px !important;
+  max-height: 300px !important;
   width: auto !important;
   margin: 1.5rem auto !important; /* 중앙정렬 */
   display: block !important;      /* 명시적 block 설정 */
 }
 
 .img-large {
-  height: 500px !important;
+  max-height: 500px !important;
   width: auto !important;
   margin: 1.5rem auto !important; /* 중앙정렬 */
   display: block !important;      /* 명시적 block 설정 */

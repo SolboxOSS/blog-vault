@@ -76,18 +76,9 @@ Fields marked with an asterisk (*) are required. Ensure all mandatory fields are
 ### Account Authentication
 
 - You will be redirected to the Google SSO login page.
-- Select your Google account 
+- Select your Google account or choose **"Use another account"** to sign in with a different account.
 
 <img src="/support/images/howto/google-choose-account.png" alt="google choose account" class="img-medium img-center" />
-- Alternatively, select **"Use another account"** to log in with a different Google account.
-<div class="img-grid-2">
-<img src="/support/images/en/howto/goole-auth-use-another-account.png" alt="google drive auth use another account" class="img-medium img-center" />
-<img src="/support/images/en/howto/google-auth-enter-email-address.png" alt="google drive auth enter email" class="img-medium img-center" />
-</div>
-
-- Log in using your preferred Google login method (password login example shown below).
-
-<img src="/support/images/howto/google-password-login.png" alt="google password login" class="img-medium img-center" />
 :::note
 If you are using a login method other than the password-based login shown above, please refer to [this guide](https://support.google.com/accounts/answer/12849458) to complete the login process.
 :::
