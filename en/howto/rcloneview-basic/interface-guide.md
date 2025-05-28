@@ -85,7 +85,7 @@ The toolbar changes dynamically based on the selected menu tab:
 | `Homepage`             | Visit the official RcloneView website |
 | `Register License Key` | Activate your PLUS license            |
 
-## ④ Dual Panel File Explorer
+## ④ File Explorer Pannel
 
 Each panel allows you to browse local drives or cloud remotes using a tabbed interface.  
 You can open different sources in each panel and transfer files between them easily.

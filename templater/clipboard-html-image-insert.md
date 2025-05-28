@@ -18,6 +18,15 @@ let imgFileName = await tp.system.prompt('이미지 파일명을 입력하세요
 if (!imgFileName) return;
 imgFileName += '.png';
 
+// 입력한 파일명에서 특수문자(-, _)를 공백으로 대체한 뒤 alt 기본값으로 제공
+const defaultAltText = imgFileName
+  .replace(/\.[^/.]+$/, '')             // 확장자 제거
+  .replace(/[-_]/g, ' ')                // 하이픈(-), 언더바(_) 공백으로 대체
+  .trim();
+
+// 이미지 설명(alt) 입력받기 (기본값 제공, 추가 수정 가능)
+var imageAlt = await tp.system.prompt('이미지 설명(alt)을 입력하세요:', defaultAltText);
+
 // 이미지 최종경로
 const targetImgPath = `${imgFolderPath}/${imgFileName}`;
 
@@ -33,8 +42,7 @@ if (image.isEmpty()) {
 const imgBuffer = image.toPNG();
 await vault.adapter.writeBinary(targetImgPath, imgBuffer);
 
-// HTML 이미지 속성 추가입력
-var imageAlt = await tp.system.prompt('이미지 설명(alt)을 입력하세요:');
+// 이미지 크기 및 정렬 입력받기
 var size = await tp.system.suggester(
   ["img-small", "img-medium", "img-large"],
   ["img-small", "img-medium", "img-large"],
