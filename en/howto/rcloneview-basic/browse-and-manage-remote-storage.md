@@ -24,6 +24,11 @@ author: Jay
 - 오픈 후 리모트 스토리지를 브라우징 할 수 있으며, 원격 리모트 스토리지의 파일을 관리할 수 있습니다. 
 
 
+<video src="/support/videos/en/howto/rcloneview-basic/windows-explorer-drag-and-drop.mp4" class="video-medium video-center" controls muted loop playsinline>
+  windows explorer drag and drop
+</video>
+
+
 
 :::tip View Layout
 - Settings > Layout 메뉴를 클릭하면, 트리창과 파일뷰창의 배열을 가로보기, 세로보기로 바꿀 수 있습니다.
@@ -31,6 +36,17 @@ author: Jay
 
 ## 파일 관리하기
 ### 파일 복사하기
+
+#### 윈도우 파일 익스플로러에서 RcloneView 파일 익스플로러 간 파일 복사하기
+
+로원격 클라우드로 복사하기 (=upload)
+
+
+#### RclonView의 파일 익스폴로러에서 원격 클라우로 복사하기(=upload)
+
+
+
+
 
 ### 파일 이동하기
 

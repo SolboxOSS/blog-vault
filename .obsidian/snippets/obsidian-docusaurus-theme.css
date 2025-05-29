@@ -85,6 +85,13 @@
   border-radius: 8px;
 }
 
+.video-small { width: 40%; }
+.video-medium { width: 70%; }
+.video-large { width: 100%; }
+
+.video-left { display: block; margin: 1rem 0 1rem 0; }
+.video-center { display: block; margin: 1rem auto; }
+.video-right { display: block; margin: 1rem 0 1rem auto; }
 
 
 
