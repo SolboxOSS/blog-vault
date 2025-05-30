@@ -46,6 +46,6 @@ The added Alias Remote can be verified the same way as any other cloud remote in
 <img src="/support/images/en/howto/remote-storage-connection-settings/added-alias-remote-verify.png" alt="added alias remote verify" class="img-medium img-center" />
 <img src="/support/images/en/howto/remote-storage-connection-settings/added-alias-remote-explorer-verify.png" alt="added alias remote explorer verify" class="img-medium img-center" />
 </div>
-
+ 
 
 

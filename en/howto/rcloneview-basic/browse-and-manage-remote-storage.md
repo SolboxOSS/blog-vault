@@ -1,70 +1,99 @@
 ---
 sidebar_position: 2
-description: File management guide using explorer of RcloneView
+description: File management guide using RcloneView Explorer to browse, copy, and manage local and cloud storage files.
 keywords:
-  - howto
-  - cloud
+  - rcloneview
   - file management
-  - multi cloud
+  - copy files
+  - move files
+  - drag and drop
+  - cloud file transfer
+  - cloud storage
+  - rclone file explorer
+  - cloud to cloud transfer
 tags:
   - howto
-  - Cloud
   - file-management
-  - multi-cloud
+  - cloud-storage
+  - drag-and-drop
+  - cloud-file-transfer
 date: 2025-05-27
 author: Jay
 ---
-# File management
+# File Management with RcloneView
 
-## 리모트 스토리지 브라우징 하기
+RcloneView allows you to easily browse, transfer, and organize files between your local disk and multiple cloud storage services using a familiar, Explorer-like interface. 
+
+This guide walks you through:
+
+- Browsing remote storage
+- Copying files using drag & drop
+- Managing files with the right-click menu
+
+## Browsing Remote Storage
+
+You can open any connected cloud remote and view it like a local folder.
+
+### How to Browse a Remote:
+
+1. Click the **`+`** tab in the **Explorer panel**.
+2. Select the remote storage you want to open.
+3. The selected remote will open in a new tab, ready for file operations.
+
+<div class="img-grid-2">
+<img src="/support/images/en/howto/rcloneview-basic/file-explorer-open-remote.png" alt="file explorer open remote" class="img-medium img-center" />
+<img src="/support/images/en/howto/rcloneview-basic/file-explorer-remote-open-complete.png" alt="file explorer remote open complete" class="img-medium img-center" />
+</div>
+
+:::tip View Layout
+Go to **`Settings > Layout`** to switch between vertical and horizontal views 
+<img src="/support/images/en/howto/rcloneview-basic/explorer-view-layout.png" alt="explorer view layout" class="img-small img-left" />
+:::
+
+## Copying Files using Drag and Drop
+
+You can transfer files between local and cloud storage using simple drag & drop.
+#### Drag and Drop operation
+
+#### Copy Between Two Remotes
+
+Drag files from one remote tab to another in RcloneView to copy them across cloud storages.
+<video src="/support/videos/en/howto/rcloneview-basic/rclonview-explorer-drag-and-drop.mp4" class="video-medium video-center" controls muted loop playsinline>
+  rclonview explorer drag and drop
+</video>
+:::tip Multi-File Selection
+- Use **`Ctrl + Click`** to select multiple individual files.
+- Use **`Shift + Click`** to select a range of files.
+:::
 
 
-- 익스폴로러 창 상단의 + 버튼을 누른 후 브라우징하고자 하는 리모트 스토리지를 선택합니다.
-- 처음 리모트를 추가할 경우 오른쪽 익스플로러 창에서 리모트 스토리지 버튼의 Open을 클릭합니다.
-- 오픈 후 리모트 스토리지를 브라우징 할 수 있으며, 원격 리모트 스토리지의 파일을 관리할 수 있습니다. 
+:::info Drag & Drop Operation
+- **Same remote** = Move operation  
+- **Different remotes** = Copy operation
+:::
 
-
+#### Copy from Windows Explorer to Remote in RcloneView
+- You can also drag files directly from **Windows File Explorer** into a RcloneView tab to upload them to the cloud storage.
 <video src="/support/videos/en/howto/rcloneview-basic/windows-explorer-drag-and-drop.mp4" class="video-medium video-center" controls muted loop playsinline>
   windows explorer drag and drop
 </video>
 
+### Managing files with the right-click menu
 
+RcloneView supports full file operations through a convenient right-click menu.
 
-:::tip View Layout
-- Settings > Layout 메뉴를 클릭하면, 트리창과 파일뷰창의 배열을 가로보기, 세로보기로 바꿀 수 있습니다.
-:::
+### Available Actions:
 
-## 파일 관리하기
-### 파일 복사하기
-
-#### 윈도우 파일 익스플로러에서 RcloneView 파일 익스플로러 간 파일 복사하기
-
-로원격 클라우드로 복사하기 (=upload)
-
-
-#### RclonView의 파일 익스폴로러에서 원격 클라우로 복사하기(=upload)
-
-
+-  **Download** – Save file(s) to your local disk  
+- **Upload** – Send local file(s) to a cloud remote  
+- **Copy / Paste** – Copy files between folders or remotes  
+- **Cut / Paste** – Move files to another location  
+- **Delete** – Remove files or folders  
+- **Rename** – Rename files or folders  
+- **New Folder** – Create a new folder  
+- **Reload** – Refresh folder contents
 
 
 
-### 파일 이동하기
-
-
-### 파일 지우기
-
-
-
-
-
-## 다음 학습하기.
-
-Compare 를 이용한 File 관리.
-
-
-## 📎 Related documents (관련 문서)
-
-- 👉[기초 설치 가이드](app://obsidian.md/tutorials/install-guide)
-- 👉[고급 동기화 팁](app://obsidian.md/guides/advanced-sync)
 
 
