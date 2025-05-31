@@ -96,10 +96,10 @@ The panel includes the following components:
 1. **Tab Bar** – Displays the current connection (e.g., Local Disk, myAwsS3, myGoogleDrive)  
 2. **Breadcrumb Path Bar** – Shows the current folder path  
 3. **Panel Toolbar** – Includes quick actions:  
-	- ⭐ **Create Alias (Favorite)** — Save the current folder as a favorite for quick access  
-	- 🔗 **Mount Folder** — Mount the selected folder as a local drive  
-	- ⚙️ **Edit Remote Settings** — Modify the configuration of the connected remote  
-	- ⟳ **Refresh** — Reload the current folder’s contents
+	- <img src="/support/icons/en/howto/rcloneview-basic/alias-icon.png" alt="alias icon" class="inline-icon" /> **Create Alias (Favorite)** — Save the current folder as a favorite for quick access  
+	- <img src="/support/icons/en/howto/rcloneview-basic/mount-icon.png" alt="mount icon" class="inline-icon" />**Mount Folder** — Mount the selected folder as a local drive  
+	- <img src="/support/icons/en/howto/rcloneview-basic/settings-icon.png" alt="settings icon" class="inline-icon" /> **Edit Remote Settings** — Modify the configuration of the connected remote  
+	- <img src="/support/icons/en/howto/rcloneview-basic/refresh-icon.png" alt="refresh icon" class="inline-icon" /> **Refresh** — Reload the current folder’s contents
 4. **Folder Tree** – A collapsible folder navigator  
 5. **File/Folder List View** – Displays contents with name, type, date modified, and size  
 6. **Summary Footer** – Shows total number of files/folders and total file size

@@ -94,6 +94,17 @@
 .video-right { display: block; margin: 1rem 0 1rem auto; }
 
 
-
-
+/* 아이콘용 이미지 스타일 (인라인 표시) */
+.markdown-preview-view img.inline-icon {
+  display: inline-block !important;     
+  width: 1.3em !important;               
+  height: 1.3em !important;              
+  vertical-align: middle !important;     
+  margin: 0 0.2em !important;            
+  padding: 0 !important;                 
+  background-color: transparent !important;
+  border-radius: 0 !important;           
+  box-shadow: none !important;           
+  transition: none !important;           
+}
 

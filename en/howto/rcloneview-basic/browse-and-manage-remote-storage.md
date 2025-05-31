@@ -29,7 +29,7 @@ This guide walks you through:
 - Browsing remote storage
 - Copying files using drag & drop
 - Managing files with the right-click menu
-
+ 
 ## Browsing Remote Storage
 
 You can open any connected cloud remote and view it like a local folder.
@@ -53,23 +53,26 @@ Go to **`Settings > Layout`** to switch between vertical and horizontal views
 ## Copying Files using Drag and Drop
 
 You can transfer files between local and cloud storage using simple drag & drop.
-#### Drag and Drop operation
-
 #### Copy Between Two Remotes
 
 Drag files from one remote tab to another in RcloneView to copy them across cloud storages.
 <video src="/support/videos/en/howto/rcloneview-basic/rclonview-explorer-drag-and-drop.mp4" class="video-medium video-center" controls muted loop playsinline>
   rclonview explorer drag and drop
 </video>
-:::tip Multi-File Selection
+
+**👉  For Multi-Select and Bulk Actions**
+You can select multiple files at once to perform batch operations.
 - Use **`Ctrl + Click`** to select multiple individual files.
 - Use **`Shift + Click`** to select a range of files.
-:::
 
-
-:::info Drag & Drop Operation
+**👉  Drag & Drop Behavior **
 - **Same remote** = Move operation  
 - **Different remotes** = Copy operation
+
+
+:::tip Hint
+-  If you don’t want to see the confirmation popup during copy, uncheck the **Confirm drag and drop** checkbox.
+- To re-enable the popup later, go to **Settings > General settings > Confirm drag and drop** and check it again.
 :::
 
 #### Copy from Windows Explorer to Remote in RcloneView
@@ -77,7 +80,6 @@ Drag files from one remote tab to another in RcloneView to copy them across clou
 <video src="/support/videos/en/howto/rcloneview-basic/windows-explorer-drag-and-drop.mp4" class="video-medium video-center" controls muted loop playsinline>
   windows explorer drag and drop
 </video>
-
 ### Managing files with the right-click menu
 
 RcloneView supports full file operations through a convenient right-click menu.
