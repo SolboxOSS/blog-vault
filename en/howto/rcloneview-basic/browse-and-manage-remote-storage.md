@@ -86,14 +86,14 @@ RcloneView supports full file operations through a convenient right-click menu.
 
 ### Available Actions:
 
--  **Download** – Save file(s) to your local disk  
-- **Upload** – Send local file(s) to a cloud remote  
-- **Copy / Paste** – Copy files between folders or remotes  
-- **Cut / Paste** – Move files to another location  
-- **Delete** – Remove files or folders  
-- **Rename** – Rename files or folders  
-- **New Folder** – Create a new folder  
-- **Reload** – Refresh folder contents
+- <img src="/support/icons/download-icon.png" alt="download icon" class="inline-icon" />**Download** – Save file(s) to your local disk  
+- <img src="/support/icons/upload-icon.png" alt="upload icon" class="inline-icon" />**Upload** – Send local file(s) to a cloud remote  
+- <img src="/support/icons/copy icon.png" alt="copy icon" class="inline-icon" />**Copy / <img src="/support/icons/paste-icon.png" alt="paste icon" class="inline-icon" />Paste** – Copy files between folders or remotes  
+- <img src="/support/icons/cut-icon.png" alt="cut icon" class="inline-icon" />**Cut / <img src="/support/icons/paste-icon.png" alt="paste icon" class="inline-icon" />Paste** – Move files to another location  
+- <img src="/support/icons/delete-icon.png" alt="delete icon" class="inline-icon" />**Delete** – Remove files or folders  
+- <img src="/support/icons/rename-icon.png" alt="rename icon" class="inline-icon" />**Rename** – Rename files or folders  
+- <img src="/support/icons/new-folder-icon.png" alt="new folder icon" class="inline-icon" />**New Folder** – Create a new folder  
+- <img src="/support/icons/refresh-icon.png" alt="refresh icon" class="inline-icon" />**Reload** – Refresh folder contents
 
 
 

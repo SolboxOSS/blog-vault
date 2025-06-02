@@ -1,14 +1,10 @@
 <%*
 const vault = app.vault;
-const file = tp.file.find_tfile(tp.file.path(true));
-
-// 현재 파일의 폴더 경로 유지 (en 포함)
-const relativeFolderPath = file.parent.path;
 
 // 이미지가 저장될 최종 경로 설정 (/support/icons/)
-const imgFolderPath = `support/icons/${relativeFolderPath}`;
+const imgFolderPath = `support/icons`;
 
-// 폴더가 없으면 생성
+// 아이콘 저장 폴더가 없으면 생성
 if (!(await vault.adapter.exists(imgFolderPath))) {
   await vault.createFolder(imgFolderPath);
 }
