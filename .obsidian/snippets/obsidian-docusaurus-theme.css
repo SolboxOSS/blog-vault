@@ -108,3 +108,30 @@
   transition: none !important;           
 }
 
+/* Make <details> interactive with Minimal Theme */
+
+.markdown-preview-view details,
+.markdown-source-view.mod-cm6 .cm-preview-content details {
+  display: block;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em 0;
+  overflow: auto !important;
+}
+
+.markdown-preview-view summary,
+.markdown-source-view.mod-cm6 .cm-preview-content summary {
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+}
+
+.markdown-preview-view details[open] summary::after {
+  content: " ▲";
+}
+
+.markdown-preview-view details:not([open]) summary::after {
+  content: " ▼";
+}

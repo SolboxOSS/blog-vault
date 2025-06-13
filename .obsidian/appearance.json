@@ -1,6 +1,6 @@
 {
   "enabledCssSnippets": [
-    "obsidian-docusaurus-theme",
-    "obsidian.tailwind.mini"
+    "obsidian.tailwind.mini",
+    "obsidian-docusaurus-theme"
   ]
 }

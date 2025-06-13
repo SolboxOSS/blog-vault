@@ -17,6 +17,57 @@ author: Jay
 ---
 # Create Sync jobs
 
+자주 사용하는 Sync 타스크를 Job으로 생성하고, 반복되는 Job을 한번의 클릭으로 수행할 수 있다. 또한, 일정시간에 자동으로 실행할 수 있도록 스케줄링할 수 있도록 하는 편의성을 제공합니다. 
+
+
+:::info You need PLUS license to schedule jobs
+Job 스케쥴링 기능 사용을 위해서는 PLUS 라이선스가 필요합니다. 
+:::
+
+Job을 생성하는 방법은 두가지가 있습니다. Instant Sync 타스크로 부터 Job을 생성하는 방법과 Job Manager를 이용하여 Job을 생성하는 방법이 있습니다.
+
+## Sync로 부터 Job 생성하기
+
+Home menu의 Sync 툴바를 이용해 Sync 타스크를 설정 후 Save to Jobs를 이용해 Job을 생성할 수 있습니다. {{링크 달기}}
+
+You can view and run saved jobs by clicking the **`Job Manager`** toolbar in the Home menu.
+
+## Job Manager를 이용하여 Job 생성하기
+
+
+### Sync 대상 Remote의 폴더를 지정하기 (Optional Operation)
+
+
+
+
+### Job Manager로 Job 생성하기
+
+
+
+
+## Job 수행 하기
+
+### Job 수행하기
+
+
+### dry-run으로 시뮬레이션 하기 (Optional Operation)
+
+
+
+
+
+## Job 히스토리 보기
+
+
+
+
+
+## Job 관리하기
+
+RcloneView - advanced
+
+
+
 ## Sync 대상 리모트 및 폴더 선택 하기.
 
 - Remote Explorer 창의 폴더 트리뷰에서 싱크 대상 폴더를 선택한다. 혹은 Explorer 패널의 Path Bar에 직접 대상 폴더를 입력해도 된다.

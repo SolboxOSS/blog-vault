@@ -52,6 +52,19 @@ For example, if you want to copy files from the left remote's folder to the righ
 > ✅ This makes it much easier to select and copy only the necessary files in one direction.
 <img src="/support/images/en/howto/rcloneview-basic/compare-display-select.png" alt="compare display select" class="img-medium img-center" />
 
+<details>
+<summary>📁 고급 Compare 사용법 보기</summary>
+
+### 고급 툴바 기능
+- 🔄 비교 결과 다시 로드
+- 🔍 필터 조건 설정
+- 💾 결과 저장
+
+</details>
+
+
+
+
 ### Copying files between remote folders
 
 #### Select files to copy

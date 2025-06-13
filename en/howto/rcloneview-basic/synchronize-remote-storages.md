@@ -80,6 +80,10 @@ so errors may occur more frequently. It is not recommended for production use.
 <img src="/support/images/en/howto/rcloneview-basic/sync-filtering-settings.png" alt="sync filtering settings" class="img-medium img-center" />
 </div>
 
+:::important Sync Scheduling
+Sync를 특정날짜/시간에 주기적으로 수행되도록 스케쥴링하려면 Save to Jobs 로 Sync 타스크를 Job으로 저장한후 Job Manager에서 스케쥴링 할 수 있습니다.{{링크 달기}}
+단, Job Scheduling은 PLUS 기능으로 PLUS 라이선스 구입이 필요합니다. {{링크달기}}
+:::
 ## Monitor sync results
 
 You can check the progress and results of sync operations in real time.
@@ -132,3 +136,5 @@ If you regularly perform the same sync task, you can save it as a **Job** for ea
 - You can later run the saved Job from the **`Job Manager`** with one click.
 
 <img src="/support/images/en/howto/rcloneview-basic/save-sync-to-jobs.png" alt="save sync to jobs" class="img-medium img-center" />
+You can view and run saved jobs by clicking the **`Job Manager`** toolbar in the Home menu.
+<img src="/support/images/en/howto/rcloneview-basic/verify-job-in-job-manager.png" alt="verify job in job manager" class="img-medium img-center" />
