@@ -28,7 +28,7 @@ Job을 생성하는 방법은 두가지가 있습니다. Instant Sync 타스크�
 
 ## Sync로 부터 Job 생성하기
 
-Home menu의 Sync 툴바를 이용해 Sync 타스크를 설정 후 Save to Jobs를 이용해 Job을 생성할 수 있습니다. {{링크 달기}}
+Home menu의 Sync 툴바를 이용해 Sync 타스크를 설정 후 Save to Jobs를 이용해 Job을 생성할 수 있습니다. 링크 달기
 
 You can view and run saved jobs by clicking the **`Job Manager`** toolbar in the Home menu.
 

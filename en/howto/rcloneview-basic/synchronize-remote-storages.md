@@ -81,8 +81,8 @@ so errors may occur more frequently. It is not recommended for production use.
 </div>
 
 :::important Sync Scheduling
-Sync를 특정날짜/시간에 주기적으로 수행되도록 스케쥴링하려면 Save to Jobs 로 Sync 타스크를 Job으로 저장한후 Job Manager에서 스케쥴링 할 수 있습니다.{{링크 달기}}
-단, Job Scheduling은 PLUS 기능으로 PLUS 라이선스 구입이 필요합니다. {{링크달기}}
+Sync를 특정날짜/시간에 주기적으로 수행되도록 스케쥴링하려면 Save to Jobs 로 Sync 타스크를 Job으로 저장한후 Job Manager에서 스케쥴링 할 수 있습니다. 링크달기
+단, Job Scheduling은 PLUS 기능으로 PLUS 라이선스 구입이 필요합니다.  링크달기
 :::
 ## Monitor sync results
 
