@@ -15,6 +15,9 @@ tags:
 date: 2025-05-30
 author: Jay
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Compare folder contents
 
 RcloneView helps you identify differences between two folders—whether on local disk or across cloud remotes—and copy or manage files efficiently using its built-in Compare feature.
@@ -53,13 +56,68 @@ For example, if you want to copy files from the left remote's folder to the righ
 <img src="/support/images/en/howto/rcloneview-basic/compare-display-select.png" alt="compare display select" class="img-medium img-center" />
 
 
-<details>
-<summary>고급 툴바 기능</summary>
 
-### 고급 툴바 기능
-- 🔄 비교 결과 다시 로드
-- 🔍 필터 조건 설정
-- 💾 결과 저장
+<details>
+<summary>More Icon details</summary>
+
+<Tabs>
+<TabItem value="Display Icons" label="Display Icons">
+When you click each icon with the mouse, the following filtering behavior is applied.  
+Clicking again will toggle the filter on or off.
+
+When multiple icons are selected, files matching **any** of the selected conditions are displayed (logical **OR**).
+
+<img src="/support/icons/show-left-only-files.png" alt="show left only files" class="inline-icon" /> : Display only files that exist in the left folder but not in the right.
+
+<img src="/support/icons/show-left-only-files.png" alt="show left only files" class="inline-icon" /> : Display only files that exist in the right folder but not in the left.
+
+<img src="/support/icons/same-file-icon.png" alt="same file icon" class="inline-icon" /> : Display only files that exist in both folders and are identical.
+
+<img src="/support/icons/show-different-files.png" alt="show different files" class="inline-icon" />  : Display files that exist in both folders but differ in size.
+
+<img src="/support/icons/show-errored-files.png" alt="show errored files" class="inline-icon" /> : Display any errors or confilcts
+
+</TabItem>
+
+<TabItem value="Navigate Icons" label="Navigate Icons">
+These icons are used in the **Compare** view to move up or down through the folder hierarchy based on the current flat folder list structure.
+
+<img src="/support/icons/navigate-to-upper-folder.png" alt="navigate to upper folder" class="inline-icon" /> : Navigate to the **Upper folder** in the current list.
+
+<img src="/support/icons/navigate-to-lower-folder.png" alt="navigate to lower folder" class="inline-icon" /> : Navigate to the **Lower folder** in the current list.
+
+</TabItem>
+
+<TabItem value="Operation Icons" label="Operation Icons">
+These icons are used to perform file operations within folders—such as deleting files or copying them to the left or right.
+
+<img src="/support/icons/copy-file-to-right.png" alt="copy file to right" class="inline-icon" /> : Copy selected files to the right folder.
+
+<img src="/support/icons/copy-files-to-left.png" alt="copy files to left" class="inline-icon" /> : Copy selected files to the left folder.
+
+<img src="/support/icons/delete-files.png" alt="delete files" class="inline-icon" /> : Delete selected files from either side.
+
+</TabItem>
+
+<TabItem value="Find Icons" label="Find Icons">
+The **Find** icons are used in the **Compare view** to locate folders where file count or file size changes are most significant.
+
+<img src="/support/icons/find-folder-by-count.png" alt="find folder by count" class="inline-icon" /> : Find folders based on the number of files changed during comparison.
+
+<img src="/support/icons/find-folder-by-size.png" alt="find folder by size" class="inline-icon" /> : Find folders based on the total size of files changed during comparison.
+
+<img src="/support/icons/find-folder-with-largest-change.png" alt="find folder with largest change" class="inline-icon" /> : Find and move to the folder with the most significant file count or size change.
+
+<img src="/support/icons/find-folder-with-next-large-change.png" alt="find folder with next large change" class="inline-icon" /> : Move to the next folder with a larger file count or size difference.
+
+<img src="/support/icons/find-folder-with-smallest-change.png" alt="find folder with smallest change" class="inline-icon" /> : Find and move to the folder with the least amount of change.
+
+<img src="/support/icons/find-folder-with-next-smaller-change.png" alt="find folder with next smaller change" class="inline-icon" /> : Move to the next folder with a smaller file count or size change.
+
+</TabItem>
+
+</Tabs>
+
 
 </details>
 
@@ -132,7 +190,21 @@ For example, to exclude all folders named `folder2` from the comparison:
 
 💡 Filtering is especially helpful when folders like `cache`, `temp`, or personal configuration directories only exist for reference and do not need to be compared or copied.
 
-For more details about filter configuration, please refer to the **Filtering Settings Guide** (link coming soon).
+
+
+<details>
+<summary>Frequently Used Filter Rules</summary>
+
+**`.iso`** : Exclude all .iso files
+
+**`/.git/*`** : Exclude only files inside the .git folder in the root, not subfolders
+
+**`/.git/`** :  Exclude the entire .git folder in the root, including everything inside it
+
+**`.git/`** :Exclude all .git folders and everything inside them, regardless of location
+
+</details>
+
 
 
 
