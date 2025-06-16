@@ -165,11 +165,11 @@ Using bisync incorrectly may result in data loss. Please use with caution.
 - Once all settings are complete, click **Run** to start the sync process.
 
 :::important Sync Scheduling. 
-To run sync tasks on a scheduled date and time, first **Save to Jobs** to register the sync task as a job. Then, go to the [**Job Manager**](/support/howto/job-manager) to configure the schedule.  
+To run sync tasks on a scheduled date and time, first **Save to Jobs** to register the sync task as a job. Then, run the **`Job Manager`** to configure the schedule.  
 
 > ⚠️ **Job scheduling is available as a PLUS feature.**   
 
-You will need to purchase a [**PLUS license**](/src/pricing.html) to enable this functionality.
+You will need to purchase a [**PLUS license**](https://rcloneview.com/src/pricing.html) to enable this functionality.
 :::
 
 ### Simulate: Run a dry run (optional)
@@ -222,6 +222,8 @@ If you miss the popup, you can still check the sync alert by clicking the **noti
 If you regularly perform the same sync task, you can save it as a **Job** for easy reuse.
 
 - Click **`Save to Jobs`** after configuring your sync.
+- Enter a **Job Name**, then click **Save** to store the job.  
+  - ❗Allowed characters: `a–z`, `A–Z`, `0–9`, `-`, `_`, `.`
 - You can later run the saved Job from the **`Job Manager`** with one click.
 
 <img src="/support/images/en/howto/rcloneview-basic/save-sync-to-jobs.png" alt="save sync to jobs" class="img-medium img-center" />

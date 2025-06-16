@@ -17,121 +17,196 @@ author: Jay
 ---
 # Create Sync jobs
 
-자주 사용하는 Sync 타스크를 Job으로 생성하고, 반복되는 Job을 한번의 클릭으로 수행할 수 있다. 또한, 일정시간에 자동으로 실행할 수 있도록 스케줄링할 수 있도록 하는 편의성을 제공합니다. 
+You can create frequently used Sync tasks as **Jobs**, allowing you to run them repeatedly with just a few clicks.  
 
+There are two main ways to create a Job:  
+- Create a Job directly from a Sync task (Instant Sync). 
+- Use the **Job Manager** to configure and save Jobs manually. 
 
-:::info You need PLUS license to schedule jobs
-Job 스케쥴링 기능 사용을 위해서는 PLUS 라이선스가 필요합니다. 
-:::
+## ## Create a Job from Instant Sync
 
-Job을 생성하는 방법은 두가지가 있습니다. Instant Sync 타스크로 부터 Job을 생성하는 방법과 Job Manager를 이용하여 Job을 생성하는 방법이 있습니다.
+You can create a Job by configuring your Sync task and clicking **Save to Jobs** in the Sync window.  
 
-## Sync로 부터 Job 생성하기
-
-Home menu의 Sync 툴바를 이용해 Sync 타스크를 설정 후 Save to Jobs를 이용해 Job을 생성할 수 있습니다. 링크 달기
+👉 See:  [Instantly Create a Job from Sync](./synchronize-remote-storages.md#save-sync-operation-as-a-job)
 
 You can view and run saved jobs by clicking the **`Job Manager`** toolbar in the Home menu.
 
-## Job Manager를 이용하여 Job 생성하기
+## Create a Job via Job Manager
 
 
-### Sync 대상 Remote의 폴더를 지정하기 (Optional Operation)
+### (Optional) Select Source and Destination Folders
 
+You can optionally specify the source and destination folders before creating a Job using the **Job Manager**.  
 
+This is helpful if you want to preassign folders when adding a new job later.  
 
+Alternatively, you can configure the source and destination folders directly within the **Add Job** window in the **Job Manager**.  
 
-### Job Manager로 Job 생성하기
+To open the Job Manager, click the **Job Manager** button from the Home toolbar.
 
+<img src="/support/images/en/howto/rcloneview-basic/create-job-using-job-manager.png" alt="create job using job manager" class="img-medium img-center" />
 
+### Add a New Job
 
+To add a new job, click **`Add Job`** in the **Job Manager**(=`Jobs`) modal window.  
 
-## Job 수행 하기
+### Step 0: Open Job Manager and Click `Add Job`
 
-### Job 수행하기
+  You will see the following `Jobs` window. Click the **Add Job** button to open the job creation wizard.
 
+<img src="/support/images/en/howto/rcloneview-basic/add-job-in-job-manager.png" alt="add job in job manager" class="img-medium img-center" />
+  The job wizard guides you through three steps:
 
-### dry-run으로 시뮬레이션 하기 (Optional Operation)
-
-
-
-
-
-## Job 히스토리 보기
-
-
-
-
-
-## Job 관리하기
-
-RcloneView - advanced
-
-
-
-## Sync 대상 리모트 및 폴더 선택 하기.
-
-- Remote Explorer 창의 폴더 트리뷰에서 싱크 대상 폴더를 선택한다. 혹은 Explorer 패널의 Path Bar에 직접 대상 폴더를 입력해도 된다.
-	- 왼쪽 Explore 패널의 리모트는 Source가 되고, 오른쪽 Explorer 패널의 리모트는 Destination으로 지정되며, Sync Job 창에서 변경이 가능하다.
-- 홈메뉴의 Sync 툴바를 클릭하여 Sync 설정을 진행한다. 
-<img src="/support/images/en/howto/rcloneview-basic/sync-remote-folder-select.png" alt="sync remote folder select" class="img-medium img-center" />
-## Sync 수행하기
-
-- Configure Storages 메뉴에서 소스 리모트 폴더와 목적지 리모트 폴더를 확인/변경 한다.
-	- Source와 Destination 설정이 정확한지 확인 후 'Next'를 진행한다.
-	- 현재, Sync는 one-direction 싱크를 지원하며, Bidirection은 정식지원이 아닌 beta 버전으로 오류가 많이 발생할 수 있다. 
-
-:::caution How to operate Modifying destination Only
-rclone에서지원하는 one-direction sync의 동작은 Source의 내용을 Desination에 완전히 덮어쓰는 미러링 방식의 동기화이다. 따라서, destination에만 존재하는 파일들 삭제되어 지므로 주의해야 한다.
-:::
-
-- Advanced Settings 설정은 그대로 두고 다음으로 진행한다.
-	- Advanced Setting에서는 리모트간 전송 성능, 무결성 점검 등의 설정을 할 수 있으며, 기본값을 사용하기를 권장하며, 변경을 원할 경우 다음 설명을 참고한다.
-
-- Filtering Settings 설정을 진행한다. 
-	- 기존 설정으로 Google Docs, Box Docs등 클라우드기반 파일들은 필터링 하도록 설정되어 있다.
-	- 자세한 Filtering Option 설정은 다음 설명을 참고한다.
-
-
-- Run을 클릭하여 동기화를 수행한다.
-
+1. **Configure Storage** – Choose source and destination folders  
+2. **Advanced Settings (optional)** – Set sync behavior  
+3. **Filtering Settings (optional)** – Define filters for file types or folders
 <div class="img-grid-3">
-<img src="/support/images/en/howto/rcloneview-basic/sync-configure-storage.png" alt="sync configure storage" class="img-medium img-center" />
-<img src="/support/images/en/howto/rcloneview-basic/sync-advanced-settings.png" alt="sync advanced settings" class="img-medium img-center" />
-<img src="/support/images/en/howto/rcloneview-basic/sync-filtering-settings.png" alt="sync filtering settings" class="img-medium img-center" />
+<img src="/support/images/en/howto/rcloneview-basic/add-job-configure-storage.png" alt="add job configure storage" class="img-medium img-center" />
+<img src="/support/images/en/howto/rcloneview-basic/add-job-advnaced-settings.png" alt="add job advnaced settings" class="img-medium img-center" />
+<img src="/support/images/en/howto/rcloneview-basic/add-job-filtering-settings.png" alt="add job filtering settings" class="img-medium img-center" />
 </div>
-## 수행결과 확인하기
+### Step 1: Configure Storage
 
+- In the **`Configure Storage`** step, review the selected source and destination folders.
+- To sync one source with multiple destinations, click **Add Destination** to add additional remote folders.  
+  This allows for **1:N (one-to-many)** synchronization.  
+- Make sure all folders are correctly set before clicking **Next**.
 
-- 실시간으로 전송중인 파일에 대한 상태 정보를 Transfer 창에서 확인할 수 있다.
-	- '+' 버튼을 눌러 전송적인 각 파일별 전송 상태를 모니터링할 수 있다.
-<img src="/support/images/en/howto/rcloneview-basic/sync-transfer-window.png" alt="sync transfer window" class="img-medium img-center" />
-- 전송이 완료된 각 파일에 대한 전송결과 정보를 Completed 창에서 확인할 수 있다.
-	- '+' 버튼을 눌러 전송 완료된 각 파일의 전송결과 정보를 확인할 수 있다.
-<img src="/support/images/en/howto/rcloneview-basic/sync-completed-window.png" alt="sync completed window" class="img-medium img-center" />
-:::tip Open synchronized remotes by double click on each completed job in Completed window.
-Completed 창에서 완료된 Job을 마우스로 더블 클릭하면, explorer 패널에 소스 리모트 폴더와 목적 리모트 폴더를 오픈해서 보여주며, 편리하게 각 동기화 job의 대상 리모트 폴더를 브라우징 할 수 있다. 
+:::caution How sync works
+RcloneView Sync make source and dest identical.  
+This means **`modifying destination only`**.  
+- The contents of the **source** folder are mirrored to the **destination**.  
+- Any existing files in the destination that do not exist in the source will be **deleted**.  
+
+👍 **Important:** Rclone officially supports **one-directional sync** only.  
+⚠️ **Bidirectional sync (=Bidirection)** is available as a **beta feature** and is not officially supported.  It may cause unexpected behavior or errors, so it is **not recommended for production use**.
 :::
 
-- 모든 전송이 완료 되었을 때, 윈도우의 알림창이 뜨며, 수행 결과를 확인할 수 있다.
-		- See details를 눌러 세부 수행결과를 확인한다.
-<img src="/support/images/en/howto/rcloneview-basic/sync-completed-windows-alarm.png" alt="sync completed windows alarm" class="img-medium img-center" />
-:::tip See the alarm messages on Windows notification
-작업 완료 메시지를 놓쳤을 경우에는, 윈도우즈의 Alarm notification에서 지나간 동기화 작업 Alarm을 확인할 수 있다.
-<img src="/support/images/en/howto/rcloneview-basic/click-windows-alarm-notification.png" alt="click windows alarm notification" class="img-small img-left" />
+<details>
+<summary>Configure Storage Details</summary>
+
+<img src="/support/images/en/howto/rcloneview-basic/job-config-storage-details.png" alt="job config storage details" class="img-medium img-center" />
+
+1. **`Job Name`**. 
+- Enter a **Job Name**, then click **Save** to store the job.   
+ - ❗Allowed characters: `a–z`, `A–Z`, `0–9`, `-`, `_`, `.`  
+2. **Select the source folder**.   
+ - Click the folder icon in the left panel to choose the source.  
+3. **Select the destination folder**. 
+- Click the folder icon in the right panel to choose the destination.  
+4. **Add additional destinations** (optional). 
+- Click the **Add Destination** button to sync to multiple destinations at once.  You can configure **1:N sync** if needed.  
+5. **Choose the sync direction**. 
+ - **Modifying destination only**: Syncs from source to destination. Updates or deletes destination content to match the source.  
+ - **Bidirection** (Beta): Compares both folders and syncs changes in both directions.  
+⚠️ This mode may overwrite new files unintentionally, so use with caution.  
+6. **Create empty directories (optional)**.   
+- If enabled, any source directories that contain no files will be recreated as empty folders in the destination.  
+
+:::caution Using Bidirectional Sync in RcloneView
+RcloneView uses `bisync` (a beta command in rclone) to perform bidirectional sync.    
+Since this feature is still **experimental**, we recommend reviewing the official [user manual](https://rclone.org/bisync/) — especially the [Limitations](https://rclone.org/bisync/#limitations) section — before enabling it.
+
+Using bisync incorrectly may result in data loss. Please use with caution.
 :::
 
 
-## Sync 시뮬레이션을 위해 Dry run 수행하기
-- Dry run을 수행한다. (Optional Operation)
-	- 실제 싱크를 수행하기전에 어떤 파일들이 Destination으로 복사되고, Destination의 어떤 파일들이 삭제되는지를 시뮬레이션 한다.
-	- See details를 눌러 Destination에서 발생하는 세부 operation(copy, create, delete 등) 시뮬레이션 결과를 확인할 수 있다.
+</details>
+
+### Step 2: Advanced Settings (optional)
+
+  - Advanced Settings include options for:
+	  - Transfer performance
+	  - Connection method
+	  - Error handling behavior
+
+> 💡 We recommend using the default values unless you need custom behavior.
+
+<details>
+<summary>Advanced Settings Details</summary>
+
+<img src="/support/images/en/howto/rcloneview-basic/jobs-advanced-settings-details.png" alt="jobs advanced settings details" class="img-medium img-center" />
+### Performance
+1. **`Number of file transfers`**:   
+   The number of file transfers to run in parallel. It can sometimes be useful to set this to a smaller number if the remote is giving a lot of timeouts or bigger if you have lots of bandwidth and a fast remote.  
+2. **`Number of multi thread transfers`**:  
+   When using multi thread transfers this sets the number of streams to use. Set to `0` to disable multi thread transfers (Default 4). When transferring files above 256MB to capable backends, rclone will use multiple threads to transfer the file.  
+3. **`Number of equaility checkers`**:  
+   checkers do the equality checking of files during a sync. For some storage systems (e.g. S3, Swift, Dropbox) this can take a significant amount of time so they are run in parallel. The default is to run 8 checkers in parallel. However, in case of slow-reacting backends you may need to lower (rather than increase) this default by setting `--checkers` to 4 or less threads.  
+### Safety and Integrity.  
+4. **` Enable checksum to compare files`** :  
+   Normally rclone will look at modification time and size of files to see if they are equal. If you set this flag then rclone will check the file hash and size to determine if files are equal.This is very useful when transferring between remotes which store the same hash type on the object, e.g. Drive and Swift. For details of which remotes support which hash type see the table in the [overview section](https://rclone.org/overview/).  
+
+### Error control:  
+5. **`Retry the entire sync if it fails this many times`**:  
+   Retry the entire sync if it fails this many times it fails (default 3). Some remotes can be unreliable and a few retries help pick up the files which didn't get transferred because of errors. Disable retries with `1`.  
+
+</details>
+
+
+
+### Step 3: Filtering Settings (optional)
+
+- RcloneView applies basic filters by default for services like Google Docs or Box Docs.
+- You can add more file types or folders to exclude from the sync.
+
+<details>
+<summary>Filering Settings Details</summary>
+
+
+<img src="/support/images/en/howto/rcloneview-basic/jobs-filtering-setttings-details.png" alt="jobs filtering setttings details" class="img-medium img-center" />
+1. **`Don't sync files over`** :  
+   Controls the **maximum file size** allowed for sync.  
+   Default unit is MB.  
+2. **`Don't sync files older than this`** :    
+   Controls the **maximum file age** allowed for sync.  
+   This applies to **files only**, not directories.  
+   Use the following units:  
+   `y` = years, `d` = days, `h` = hours, `m` = minutes, `s` = seconds  (Example: 2y30d12h30m45s)  
+3. **`Don't sync folders over this depth`** :   
+   If set, Rclone will only sync folders within the specified depth.  
+   For example, setting this to `1` will only sync files in the top-level directory.  
+   Setting it to `2` will sync files within the first two folder levels, and so on.
+4. **Predefined Filters**.   
+   You can quickly apply built-in filters for common file types such as:  
+   - Music, Video, Image, Document, Google Docs, Box Docs  
+     These filters are available as predefined options in the filter list.
+1. **Others (= Custom Filters)**.  
+   You can define custom rules to exclude or include specific file types, folders, or paths.  
+   Here are some common examples:  
+   **`.iso`** : Exclude all .iso files.  
+   **`/.git/*`** : Exclude only files inside the .git folder in the root, not subfolders.  
+   **`/.git/`** :  Exclude the entire .git folder in the root, including everything inside it.   
+   **`.git/`** : Exclude all .git folders and everything inside them, regardless of location.   
+   
+   🔗 For more advanced examples and syntax, refer to the [Rclone Filtering Guide](https://rclone.org/filtering/#exclude-exclude-files-matching-pattern)
+
+
+</details>
+
+
+#### Step4: Scheduling (Available with PLUS License)
+
+Job scheduling allows you to automatically run jobs at specified intervals or times.   
+
+💡 This feature is available exclusively with the [**PLUS license**](https://rcloneview.com/src/pricing.html).  
+
+For more details, refer to [Setting Up a Job Schedule](../rcloneview-advanced/job-scheduling-and-execution.md).   
+
+Finally, review the job you’ve created in the list to ensure everything is set correctly.
+
 <div class="img-grid-2">
-<img src="/support/images/en/howto/rcloneview-basic/sync-dry-run.png" alt="sync dry run" class="img-medium img-center" />
-<img src="/support/images/en/howto/rcloneview-basic/sync-dry-run-details.png" alt="sync dry run details" class="img-medium img-center" />
+<img src="/support/images/en/howto/rcloneview-basic/add-job-scheduling.png" alt="add job scheduling" class="img-medium img-center" />
+<img src="/support/images/en/howto/rcloneview-basic/add-job-completed.png" alt="add job completed" class="img-medium img-center" />
 </div>
-## 자주사용하는 Sync 오프레이션을 Jobs에 저장하기.
 
-- 자주 수행하는 Sync 일 경우에는 Save to Jobs를 클릭하여, Job으로 저장한 후 나중에 동일한 Operation을 Job Manager를 이용하여 손쉽게 반복 수행할 수 있다. 
-	- Plus 라이선스를 등록한 사용자는 Job에 대한 Scheduling 기능을 사용할 수 있다. 
+  
 
-<img src="/support/images/en/howto/rcloneview-basic/save-sync-to-jobs.png" alt="save sync to jobs" class="img-medium img-center" />
+
+
+
+
+
+
+
+
