@@ -100,18 +100,24 @@ Using bisync incorrectly may result in data loss. Please use with caution.
 <summary>Advanced Settings Details</summary>
 
 <img src="/support/images/en/howto/rcloneview-basic/sync-advanced-settings-details.png" alt="sync advanced settings details" class="img-medium img-center" /> 
-### Performance
+**Performance :**
+
 1. **`Number of file transfers`**:   
    The number of file transfers to run in parallel. It can sometimes be useful to set this to a smaller number if the remote is giving a lot of timeouts or bigger if you have lots of bandwidth and a fast remote.  
 2. **`Number of multi thread transfers`**:  
    When using multi thread transfers this sets the number of streams to use. Set to `0` to disable multi thread transfers (Default 4). When transferring files above 256MB to capable backends, rclone will use multiple threads to transfer the file.  
 3. **`Number of equaility checkers`**:  
    checkers do the equality checking of files during a sync. For some storage systems (e.g. S3, Swift, Dropbox) this can take a significant amount of time so they are run in parallel. The default is to run 8 checkers in parallel. However, in case of slow-reacting backends you may need to lower (rather than increase) this default by setting `--checkers` to 4 or less threads.  
-### Safety and Integrity.  
-4. **` Enable checksum to compare files`** :  
+
+
+**Safety and Integrity :**
+
+5. **` Enable checksum to compare files`** :  
    Normally rclone will look at modification time and size of files to see if they are equal. If you set this flag then rclone will check the file hash and size to determine if files are equal.This is very useful when transferring between remotes which store the same hash type on the object, e.g. Drive and Swift. For details of which remotes support which hash type see the table in the [overview section](https://rclone.org/overview/).  
 
-### Error control:  
+
+**Error control :**
+
 5. **`Retry the entire sync if it fails this many times`**:  
    Retry the entire sync if it fails this many times it fails (default 3). Some remotes can be unreliable and a few retries help pick up the files which didn't get transferred because of errors. Disable retries with `1`.  
 

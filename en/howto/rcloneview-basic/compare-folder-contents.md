@@ -60,6 +60,7 @@ For example, if you want to copy files from the left remote's folder to the righ
 <details>
 <summary>More Icon details</summary>
 
+#### Understanding Icons in the Compare Window
 <Tabs>
 <TabItem value="Display Icons" label="Display Icons">
 When you click each icon with the mouse, the following filtering behavior is applied.  
@@ -194,6 +195,8 @@ For example, to exclude all folders named `folder2` from the comparison:
 
 <details>
 <summary>Frequently Used Filter Rules</summary>
+
+#### Commonly Used Filter Examples
 
 **`.iso`** : Exclude all .iso files
 

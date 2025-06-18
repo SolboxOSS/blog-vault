@@ -18,31 +18,41 @@ author: Jay
 # Execute Job
 
 
-### Step 4: Run Job
+Click the `Job Manager` toolbar from the main menu to open the Job Manager.  
 
-- Once all settings are complete, click **Run** to start the sync process.
+Select the job you want to run, then click the **`Run`** button to execute it.
 
-:::important Sync Scheduling. 
-To run sync tasks on a scheduled date and time, first **Save to Jobs** to register the sync task as a job. Then, run the **`Job Manager`** to configure the schedule.  
+<img src="/support/images/en/howto/rcloneview-basic/job-run-click.png" alt="job run click" class="img-medium img-center" />
 
-> ⚠️ **Job scheduling is available as a PLUS feature.**   
 
-You will need to purchase a [**PLUS license**](https://rcloneview.com/src/pricing.html) to enable this functionality.
-:::
+<details>
+<summary>Field Descriptions </summary>
+
+- `Job Name` : Name of the job. - > The icon visually represents the sync direction from source to destination. When the job involves multiple destinations, separate icons are shown for each target remote.  
+- `Source` : The folder in the remote storage that serves as the source.  
+- `Destination` : The folder in the remote storage that acts as the destination.   
+- `Upcoming Schedule` : Shows the next scheduled time this job will run. If no schedule is set, it displays as **Unscheduled**.    
+  ⚠️ _This feature is available only with a PLUS license._ See:: [How to configure Job Scheduling](../rcloneview-advanced/job-scheduling-and-execution.md). 
+- `Last execution` : The most recent time this job was automatically executed via the schedule.   
+- `Created At` : The date and time the job was created.  
+- `History` : Opens the execution history for this job. Clicking it will open the full history window.  
+
+</details>
+
 
 ### Simulate: Run a dry run (optional)
 
 You can run a **Dry run** to simulate the sync operation without making any actual changes.
 
+Click the **`Dry run`** button to simulate the sync without making changes.
+
 - This preview shows which files will be copied to the **Destination** and which files will be deleted.
 - Click **`See details`** to view a full list of operations that would occur (e.g., copy, create, delete) in the destination.
+- For jobs with multiple destinations, results are grouped by each destination, with separate **`See details`** for each.
 
-<div class="img-grid-2">
-<img src="/support/images/en/howto/rcloneview-basic/sync-dry-run.png" alt="sync dry run" class="img-medium img-center" />
-<img src="/support/images/en/howto/rcloneview-basic/sync-dry-run-details.png" alt="sync dry run details" class="img-medium img-center" />
-</div>
+<img src="/support/images/en/howto/rcloneview-basic/job-dry-run-result.png" alt="job dry run result" class="img-medium img-center" />
 
-## Monitor sync results
+## Monitor Job run results
 
 You can check the progress and results of sync operations in real time.
 
@@ -52,7 +62,7 @@ You can check the progress and results of sync operations in real time.
 - Click the **+** icon to expand and monitor individual file transfers.
 <img src="/support/images/en/howto/rcloneview-basic/sync-transfer-window.png" alt="sync transfer window" class="img-medium img-center" />
 
-### Completed jobs (after sync)
+### Completed jobs (after execution job)
 
 - Once the sync is finished, go to the **`Completed`** tab to view the results.
 - Click the **+** icon to see file-level details of each completed job.
@@ -74,4 +84,54 @@ If you miss the popup, you can still check the sync alert by clicking the **noti
 :::
 
 
-## Job 히스토리 보기
+## View Job History
+
+
+From the **`Job Manage`r**, click the **`History`** icon <img src="/support/icons/history-icon.png" alt="history icon" class="inline-icon" /> next to a job to view its execution log.
+
+If a job was run with multiple destinations, each destination will be displayed as a separate tab in the history.
+
+<img src="/support/images/en/howto/rcloneview-basic/job-history.png" alt="job history" class="img-medium img-center" />
+
+<details>
+<summary>Field Descriptions</summary>
+
+Field Descriptions
+
+
+- `Execution Type` : 
+	- Manual :  Manually run by the user
+	- Scheduled : -Automatically run by RcloneView 
+- `Start Time` : When the job started   
+- `Time Spent` : Total duration of the sync  
+- `Status` : Job의 수행 결과  
+	- Completed : Success   
+	- Errored : Failed, with error messages available. 
+- `Total Size` : Total data size transferred
+- `Speed` : Average transfer speed. 
+- `Files` : Number of transferred files. 
+- `Job Type` : Currently Sync, future updates may include Copy, Purge, or Batch jobs   
+- `Delete` : Removes the selected history entry. 
+
+</details>
+
+
+<details>
+<summary>Toolbars for Filtering & Deleting History</summary>
+
+Toolbars for Filtering & Deleting History
+
+When a large number of history records accumulate, you can filter or delete them using the toolbar options.
+
+- `From ~ To` : Select a custom date range using the calendar to display history within that period.  
+- `Today` : Shows only the history entries from today.  
+- `Yesterday` : Displays history entries from exactly one day ago.  
+- `Last week` : Displays history from the past 7 days.
+- `Last month` : Displays history from the past 30 days.
+- `Delete all` : - Permanently deletes all history records.   ⚠️ _This action cannot be undone. Please proceed with caution._
+
+</details>
+
+
+
+
