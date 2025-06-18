@@ -15,7 +15,7 @@ tags:
 date: 2025-06-16
 author: Jay
 ---
-# Execute Job
+# Execute and Manage Job
 
 
 Click the `Job Manager` toolbar from the main menu to open the Job Manager.  
@@ -39,7 +39,27 @@ Select the job you want to run, then click the **`Run`** button to execute it.
 
 </details>
 
+<details>
+<summary>Toolbars for managing Jobs</summary>
 
+Toolbars for managing Jobs
+
+After selecting a job, you can manage it using the toolbar options below:
+
+- **`Add Job`** : Creates and adds a new job. [See: How to create Job](./create-sync-jobs.md)  
+- **`Edit Job`** : Edits the selected job.
+- **`Duplicate`** : Creates a copy of the selected job. 
+  The duplicated job is automatically named with a suffix such as (1), (2), …, (n).
+  You can then use Edit Job to quickly customize it as a new job based on the original.  
+- **`Delete`** : Deletes the selected job.
+
+</details>
+
+
+:::tip 💡 Export and Import Jobs
+Click the **settings icon** <img src="/support/icons/setting-icon.png" alt="setting icon" class="inline-icon" /> at the top right of the **Job Manager** to export your current jobs or import previously saved ones. Jobs are exported and stored in a file named rclone_view.db    
+
+:::
 ### Simulate: Run a dry run (optional)
 
 You can run a **Dry run** to simulate the sync operation without making any actual changes.
