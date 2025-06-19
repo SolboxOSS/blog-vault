@@ -1,2 +1,0 @@
-
-# Folder comparison with filter
