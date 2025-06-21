@@ -1,17 +1,21 @@
 ---
 sidebar_position: 1
-description: This is sample Post for writer
+description: Learn how to schedule sync jobs in RcloneView using Job Manager and run them automatically at specified times.
 keywords:
   - rcloneview
-  - howto
-  - cloud
-  - sync
+  - job scheduling
+  - sync automation
+  - scheduled sync
   - rclone
+  - job manager
+  - cloud sync
+  - cron
 tags:
   - RcloneView
-  - howto
-  - Cloud
+  - Job-Manager
+  - Scheduling
   - Sync
+  - PLUS-Feature
 date: 2025-05-23
 author: Jay
 ---

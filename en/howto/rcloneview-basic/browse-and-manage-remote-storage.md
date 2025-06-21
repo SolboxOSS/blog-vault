@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 description: File management guide using RcloneView Explorer to browse, copy, and manage local and cloud storage files.
 keywords:
   - rcloneview
@@ -20,11 +20,11 @@ tags:
 date: 2025-05-27
 author: Jay
 ---
-# File Management with RcloneView
+# File Management with RcloneView  
 
-RcloneView allows you to easily browse, transfer, and organize files between your local disk and multiple cloud storage services using a familiar, Explorer-like interface. 
+RcloneView allows you to easily browse, transfer, and organize files between your local disk and multiple cloud storage services using a familiar, Explorer-like interface.   
 
-This guide walks you through:
+This guide walks you through:   
 
 - Browsing remote storage
 - Copying files using drag & drop

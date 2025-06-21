@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 description: This is sample Post for writer
 keywords:
   - rcloneview
@@ -57,7 +57,7 @@ After selecting a job, you can manage it using the toolbar options below:
 
 
 :::tip 💡 Export and Import Jobs
-Click the **settings icon** <img src="/support/icons/setting-icon.png" alt="setting icon" class="inline-icon" /> at the top right of the **Job Manager** to export your current jobs or import previously saved ones. Jobs are exported and stored in a file named rclone_view.db    
+Click the **settings icon** <img src="/support/icons/setting-icon.png" alt="setting icon" class="inline-icon" /> at the top right of the **Job Manager** to export your current jobs or import previously saved ones. Jobs are exported and stored in a file named `rclone_jobs_~.json`    
 
 :::
 ### Simulate: Run a dry run (optional)

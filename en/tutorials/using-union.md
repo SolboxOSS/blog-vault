@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
 description: This is sample Post for writer
 keywords:
   - rcloneview
@@ -15,9 +15,5 @@ tags:
 date: 2025-06-19
 author: Jay
 ---
-# Mount Cloud Storage as a Local Drive
+# Union을 이용한 다른 폴더 구조를 동기화 하기
 
-
-
-
-Mount를 수행하기 전에 대상 리모트를 RcloneView에 먼저 추가하여야 합니다. See: Remote 추가하기
