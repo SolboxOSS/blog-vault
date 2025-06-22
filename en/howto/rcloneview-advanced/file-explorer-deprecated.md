@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 description: Learn how to use the file explorer panel in RcloneView to manage local and cloud storage.
 keywords:
   - rcloneview

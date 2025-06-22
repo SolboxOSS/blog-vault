@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 description: This is sample Post for writer
 keywords:
   - rcloneview
@@ -12,13 +12,8 @@ tags:
   - howto
   - Cloud
   - Sync
-date: 2025-06-18
+date: 2025-06-22
 author: Jay
 ---
 
-# Remote Management
-
-
-
-
-
+# Remote rclone connection using multi-windows
