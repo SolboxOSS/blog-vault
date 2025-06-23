@@ -47,11 +47,18 @@ This guide will walk you step-by-step through installing **RcloneView** and addi
 <img src="/support/images/howto/add-remote-step2.png" alt="Add google drive option" class="img-medium img-center" />
 </div>
 
-:::note
-Cloud storage providers supporting Single Sign-On (SSO), such as Google Drive, Dropbox, Google Photos, Microsoft OneDrive, Box, pCloud, Yandex Disk, premiumize.me, put.io, and HiDrive, typically allow you to skip the \"Options\" step, automatically completing the connection after SSO authentication.
-:::
-:::tip
-However, certain SSO-compatible storages like Zoho WorkDrive, Google Cloud Storage, Citrix ShareFile, \"Google Drive Shared with me,\" and Box for Business require additional configuration in the \"Options\" section. Please refer to the documentation provided [here]([insert documentation link]) for detailed instructions.
+:::tip OAuth-based Cloud Remotes
+
+Most cloud storage providers that support OAuth (web-based login), such as **Google Drive**, **Dropbox**, **Google Photos**, **OneDrive**, **Box**, **pCloud**, **Yandex Disk**, **premiumize.me**, **put.io**, and **HiDrive**, allow you to skip the `Options` step—just name your remote and log in via browser.
+
+However, **some providers require additional configuration** in the `Options` tab before OAuth login:
+- **Zoho WorkDrive** – Region selection
+- **Google Cloud Storage** – Project Number input
+- **Citrix ShareFile** – Root Folder ID input
+- **Google Drive Shared with Me** – Enable `shared_with_me`
+- **Box for Business** – Select `enterprise` for box_sub_type
+
+👉 See guide: [Connect via Web Browser Login](./remote-storage-connection-settings/add-oath-online-login.md#supported-cloud-providers--setup-requirements)
 :::
 
 #### In the **`Name`** tab:
@@ -68,7 +75,7 @@ However, certain SSO-compatible storages like Zoho WorkDrive, Google Cloud Stora
 <img src="/support/images/howto/add-remote-step4.png" alt="add google drive step4" class="img-medium img-center" />
 </div>
 
-:::note
+:::tip
 Fields marked with an asterisk (*) are required. Ensure all mandatory fields are completed before saving.
 :::
 
@@ -79,7 +86,7 @@ Fields marked with an asterisk (*) are required. Ensure all mandatory fields are
 - Select your Google account or choose **"Use another account"** to sign in with a different account.
 
 <img src="/support/images/howto/google-choose-account.png" alt="google choose account" class="img-medium img-center" />
-:::note
+:::tip
 If you are using a login method other than the password-based login shown above, please refer to [this guide](https://support.google.com/accounts/answer/12849458) to complete the login process.
 :::
 
@@ -91,11 +98,5 @@ If you are using a login method other than the password-based login shown above,
 - You should see a confirmation page displaying **"Success!"**
 <img src="/support/images/howto/google-login-complete.png" alt="google login complete" class="img-medium img-center" />
 ✅ **Done!** Your Google Drive remote is now successfully connected and ready to use in RcloneView.
-
-
-## 📎 Related documents
-
-- 👉[Add AWS S3](remote-storage-connection-settings/s3.md)
-- 👉[Add iCloud Drive](remote-storage-connection-settings/connect-using-cli/add-icloud-drive.md)
 
 

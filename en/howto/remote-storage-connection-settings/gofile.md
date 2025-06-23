@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 description: Guide to add Gofile Storage
 keywords:
   - rcloneview

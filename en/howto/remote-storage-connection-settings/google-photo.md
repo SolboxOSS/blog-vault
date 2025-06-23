@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 description: This is sample Post for writer
 keywords:
   - rcloneview
@@ -16,7 +16,7 @@ date: 2025-06-20
 author: Jay
 ---
 
-# Google Photo
+# Add Google Photo Remote
 
 
 
