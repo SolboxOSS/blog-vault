@@ -91,6 +91,33 @@ The `shared_with_me = true` setting instructs Rclone to only show files and fold
 :::
 
 <img src="/support/images/en/howto/remote-storage-connection-settings/google-drive-shared-with-me-options.png" alt="google drive shared with me options" class="img-medium img-center" />
+## Example: Google Drive Computers (requires Advanced Options)
+
+**Google Drive "Computers"** is a feature that syncs local files from your devices (e.g., laptops or desktops) to the cloud under a special "Computers" section in Google Drive. Each computer appears as a separate folder and requires a unique `root_folder_id` to access via Rclone.
+
+🔗 Learn more about this feature: [Access synced computers in Google Drive](https://support.google.com/drive/answer/3096479)
+
+### How to Connect Google Drive Computers in RcloneView
+
+1. Open [drive.google.com](https://drive.google.com/) and click on your target computer (e.g., **My Laptop**) under the **Computers** section.
+2. Copy the **Computer ID** from the URL.  
+   For example, in  
+   `https://drive.google.com/drive/folders/1CxHRI9sdfeeeerAW_1dThrh0W-ze0m2snZ`,  
+   the ID is the string after `folders/`:  
+   `1CxHRI9sdfeeeerAW_1dThrh0W-ze0m2snZ  
+3. Open **RcloneView**, click **`+ New Remote`** under the **Remote** menu, select **Google Drive**, and proceed to the **Options** tab.
+4. Scroll down and click **`Show advanced options`**.
+5. Paste the copied Computer ID into the `root_folder_id` field.
+6. Click **Next** and follow the OAuth login to finish setup.
+
+<div class="img-grid-3">
+  <img src="/support/images/en/howto/remote-storage-connection-settings/google-drive-computers-id-copy.png" alt="google drive computers id copy" class="img-medium img-center" />
+  <img src="/support/images/en/howto/remote-storage-connection-settings/add-google-drive-computer-remote-options.png" alt="add google drive computer remote options" class="img-medium img-center" />
+  <img src="/support/images/en/howto/remote-storage-connection-settings/add-google-drive-computers-options-root-folder-id.png" alt="add google drive computers options root folder id" class="img-medium img-center" />
+</div>
+
+✅ After setup is complete, you can browse and access your device-synced Google Drive folders directly within RcloneView.
+
 ## Example: Connecting Box for Business
 
 In the **Options** tab:
