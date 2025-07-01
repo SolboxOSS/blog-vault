@@ -55,23 +55,23 @@ RcloneView will launch a browser window where you can sign in with your account 
 
 ## Supported Cloud Providers & Setup Requirements
 
-| Cloud Provider              | OAuth Login Supported | Required Option(s)                                     |
-| --------------------------- | --------------------- | ------------------------------------------------------ |
-| Google Drive                | ✅ Yes                 | None                                                   |
+| Cloud Provider              | OAuth Login Supported | Required Option(s)                                       |
+| --------------------------- | --------------------- | -------------------------------------------------------- |
+| Google Drive                | ✅ Yes                 | None                                                     |
 | Google Drive Shared with Me | ✅ Yes                 | **Advanced Options:**<br />`shared_with_me` = **true**   |
-| Dropbox                     | ✅ Yes                 | None                                                   |
+| Dropbox                     | ✅ Yes                 | None                                                     |
 | Dropbox for Business        | ✅ Yes                 | **Advanced Options:**<br />`dropbox_business` = **true** |
-| Microsoft OneDrive          | ✅ Yes                 | None                                                   |
-| Box                         | ✅ Yes                 | None                                                   |
-| Box for Business            | ✅ Yes                 | `box_sub_type = enterprise`                            |
-| pCloud                      | ✅ Yes                 | None                                                   |
-| Yandex Disk                 | ✅ Yes                 | None                                                   |
-| premiumize.me               | ✅ Yes                 | None                                                   |
-| put.io                      | ✅ Yes                 | None                                                   |
-| Zoho WorkDrive              | ✅ Yes                 | `Region` required                                      |
-| Google Cloud Storage        | ✅ Yes                 | `Project Number` required                              |
-| Citrix ShareFile            | ✅ Yes                 | `Root Folder ID` equired                               |
-| HiDrive                     | ✅ Yes                 | None                                                   |
+| Microsoft OneDrive          | ✅ Yes                 | None                                                     |
+| Box                         | ✅ Yes                 | None                                                     |
+| Box for Business            | ✅ Yes                 | `box_sub_type = enterprise`                              |
+| pCloud                      | ✅ Yes                 | None                                                     |
+| Yandex Disk                 | ✅ Yes                 | None                                                     |
+| premiumize.me               | ✅ Yes                 | None                                                     |
+| put.io                      | ✅ Yes                 | None                                                     |
+| Zoho WorkDrive              | ✅ Yes                 | `Region` required                                        |
+| Google Cloud Storage        | ✅ Yes                 | `Project Number` required                                |
+| Citrix ShareFile            | ✅ Yes                 | `Root Folder ID` equired                                 |
+| HiDrive                     | ✅ Yes                 | None                                                     |
 
 ## Example: Google Drive Shared with Me (requires Advanced Options)
 
