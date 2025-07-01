@@ -38,6 +38,7 @@ While both platforms provide their own cloud ecosystems, **RcloneView** offers
 
 In this guide, we’ll walk you through how to **transfer files from Google Drive to OneDrive** using **RcloneView**, a GUI-based tool built on top of Rclone that makes multi-cloud file management simple and powerful.
 
+<img src="/support/images/en/tutorials/google-drive-to-ondrive-transfer.png" alt="google drive to ondrive transfer" class="img-medium img-center" />
 
 ## **Why Use RcloneView for Cloud-to-Cloud Transfers?**
 
@@ -52,12 +53,12 @@ RcloneView is a powerful GUI built on top of the Rclone engine, designed to simp
 
 Unlike traditional manual download/upload methods, RcloneView automates the process through direct API-based operations—allowing smooth, unattended transfers between cloud storages.
 
-## Step-by-Step: Transfer Files from Google Drive to OneDrive
+## 📙 Transfer Files from Google Drive to OneDrive
 
 
 ### Add Google Drive and OneDrive Remotes in RcloneView
 
-1. Open **RcloneView** and click **`+ New Remote`** from the `Remote` menu.  
+1. Open **RcloneView** and click **`+ New Remote`** from the **`Remote`** menu.  
 2. In the **`Provider`** tab, search and select **Google Drive**.  
 3. Proceed through the wizard and complete OAuth login.  
 4. Repeat the same process for **OneDrive**.  
@@ -68,14 +69,12 @@ Unlike traditional manual download/upload methods, RcloneView automates the proc
 
 ### Open Both Remotes in the Explorer Pane
 
-1. Open **RcloneView** and go to the **Browse tab** in Explorer pane(default at startup).  
+1. Open **RcloneView** and go to the **Browse tab** in Explorer pane.  
 2. In one pane, click the plus icon `+` in its header and select your **Google Drive** remote from the list.  
 3. In the other pane, click the `+` icon and choose your **OneDrive** remote from the list.  
 4. Both remotes will now appear side‑by‑side, allowing you to easily copy, compare, drag, or sync files and folders between them.  
 
-
----
-
+<img src="/support/images/en/tutorials/open-google-drive-and-onedrive.png" alt="open google drive and onedrive" class="img-medium img-center" />
 
 ### 📌 4 Methods to Transfer Files
 
@@ -87,7 +86,7 @@ RcloneView provides several powerful methods to move or sync data between Google
 	1. Open **RcloneView** and navigate to the **Browse** tab (shown by default on startup).  
 	2. Ensure both cloud remotes (Google Drive and OneDrive) are visible side‑by‑side in the dual‑pane Explorer.  
 	3. Simply **drag files or folders** from the Google Drive pane and **drop** them into the OneDrive pane.  
-	4. The transfer will begin automatically via Rclone background engine. You can monitor progress in real time on the **Transfer Logs** tab.  
+	4. The transfer will begin automatically via Rclone background engine. You can monitor progress in real time on the **`Transfer`** Logs tab.  
 
   
 This intuitive drag‑and‑drop interface simplifies moving or copying files—no  commands needed.
@@ -98,15 +97,15 @@ This intuitive drag‑and‑drop interface simplifies moving or copying files—
 
   
 	1. In both Explorer panes, navigate to and select the folders you want to compare (left: Google Drive, right: OneDrive).  
-	2. Click the **Compare** icon in the main menu tab to initiate folder comparison.  
+	2. Click the **`Compare`** button in the main menu tab to initiate folder comparison.  
 	3. RcloneView will scan and highlight:  
 		- Files only present on one side  
 		- Files with the same name but different sizes  
 		- Identical files
-	4. Use the display toolbar or select files to choose which files you want to act on.  
-	5. To transfer files left→right, click **`Copy →`**.  
-		   To transfer right→left, use **`← Copy`**.  
-		   To remove a file from a remote, click the **Delete** button on its pane.  
+	4. Select files to choose which files you want to act on.  
+	5. To transfer files left→right, click **`Copy →`** button.  
+		   To transfer right→left, use **`← Copy`** button.  
+		   To remove a file from a remote, click the **`Delete`** button on its pane.  
 	6. Progress and summary updates appear in the status bar.  
 
 
@@ -115,21 +114,19 @@ This visual comparison minimizes errors by letting you review files **before** m
 👉 Learn more in the [Compare Folder Contents guide](/support/howto/rcloneview-basic/compare-folder-contents)
 
 
-#### 🔁 **Method 3: Use Sync or Create a Job**
+#### 🔁 **Method 3: Use Sync or Job**
 
 1. In the Explorer pane, navigate to and select the **Google Drive** folder and the **OneDrive** folder you want to keep synchronized.  
 2. Click the **`Sync`** button in the `home` menu.  
 3. Choose sync options (ond-directional or vice versa), preview actions, and confirm.   
-4. RcloneView will run the sync and display a progress indicator in transfer log tab.   
+4. RcloneView will run the sync and display a progress indicator in **`transfer`** log tab.   
 
 - Alternatively, for repeated or scheduled transfers:  
 
-  1. Click `Save to Jobs` in Sync modal window  Or Open **Job Manager** → click **Add Job**.   
+  1. Click **`Save to Jobs`** in Sync modal window  Or Open **`Job Manager`** → click **`Add Job`**.   
   2. Configure source and destination and set options.   
   3. Save the job and run it manually or schedule it.  
 
- ✅ Tip: Use the **Dry Run** feature to simulate the transfer and confirm file changes without affecting data.   
-  
  👉 Learn more:  
 
 - [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)  
