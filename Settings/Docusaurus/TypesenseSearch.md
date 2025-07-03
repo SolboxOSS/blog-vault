@@ -1,5 +1,8 @@
 ## Typesense Server 설치
 
+ssh -i "statsapi.pem" ubuntu@ec2-18-117-197-178.us-east-2.compute.amazonaws.com
+
+
 https://typesense.org/docs/guide/install-typesense.html#linux-binary
 
 ```bash
@@ -19,7 +22,7 @@ mkdir data
 #### **1) 서비스 유닛 파일 생성**
 
 ```
-sudo nano /etc/systemd/system/typesense-server.service
+sudo vi /etc/systemd/system/typesense-server.service
 ```
 
 
@@ -57,6 +60,8 @@ sudo systemctl status typesense-server
 8108 inbound 허용
 
 ### 접속 확인
+
+
 - 서버 정상 실행 시
 
 http://ec2-18-117-197-178.us-east-2.compute.amazonaws.com:8108/health → {"ok":true}
@@ -208,42 +213,17 @@ themeConfig:
 Swizzling
 
 
-
-
-
-curl "http://ec2-18-117-197-178.us-east-2.compute.amazonaws.com:8108/collections" -H "X-TYPESENSE-API-KEY: greatercloneview1!"
-
-  -H "X-TYPESENSE-API-KEY: YOUR_ADMIN_API_KEY"
-
-curl "http://YOUR_TYPESENSE_HOST:8108/collections" \
-  -H "X-TYPESENSE-API-KEY: YOUR_ADMIN_API_KEY"
+### Typesense Dashboard
 
 ```
-curl 'http://ec2-18-117-197-178.us-east-2.compute.amazonaws.com:8108/collections/docs_1751018368/documents/search' \
-  -H 'X-TYPESENSE-API-KEY: greatercloneview1!' \
-  -H 'Content-Type: application/json' \
-  -d '{"q": "Quick Start", "query_by": "hierarchy.lvl1,content"}'
-
-curl 'http://ec2-18-117-197-178.us-east-2.compute.amazonaws.com:8108/collections/docs_1751017925/documents/search' \
-  -H 'X-TYPESENSE-API-KEY: greatercloneview1!' \
-  -H 'Content-Type: application/json' \
-  -d '{"q": "Quick Start", "query_by": "hierarchy.lvl1,content"}'
-
-
-curl 'http://ec2-18-117-197-178.us-east-2.compute.amazonaws.com:8108/collections/docs_1751017778/documents/search' \
-  -H 'X-TYPESENSE-API-KEY: greatercloneview1!' \
-  -H 'Content-Type: application/json' \
-  -d '{"q": "Quick Start", "query_by": "hierarchy.lvl1,content"}'
-
-curl 'http://ec2-18-117-197-178.us-east-2.compute.amazonaws.com:8108/collections/docs/documents/search' \
-  -H 'X-TYPESENSE-API-KEY: greatercloneview1!' \
-  -H 'Content-Type: application/json' \
-  -d '{"q": "Quick Start", "query_by": "- hierarchy.lvl0, hierarchy.lvl1, content"}'
-
-curl 'http://ec2-18-117-197-178.us-east-2.compute.amazonaws.com:8108/collections/docs' \
-  -H 'X-TYPESENSE-API-KEY: greatercloneview1!'
-
+docker run -it --rm -p 5001:5000 bfritscher/typesense-dashboard:main
 
 ```
 
+Docker:
+https://hub.docker.com/r/bfritscher/typesense-dashboard
 
+
+Github site:
+
+https://github.com/bfritscher/typesense-dashboard
