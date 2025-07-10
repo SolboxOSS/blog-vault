@@ -100,7 +100,7 @@ You can open different sources in each pane and transfer files between them easi
 The pane includes the following components:
 
 1. **Tab Bar** – Displays the current connection (e.g., Local Disk, myAwsS3, myGoogleDrive)  
-2. **Breadcrumb Path Bar** – Shows the current folder path  
+2. **Breadcrumb Path Bar** – > Shows the current folder path and supports fast navigation by clicking or typing with auto-suggestions. 
 3. **Pane Toolbar** – Includes quick actions:  
 	- <img src="/support/icons/alias-icon.png" alt="alias icon" class="inline-icon" /> **Create Alias (Favorite)** — Save the current folder as a favorite for quick access  
 	- <img src="/support/icons/mount-icon.png" alt="mount icon" class="inline-icon" />**Mount Folder** — Mount the selected folder as a local drive  
