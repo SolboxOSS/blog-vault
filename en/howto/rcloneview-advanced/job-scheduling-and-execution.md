@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: Learn how to schedule sync jobs in RcloneView using Job Manager and run them automatically at specified times.
+description: Learn how to automatically execute sync jobs in RcloneView using flexible scheduling options. Requires a Plus license.
 keywords:
   - rcloneview
   - job scheduling
@@ -9,17 +9,21 @@ keywords:
   - rclone
   - job manager
   - cloud sync
-  - cron
+  - job scheduler
+  - rclone automation
+  - crontab
+  - plus license
+  - recurring sync
 tags:
   - RcloneView
   - Job-Manager
   - Scheduling
   - Sync
   - PLUS-Feature
+  - automation
 date: 2025-05-23
 author: Jay
 ---
-
 # Job scheduling and Automated Execution
 
 Job Scheduling allows you to run Sync Jobs automatically at specific times and intervals.

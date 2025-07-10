@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-description: Learn how to manage Embedded and External Rclone instances in RcloneView.
+description: Learn how to configure and switch between Embedded and External Rclone instances using the RcloneView Connection Manager.
 keywords:
   - rcloneview
   - connection
@@ -8,6 +8,11 @@ keywords:
   - embedded rclone
   - external rclone
   - connection manager
+  - rclone
+  - rclone rcd
+  - rc server
+  - Remote Connection
+  - rclone connection
 tags:
   - RcloneView
   - connection
@@ -15,6 +20,7 @@ tags:
   - embedded-rclone
   - external-rclone
   - connection-manager
+  - rclone-rcd
 date: 2025-06-22
 author: Jay
 ---

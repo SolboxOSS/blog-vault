@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: Learn how to easily transfer files from Dropbox to Google Drive using RcloneView
+description: Learn how to easily transfer or sync files between Dropbox and Google Drive using RcloneView’s intuitive GUI—no terminal or scripting required.
 keywords:
   - rcloneview
   - Dropbox
@@ -12,6 +12,7 @@ keywords:
   - Cloud Migration
   - cloud sync
   - cloud file transfer
+  - rclone
 tags:
   - RcloneView
   - dropbox
@@ -19,6 +20,7 @@ tags:
   - cloud-file-transfer
   - cloud-migration
   - Tutorial
+  - Sync
 date: 2025-07-01
 author: Jay
 ---

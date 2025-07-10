@@ -1,17 +1,28 @@
 ---
 sidebar_position: 7
-description: This is sample Post for writer
+description: Learn how to run, monitor, and manage sync jobs using the RcloneView Job Manager, including dry run, job history, and notifications.
 keywords:
   - rcloneview
-  - howto
   - cloud
   - sync
   - rclone
+  - job manager
+  - run sync job
+  - dry run
+  - job execution
+  - Job Monitor
+  - job history
+  - scheduled jobs
+  - rclone automation
 tags:
   - RcloneView
-  - howto
   - Cloud
   - Sync
+  - Job-Management
+  - cloud-storage
+  - job-history
+  - job-monitoring
+  - Remote-storage-managent
 date: 2025-06-16
 author: Jay
 ---
@@ -88,7 +99,7 @@ You can check the progress and results of sync operations in real time.
 - Click the **+** icon to see file-level details of each completed job.
 <img src="/support/images/en/howto/rcloneview-basic/sync-completed-window.png" alt="sync completed window" class="img-medium img-center" />
 :::tip Quickly open synced remotes
-In the **`Completed`** tab, you can double-click any completed job to open both the source and destination folders in the Explorer panel.  
+In the **`Completed`** tab, you can double-click any completed job to open both the source and destination folders in the Explorer pane.  
 This makes it easy to review the synced folders immediately.
 :::
 

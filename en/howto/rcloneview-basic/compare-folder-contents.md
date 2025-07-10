@@ -1,17 +1,23 @@
 ---
 sidebar_position: 4
-description: This is sample Post for writer
+description: Learn how to compare local and remote folders, filter results, and copy or delete files directly using RcloneView’s advanced Compare feature.
 keywords:
   - rcloneview
-  - howto
-  - cloud
-  - sync
   - rclone
+  - compare folders
+  - folder copy
+  - file differences
+  - cloud sync
+  - file management
+  - file transfer
+  - file explorer
+  - remote storage management
 tags:
   - RcloneView
-  - howto
-  - Cloud
-  - Sync
+  - compare
+  - cloud-storage
+  - folder-differences
+  - Remote-storage-managent
 date: 2025-05-30
 author: Jay
 ---
@@ -129,7 +135,7 @@ The **Find** icons are used in the **Compare view** to locate folders where file
 
 - Use `Ctrl + Click` to select individual files
 - Use `Shift + Click` to select a range
-- Or simply use drag and drop between panels
+- Or simply use drag and drop between panes
 
 #### Perform copy operation
 

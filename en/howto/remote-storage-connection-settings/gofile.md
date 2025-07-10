@@ -1,19 +1,18 @@
 ---
 sidebar_position: 6
-description: Guide to add Gofile Storage
+description: Learn how to add Gofile storage in RcloneView.
 keywords:
   - rcloneview
-  - howto
-  - cloud
-  - sync
   - rclone
   - gofile
+  - remote storage
+  - cloud storage
+  - Remote Connection
 tags:
-  - RcloneView
-  - howto
-  - Cloud
-  - Sync
   - gofile
+  - remote-connection
+  - Remote-Storage
+  - cloud-storage
 date: 2025-05-27
 author: Jay
 ---

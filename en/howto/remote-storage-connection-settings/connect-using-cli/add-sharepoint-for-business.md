@@ -1,17 +1,24 @@
 ---
 sidebar_position: 3
-description: How to add SharePoint for Microsoft 365 Business.
+description: Step-by-step guide on configuring SharePoint Online as a remote using Rclone CLI on Windows and verifying it through RcloneView.
 keywords:
   - rcloneview
-  - howto
-  - cloud
-  - sync
   - rclone
+  - sharepoint
+  - microsoft 365
+  - Onedrive
+  - remote storage
+  - business
+  - rclone cli
+  - cloud storage
+  - Remote Connection
 tags:
-  - RcloneView
-  - howto
-  - Cloud
-  - Sync
+  - microsoft
+  - cli
+  - sharepoint
+  - Remote-Storage
+  - remote-connection
+  - cloud-storage
 date: 2025-05-22
 author: Jay
 ---

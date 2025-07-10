@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-description: File management guide using RcloneView Explorer to browse, copy, and manage local and cloud storage files.
+description: Learn how to browse, copy, and manage files across local and cloud storage using RcloneView’s drag-and-drop interface and right-click menu.
 keywords:
   - rcloneview
   - file management
@@ -9,14 +9,20 @@ keywords:
   - drag and drop
   - cloud file transfer
   - cloud storage
-  - rclone file explorer
+  - file explorer
   - cloud to cloud transfer
+  - remote browser
+  - upload
+  - download
+  - purge
+  - delete
 tags:
   - howto
   - file-management
   - cloud-storage
   - drag-and-drop
   - cloud-file-transfer
+  - file-explorer
 date: 2025-05-27
 author: Jay
 ---
@@ -36,7 +42,7 @@ You can open any connected cloud remote and view it like a local folder.
 
 ### How to Browse a Remote:
 
-1. Click the **`+`** tab in the **Explorer panel**.
+1. Click the **`+`** tab in the **Explorer pane**.
 2. Select the remote storage you want to open.
 3. The selected remote will open in a new tab, ready for file operations.
 

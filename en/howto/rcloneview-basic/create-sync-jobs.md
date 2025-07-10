@@ -1,17 +1,26 @@
 ---
 sidebar_position: 6
-description: This is sample Post for writer
+description: Learn how to create and manage sync jobs in RcloneView for repeated or scheduled synchronization of remote folders.
 keywords:
   - rcloneview
-  - howto
   - cloud
   - sync
   - rclone
+  - sync job
+  - job manager
+  - scheduled sync
+  - create sync
+  - rclone automation
+  - plus license
+  - cloud storage
+  - remote storage
 tags:
   - RcloneView
-  - howto
   - Cloud
   - Sync
+  - job-scheduler
+  - create-job
+  - Job-Management
 date: 2025-06-04
 author: Jay
 ---
@@ -91,10 +100,10 @@ This means **`modifying destination only`**.
 1. **`Job Name`**. 
  - ❗Allowed characters: `a–z`, `A–Z`, `0–9`, `-`, `_` 
 2. **Select the source folder**.   
- - Click the folder icon in the left panel to choose the source.  
-3. **Select the destination folder**. 
-- Click the folder icon in the right panel to choose the destination.  
-4. **Add additional destinations** (optional). 
+ - Click the folder icon in the left pane to choose the source.  
+1. **Select the destination folder**. 
+- Click the folder icon in the right pane to choose the destination.  
+1. **Add additional destinations** (optional). 
 - Click the **Add Destination** button to sync to multiple destinations at once.  You can configure **1:N sync** if needed.  
 5. **Choose the sync direction**. 
  - **Modifying destination only**: Syncs from source to destination. Updates or deletes destination content to match the source.  

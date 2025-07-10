@@ -1,12 +1,14 @@
 ---
 sidebar_position: 12
-description: Compare Free and Plus license plans for RcloneView, including available features and limitations.
+description: Compare the features of RcloneView's Free and Plus licenses, and learn how to activate a Plus license key.
 keywords:
   - rcloneview
   - license
-  - free plan
-  - plus plan
+  - free license
+  - plus license
   - license comparison
+  - activate license
+  - premium features
 tags:
   - RcloneView
   - license
@@ -17,8 +19,6 @@ tags:
 date: 2025-06-22
 author: Jay
 ---
----
-
 # RcloneView License Types
 
 RcloneView offers two types of licenses to support different levels of use: **Free** and **Plus**.  

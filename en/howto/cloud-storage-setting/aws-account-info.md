@@ -1,23 +1,25 @@
 ---
 sidebar_position: 1
-description: This is sample Post for writer
+description: Step-by-step guide to securely retrieve your AWS Access Key ID, Secret Access Key, and Region code for connecting RcloneView to AWS S3.
 keywords:
   - rcloneview
-  - howto
-  - cloud
-  - sync
   - rclone
   - aws account
   - access key id
   - secret key id
+  - region code
+  - s3 setup
+  - iam
+  - aws s3
+  - aws
 tags:
   - RcloneView
-  - howto
-  - Cloud
-  - Sync
   - aws-account
   - secret-key-id
   - access-key-id
+  - aws
+  - s3
+  - credentials
 date: 2025-05-26
 author: Jay
 ---

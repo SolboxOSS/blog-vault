@@ -1,12 +1,14 @@
 ---
 sidebar_position: 11
-description: Learn how to use the Job Monitor in RcloneView to track sync, copy, and delete operations with real-time progress and API logs.
+description: Track active and completed file operations like Sync, Copy, and Delete in RcloneView using the Job Monitor interface.
 keywords:
   - rcloneview
   - Job Monitor
   - Transfer Log
   - Rclone API Logs
   - file transfer
+  - sync progress
+  - job logs
 tags:
   - RcloneView
   - Job-Management
@@ -14,6 +16,7 @@ tags:
   - Transfer-log
   - Completed-log
   - API-log
+  - Sync
 date: 2025-06-22
 author: Jay
 ---

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: How to add iCloud Drive.
+description: Learn how to configure iCloud Drive as a remote in Rclone using the CLI on Windows, including steps for two-factor authentication and integration with RcloneView.
 keywords:
   - rcloneview
   - howto
@@ -9,13 +9,22 @@ keywords:
   - rclone
   - icloud
   - cli
+  - icloud drive
+  - rclone cli
+  - windows
+  - 2fa
+  - remote storage
+  - cloud storage
+  - Remote Connection
+  - apple id
 tags:
-  - RcloneView
-  - howto
-  - Cloud
-  - Sync
-  - icloud
   - cli
+  - icloud
+  - windows
+  - 2fa
+  - Remote-Storage
+  - remote-connection
+  - cloud-storage
 date: 2025-05-21
 author: Jay
 ---

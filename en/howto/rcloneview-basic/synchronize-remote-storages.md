@@ -1,17 +1,27 @@
 ---
 sidebar_position: 5
-description: This is sample Post for writer
+description: Learn how to instantly mirror folders between local or cloud storage using RcloneView’s powerful Sync feature. Includes setup, filters, dry run, and scheduling options.
 keywords:
   - rcloneview
-  - howto
   - cloud
   - sync
   - rclone
+  - sync folders
+  - bidirectional sync
+  - sync job
+  - dry run
+  - scheduled sync
+  - job scheduling
+  - Job Monitor
 tags:
   - RcloneView
-  - howto
   - Cloud
   - Sync
+  - cloud-storage
+  - file-synchronization
+  - job-scheduler
+  - dry-run
+  - Remote-Storage
 date: 2025-06-04
 author: Jay
 ---

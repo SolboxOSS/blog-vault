@@ -1,18 +1,20 @@
 ---
 sidebar_position: 3
-description: Learn how to use RcloneView's New Window feature to connect and manage
+description: Learn how to manage both embedded and external Rclone instances in parallel using RcloneView's New Window feature.
 keywords:
   - rcloneview
   - new window
   - multi-connection
   - external rclone
   - embedded rclone
+  - multiple rclone
 tags:
   - RcloneView
   - new-window
   - multi-connection
   - external-rclone
   - embedded-rclone
+  - multi-windows
 date: 2025-06-22
 author: Jay
 ---
@@ -65,6 +67,9 @@ The main RcloneView window (connected to the embedded Rclone) can be identified 
 
 This window is connected to an external Rclone running on an AWS Linux server.
 
+:::info How to Run the Rclone Engine on AWS EC2  
+To learn how to deploy and manage Rclone’s API daemon (`rcd`) on an Ubuntu-based EC2 instance, see: [How to Run Rclone on AWS EC2 Server](../cloud-storage-setting/run-rclone-on-aws-ec2.md)  
+:::
 <img src="/support/images/en/howto/rcloneview-advanced/rcloneview-new-window.png" alt="rcloneview new window" class="img-medium img-center" />
 ## 🚩Comparison: Embedded Rclone vs. External Rclone
 

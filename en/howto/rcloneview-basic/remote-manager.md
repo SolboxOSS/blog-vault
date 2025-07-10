@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: Learn how to add and manage remote storage in RcloneView with multiple setup methods.
+description: Learn how to add, edit, and delete cloud and local remotes using RcloneView, including Google Drive, Dropbox, WebDAV, S3, and more.
 keywords:
   - rcloneview
   - remote storage management
@@ -10,15 +10,26 @@ keywords:
   - cloud storage
   - open remote
   - delete remote
+  - google drive
+  - Dropbox
+  - s3 compatible
+  - aws s3
+  - webdav
+  - SFTP
+  - Onedrive
+  - icloud
+  - mega
 tags:
   - RcloneView
   - Remote-Storage
   - Remote-manager
   - Remote-storage-managent
+  - remote-connection
+  - remote-control
+  - cloud-storage
 date: 2025-06-20
 author: Jay
 ---
-
 # Add and Manage Remote Storages in RcloneView
 
 RcloneView allows you to connect and manage both cloud and local storage services.  
@@ -44,7 +55,7 @@ Click **`+ New Remote`** on the top Remote tab.
 
 #### Method 2: Use the `+` Button in the Explorer Pane
 
-Click the **`+`** icon in the file explorer panel (either left or right), then select **New Remote**.
+Click the **`+`** icon in the file explorer pane (either left or right), then select **New Remote**.
 
 #### Method 3: Use the Remote Manager
 
@@ -57,13 +68,13 @@ Once the **New Remote** dialog opens, select the remote type (e.g., Google Drive
 
 The fields will vary depending on the selected provider.
 
-For detailed provider-specific instructions, please refer to [**Remote Storage Connection Settings**](../remote-storage-connection-settings/intro.md).  
+For detailed provider-specific instructions, please refer to [**Remote Storage Connection Settings**](/support/howto/category/remote-storage-connection-settings).  
 
 ## Managing Existing Remotes in RcloneView
 
 Once you've added remotes to RcloneView, you can manage them in various ways — including opening, editing, or deleting them. Below is a guide explaining how to perform each action.
 
-### Open Remote in Explorer Panel
+### Open Remote in Explorer Pane
 
 You can open a remote’s folder view to browse or transfer files between local and cloud.
 
@@ -111,9 +122,9 @@ You can modify the settings of an existing remote using one of the following met
 </div>
 
 
-#### Method 1: Edit from the Explorer Panel  
+#### Method 1: Edit from the Explorer Pane  
 
-If you're currently browsing a remote in the **Explorer Panel**, click the **gear icon (⚙️)** located in the upper-right corner of the active remote panel.
+If you're currently browsing a remote in the **Explorer Pane**, click the **gear icon (⚙️)** located in the upper-right corner of the active remote pane.
 
 This opens the **Edit Remote** dialog, where you can update the **Provider** and **Options** values of the selected remote.  
 

@@ -1,17 +1,19 @@
 ---
 sidebar_position: 10
-description: This is sample Post for writer
+description: Learn how to configure general preferences, interface layout, paths, and embedded Rclone settings in RcloneView.
 keywords:
   - rcloneview
-  - howto
-  - cloud
-  - sync
   - rclone
+  - rcloneview settings
+  - general preferences
+  - dark mode
+  - rclone log
+  - rclone configurations
 tags:
   - RcloneView
-  - howto
-  - Cloud
-  - Sync
+  - settings
+  - configuration
+  - preferences
 date: 2025-06-22
 author: Jay
 ---

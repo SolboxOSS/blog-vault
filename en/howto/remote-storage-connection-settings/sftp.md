@@ -7,8 +7,8 @@ keywords:
   - remote storage
   - SSH
   - Remote Connection
+  - rclone
 tags:
-  - RcloneView
   - sftp
   - Remote-Storage
   - ssh

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: Learn how to use the file explorer panel in RcloneView to manage local and cloud storage.
+description: Learn how to use the file explorer pane in RcloneView to manage local and cloud storage.
 keywords:
   - rcloneview
   - file explorer
@@ -18,9 +18,9 @@ tags:
 date: 2025-05-27
 author: Jay
 ---
-# File Explorer Panel Overview (deprecated)
+# File Explorer Pane Overview (deprecated)
 
-This section explains each part of the file explorer panel in RcloneView based on the numbered layout shown in the image.
+This section explains each part of the file explorer pane in RcloneView based on the numbered layout shown in the image.
 <img src="/support/images/en/howto/rcloneview-basic/file-explorer-pannel-layout.png" alt="file explorer panel layout" class="img-large img-center" />
 ### ① Tab Bar
 
@@ -32,7 +32,7 @@ You can switch between active connections using tabs or click `+` to open a new 
 Shows the current directory path within the selected remote or local source.  
 Helps users understand their location and navigate back through the directory hierarchy.
 
-### ③ Panel Toolbar
+### ③ Pane Toolbar
 
 Provides quick-access action buttons:
 

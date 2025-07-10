@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: How to add Google Shared Drive(formerly Team Drive).
+description: Learn how to configure Google Shared Drive as a remote in Rclone using the CLI on Windows and manage it through RcloneView.
 keywords:
   - rcloneview
   - howto
@@ -10,14 +10,19 @@ keywords:
   - google drive
   - shared drive
   - team drive
+  - rclone cli
+  - remote storage
+  - cloud storage
+  - windows
+  - Remote Connection
 tags:
-  - RcloneView
-  - howto
-  - Cloud
-  - Sync
   - google-drive
   - shared-drive
   - team-drive
+  - cli
+  - cloud-storage
+  - Remote-Storage
+  - remote-connection
 date: 2025-05-22
 author: Jay
 ---

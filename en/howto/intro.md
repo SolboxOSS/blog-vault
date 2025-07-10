@@ -1,16 +1,23 @@
 ---
-sidebar_position: "1"
-description: Quick start guide to use RcloneView.
+sidebar_position: 1
+description: Learn how to install RcloneView and connect Google Drive as a remote using a simple step-by-step guide.
 keywords:
   - rclone
   - cloud
   - sync
   - rcloneview
   - guide
+  - google drive
+  - remote storage
+  - Quick Start
+  - OAuth
 tags:
   - RcloneView
   - Cloud
   - Sync
+  - getting-started
+  - google-drive
+  - Remote-Storage
 date: 2025-05-26
 author: Jay
 ---
