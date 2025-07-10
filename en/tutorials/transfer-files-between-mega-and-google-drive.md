@@ -1,17 +1,31 @@
 ---
 sidebar_position: 6
-description: This is sample Post for writer
+description: Learn how to transfer and sync files between MEGA and Google Drive using RcloneView—secure, fast, and no command line required.
 keywords:
   - rcloneview
   - howto
   - cloud
   - sync
   - rclone
+  - cloud to cloud transfer
+  - rclone GUI
+  - cloud sync
+  - Cloud Migration
+  - cloud storage
+  - cloud transfer
+  - file synchronization
+  - google drive
+  - mega
 tags:
   - RcloneView
   - howto
   - Cloud
   - Sync
+  - cloud-file-transfer
+  - cloud-migration
+  - Tutorial
+  - google-drive
+  - mega
 date: 2025-07-11
 author: Jay
 ---
