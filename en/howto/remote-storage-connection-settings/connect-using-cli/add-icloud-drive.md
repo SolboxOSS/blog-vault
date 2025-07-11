@@ -28,7 +28,7 @@ tags:
 date: 2025-05-21
 author: Jay
 ---
-# Add iCloud Drive
+# iCloud Drive
 
 The iCloud remote can currently only be added via the Rclone CLI.
 

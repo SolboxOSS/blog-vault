@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 description: Learn how to configure cloud remotes in RcloneView using OAuth or browser-based.
 keywords:
   - rcloneview
@@ -36,43 +36,48 @@ tags:
 date: 2025-06-23
 author: Jay
 ---
-# How to Connect Cloud Remotes Using Browser Based Login.
+# Auto Login (OneDrive, Box ...)
 
-RcloneView allows you to easily connect to major cloud providers using **OAuth or browser-based login**. Most these remotes only require a remote name. You can leave the Options tab untouched—just proceed to login via browser.
+RcloneView makes it easy to connect to major cloud providers like **Google Drive, OneDrive, Dropbox, Box** using a simple browser-based login (OAuth).
 
-RcloneView will launch a browser window where you can sign in with your account (Google, Microsoft, Dropbox, etc.). Once authenticated, the remote will be automatically added and ready to use.
+:::important No Options Required
+**✅ For most providers, you only need to enter a remote name.**  
+**✅ You can skip the Options tab and proceed directly to browser login.**
+:::
 
-## Quick Setup Instructions
+When you click **Save**, RcloneView will open a browser window where you can sign in to your cloud account. Once you complete the login, your remote will be automatically added and ready to use—no manual setup needed.
 
-1. Open RcloneView and click **`+ New Remote`** from the top menu or the Explorer panel.
-2. In the **Provider** tab, choose your cloud service.
-3. In the **Options** tab, provide any required fields (if applicable).
-4. Proceed to the **Save** step and confirm.
-5. A browser window will open for OAuth-based login.
-6. After login, the remote is ready to use!
+## 🚀 Quick Setup Guide
 
-👉 For a example, see: [How to Connect Google Drive](../intro.md#step-2-adding-remote-storage-google-drive-example)
+1. Launch **RcloneView** and click **`+ New Remote`** from the top menu or Explorer panel.
+2. In the **Provider** tab, select your cloud service (e.g., Google Drive, OneDrive).
+3. Skip the **Options** tab (unless prompted for extra info). See the table below for guidance.
+4. Go to the **Save** step and click **Save**.
+5. A browser window will open — log in to your cloud account.
+6. After login, the remote will be added automatically.
+
+👉 Want a detailed example? See: [How to Connect Google Drive](../intro.md#step-2-adding-remote-storage-google-drive-example)
 
 ## Supported Cloud Providers & Setup Requirements
 
-| Cloud Provider              | OAuth Login Supported | Required Option(s)                                               |
-| --------------------------- | --------------------- | ---------------------------------------------------------------- |
-| Google Drive                | ✅ Yes                 | None                                                             |
-| Google Drive Shared with Me | ✅ Yes                 | **Advanced Options:**<br />`shared_with_me` = **true**           |
-| Google Drive Computers      | ✅ Yes                 | **Advanced Options:**<br />`root_folder_id` = `<your folder ID>` |
-| Dropbox                     | ✅ Yes                 | None                                                             |
-| Dropbox for Business        | ✅ Yes                 | **Advanced Options:**<br />`dropbox_business` = **true**         |
-| Microsoft OneDrive          | ✅ Yes                 | None                                                             |
-| Box                         | ✅ Yes                 | None                                                             |
-| Box for Business            | ✅ Yes                 | `box_sub_type = enterprise`                                      |
-| pCloud                      | ✅ Yes                 | None                                                             |
-| Yandex Disk                 | ✅ Yes                 | None                                                             |
-| premiumize.me               | ✅ Yes                 | None                                                             |
-| put.io                      | ✅ Yes                 | None                                                             |
-| Zoho WorkDrive              | ✅ Yes                 | `Region` required                                                |
-| Google Cloud Storage        | ✅ Yes                 | `Project Number` required                                        |
-| Citrix ShareFile            | ✅ Yes                 | `Root Folder ID` equired                                         |
-| HiDrive                     | ✅ Yes                 | None                                                             |
+| Cloud Provider              | Required Option(s)                                               |
+| --------------------------- | ---------------------------------------------------------------- |
+| Google Drive                | None                                                             |
+| Google Drive Shared with Me | **Advanced Options:**<br />`shared_with_me` = **true**           |
+| Google Drive Computers      | **Advanced Options:**<br />`root_folder_id` = `<your folder ID>` |
+| Dropbox                     | None                                                             |
+| Dropbox for Business        | **Advanced Options:**<br />`dropbox_business` = **true**         |
+| Microsoft OneDrive          | None                                                             |
+| Box                         | None                                                             |
+| Box for Business            | `box_sub_type = enterprise`                                      |
+| pCloud                      | None                                                             |
+| Yandex Disk                 | None                                                             |
+| premiumize.me               | None                                                             |
+| put.io                      | None                                                             |
+| Zoho WorkDrive              | `Region` required                                                |
+| Google Cloud Storage        | `Project Number` required                                        |
+| Citrix ShareFile            | `Root Folder ID` equired                                         |
+| HiDrive                     | None                                                             |
 
 ## Example: Google Drive Shared with Me (requires Advanced Options)
 

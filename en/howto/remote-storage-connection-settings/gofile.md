@@ -16,7 +16,7 @@ tags:
 date: 2025-05-27
 author: Jay
 ---
-# Add Gofile Remote Storage
+# Gofile
 
 ## How to Add Gofile Using RcloneView (Windows)
 

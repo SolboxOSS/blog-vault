@@ -24,7 +24,7 @@ tags:
 date: 2025-07-07
 author: Jay
 ---
-# Add Google Drive to External Rclone on AWS EC2 (Without Web Browser)
+# Google Drive to External Rclone on AWS EC2 (Without Web Browser)
 
 This guide explains how to add a **Google Drive remote** to an **external Rclone instance** running on a system where a web browser is not available—such as an **AWS EC2 Ubuntu server**.
 

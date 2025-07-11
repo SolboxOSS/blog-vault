@@ -22,7 +22,7 @@ tags:
 date: 2025-05-22
 author: Jay
 ---
-# Add SharePoint for Microsoft 365 Business Users
+# SharePoint for Microsoft 365 Business Users
 
 ## How to Add Sharepoint Using Rclone CLI (Windows)
 

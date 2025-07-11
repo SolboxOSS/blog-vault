@@ -26,7 +26,7 @@ tags:
 date: 2025-05-22
 author: Jay
 ---
-# Add Google Shared Drive (formerly Team Drive)
+# Google Shared Drive (formerly Team Drive)
 
 ## How to Add Google Shared Drive using Rclone CLI (Windows)
 

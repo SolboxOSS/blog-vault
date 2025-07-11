@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 description: Learn how to add an SFTP remote in RcloneView
 keywords:
   - rcloneview
@@ -16,7 +16,7 @@ tags:
 date: 2025-06-23
 author: Jay
 ---
-# Add SFTP Remote Storage
+# SFTP
 
 ## How to Add SFTP using RcloneView
 

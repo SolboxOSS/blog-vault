@@ -139,12 +139,19 @@ make .env
 
 ```
 TYPESENSE_API_KEY=greatercloneview1!
+TYPESENSE_HOST=typesense.rcloneview.com
+TYPESENSE_PORT=443
+TYPESENSE_PROTOCOL=https
+```
+
+```
+TYPESENSE_API_KEY=greatercloneview1!
 TYPESENSE_HOST=ec2-18-117-197-178.us-east-2.compute.amazonaws.com
 TYPESENSE_PORT=8108
 TYPESENSE_PROTOCOL=http
 ```
 
-run the scraper
+run the scraper (rcloneview-support 에서 실행)
 ```bash
 docker run -it --env-file=/Users/gimjuhong/.env -e "CONFIG=$(cat config.json | jq -r tostring)" typesense/docsearch-scraper:0.11.0
 
@@ -182,6 +189,39 @@ npm install
 
 npm install @docusaurus/plugin-sitemap --save
 
+- Https로 설정.
+- 홈페이지가 https로 운영되므로, 반드시 Typesense 서버 앞단에 Proxy를 설치해서 https로 접속되게해야함.
+
+```docusaurus.config.js
+
+themeConfig:
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
+    // ... 기존 themeConfig 내용 ...
+
+    typesense: {
+      typesenseCollectionName: 'docs',  // 본인의 컬렉션 이름
+      typesenseServerConfig: {
+        nodes: [
+          {
+            host: 'typesense.rcloneview.com',
+            port: 443,
+            protocol: 'https',
+          },
+        ],
+        apiKey: 'greatercloneview1!',
+      },
+      typesenseSearchParameters: {}, // 옵션
+      contextualSearch: true,        // 옵션
+    },
+
+    // ... 나머지 themeConfig (footer, prism 등) ...
+  }),
+
+```
+
+
+- http 개발용으로 설정
 
 ```docusaurus.config.js
 
@@ -210,10 +250,14 @@ themeConfig:
   }),
 ```
 
+
 Swizzling
 
 
 ### Typesense Dashboard
+
+https://bfritscher.github.io/typesense-dashboard/
+
 
 ```
 docker run -it --rm -p 5001:5000 bfritscher/typesense-dashboard:main

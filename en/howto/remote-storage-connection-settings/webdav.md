@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: Learn how to configure WebDAV as a remote storage in RcloneView for file syncing and access.
 keywords:
   - rcloneview
@@ -16,7 +16,7 @@ tags:
 date: 2025-06-20
 author: Jay
 ---
-# Add WebDAV Remote Storage
+# WebDAV
 
 ## How to Add WebDAV using RcloneView
 

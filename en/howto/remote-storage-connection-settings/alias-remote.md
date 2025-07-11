@@ -19,7 +19,7 @@ tags:
 date: 2025-05-28
 author: Jay
 ---
-# Add Alias Remote
+# Alias
 
 ## How to Add Alias Using RcloneView
 
