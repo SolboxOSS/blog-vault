@@ -12,6 +12,7 @@ keywords:
   - iam
   - aws s3
   - aws
+  - secret access key
 tags:
   - RcloneView
   - aws-account
@@ -20,6 +21,7 @@ tags:
   - aws
   - s3
   - credentials
+  - secret-access-key
 date: 2025-05-26
 author: Jay
 ---
