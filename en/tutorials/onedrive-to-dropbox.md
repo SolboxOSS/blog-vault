@@ -44,7 +44,7 @@ That’s where **RcloneView** steps in. It provides a secure, efficient GUI for 
 
 <img src="/support/images/en/tutorials/transfer-files-between-onedrive-and-dropbox.png" alt="transfer files between onedrive and dropbox" class="img-medium img-center" />
 
-## 🔧 Steps to Transfer Files from OneDrive to Dropbox
+## Steps to Transfer Files from OneDrive to Dropbox
 
 ### Add OneDrive and Dropbox Remotes in RcloneView  
 1. Open **RcloneView** and go to the **`Remote`** tab.  
@@ -112,7 +112,7 @@ Whether you're migrating services, backing up data, or syncing between platforms
 
 ## 🔗 Related Resources  
 
-- [Add OneDrive / Dropbox Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-instructions)  
+- [Add OneDrive / Dropbox Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)  
 - [Browse & Manage Remote Storage](/support/howto/rcloneview-basic/browse-and-manage-remote-storage)  
 - [Compare Folder Contents](/support/howto/rcloneview-basic/compare-folder-contents)  
 - [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)  

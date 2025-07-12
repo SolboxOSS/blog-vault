@@ -68,7 +68,7 @@ Unlike traditional manual download/upload methods, RcloneView automates the proc
 
  🔍 For detailed setup, see:
  - [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
- - [How to Add OneDrive Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-instructions)
+ - [How to Add OneDrive Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)
 
 ### Open Both Remotes in the Explorer Pane
 
@@ -164,7 +164,7 @@ This method is fast, secure, and reliable, whether you’re moving gigabytes of 
 ## 🔗 Related Guides
 
 - [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
-- [How to Add OneDrive Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-instructions)
+- [How to Add OneDrive Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)
 - [Browse & Manage Remote Storage](/support/howto/rcloneview-basic/browse-and-manage-remote-storage)
 - [Compare Folder Contents guide](/support/howto/rcloneview-basic/compare-folder-contents)
 - [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)  

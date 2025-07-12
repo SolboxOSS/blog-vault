@@ -73,9 +73,8 @@ To authenticate with R2, you’ll need to create API tokens that provide access 
 4. Give the token a name (e.g., `Rclone Access`).
 5. Select the permissions:
    - `Admin Read & Write` (full access)  
-   - `Object Read & Write` (typical for file transfers)  
-   - `Object Read` (read-only)
-6. Choose whether to apply to:
+	❗other permissions may not allow bucket access.
+1. Choose whether to apply to:
    - All buckets
    - Specific buckets only
 7. Optionally, set expiration (or leave as "Forever").

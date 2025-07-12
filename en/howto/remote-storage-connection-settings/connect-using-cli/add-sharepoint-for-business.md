@@ -116,7 +116,7 @@ n) No
 y/n> y
 ```
 
-A browser window will open automatically. [Log in with your Microsoft account (business account) and grant requested permissions.](../../intro.md#connecting-your-remote-storage-sso-single-sign-on)
+A browser window will open automatically. Log in with your Microsoft account (business account) and grant requested permissions.
 
 ### Step 4: Configure SharePoint Site
 

@@ -47,7 +47,7 @@ RcloneView makes it easy to connect to major cloud providers like **Google Drive
 
 When you click **Save**, RcloneView will open a browser window where you can sign in to your cloud account. Once you complete the login, your remote will be automatically added and ready to use—no manual setup needed.
 
-## 🚀 Quick Setup Guide
+## Quick Setup Guide
 
 1. Launch **RcloneView** and click **`+ New Remote`** from the top menu or Explorer panel.
 2. In the **Provider** tab, select your cloud service (e.g., Google Drive, OneDrive).
