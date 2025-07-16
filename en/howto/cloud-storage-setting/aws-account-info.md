@@ -18,10 +18,9 @@ tags:
   - aws-account
   - secret-key-id
   - access-key-id
-  - aws
-  - s3
   - credentials
   - secret-access-key
+  - aws-s3
 date: 2025-05-26
 author: Jay
 ---

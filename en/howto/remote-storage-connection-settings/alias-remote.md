@@ -11,6 +11,9 @@ keywords:
   - quick access
   - cloud remote shortcut
   - folder alias
+  - Remote Connection
+  - cloud storage
+  - remote storage
 tags:
   - alias
   - Remote-Storage

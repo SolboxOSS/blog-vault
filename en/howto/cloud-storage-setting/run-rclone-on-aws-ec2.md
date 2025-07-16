@@ -13,6 +13,7 @@ keywords:
   - daemon
   - cloud storage
   - rclone api
+  - external rclone
 tags:
   - RcloneView
   - aws
@@ -20,6 +21,7 @@ tags:
   - remote-server
   - rclone-rcd
   - external-rclone
+  - rclone
 date: 2025-07-03
 author: Jay
 ---

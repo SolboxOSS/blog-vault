@@ -16,12 +16,12 @@ tags:
   - RcloneView
   - Cloud
   - cloud-storage
-  - cloudflare
   - credentials
   - configuration
   - access-key-id
   - secret-access-key
   - secret-key-id
+  - cloudflare-r2
 date: 2025-07-12
 author: Jay
 ---

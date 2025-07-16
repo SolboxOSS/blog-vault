@@ -19,13 +19,13 @@ keywords:
   - file synchronization
 tags:
   - RcloneView
-  - aws
   - aws-ec2
   - google-drive
-  - s3
   - Sync
   - cloud-file-transfer
   - cloud-migration
+  - cloud-to-cloud
+  - aws-s3
 date: 2025-06-19
 author: Jay
 ---
@@ -194,7 +194,7 @@ Instead of completing a new browser-based login flow, you can follow the steps i
 
  You can now transfer files between Google Drive and S3 via your EC2 Rclone instance.
 
-  ### **📁 Method A: Compare and Sync On Demand**
+  ### **📁 Method A: Compare and Copy On Demand**
 
 1. Go to the **Browse** tab
     

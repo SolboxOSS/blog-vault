@@ -1,17 +1,29 @@
 ---
 sidebar_position: 7
-description: This is sample Post for writer
+description: Learn how to migrate your data from Amazon S3 to Cloudflare R2 using RcloneView.
 keywords:
   - rcloneview
   - howto
   - cloud
   - sync
   - rclone
+  - cloud to cloud transfer
+  - rclone GUI
+  - cloud sync
+  - Cloud Migration
+  - cloud storage
+  - cloud transfer
+  - file synchronization
+  - aws s3
+  - cloudflare r2
 tags:
   - RcloneView
-  - howto
-  - Cloud
-  - Sync
+  - cloud-file-transfer
+  - cloud-migration
+  - Tutorial
+  - cloud-to-cloud
+  - aws-s3
+  - cloudflare-r2
 date: 2025-07-12
 author: Jay
 ---
@@ -65,9 +77,9 @@ Whether you’re moving terabytes of data or just a few folders, RcloneView lets
 ### Step 2: Add Cloudflare R2 Remote
 
 1. Again, click **`+ New Remote`** in the `Remote` tab.
-2. In the **`Provider`** tab, select **Amazon S3** (yes, again—R2 uses the S3 protocol).
+2. In the **`Provider`** tab, select **S3** (yes, again—R2 uses the S3 protocol).
 3. In the **`Options`** tab:
-   - Set `provider` to `Other`
+   - Set `provider` to `Cloudflare`
    - Enter your **Cloudflare R2 Access Key** and **Secret Key**
    - Set `endpoint` to `https://<accountid>.r2.cloudflarestorage.com`
 1. Click **Save** to complete the R2 remote setup.
