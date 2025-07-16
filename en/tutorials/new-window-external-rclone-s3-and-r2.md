@@ -247,26 +247,23 @@ Cloud-to-cloud transfers no longer need to crawl through your laptop. By off-loa
 
 ## 🔗 Related Guides
 
-### 📦 Storage Setup
-- [How to Add S3-Compatible Remotes](/support/howto/remote-storage-connection-settings/s3)
-- [How to Get AWS S3 Access Credentials](/support/howto/cloud-storage-setting/aws-account-info)
-- [How to Get Cloudflare R2 Access Credentials](/support/howto/cloud-storage-setting/cloudflare-r2-credential)
+- **Storage Setup**
+	- [How to Add S3-Compatible Remotes](/support/howto/remote-storage-connection-settings/s3)
+	- [How to Get AWS S3 Access Credentials](/support/howto/cloud-storage-setting/aws-account-info)
+	- [How to Get Cloudflare R2 Access Credentials](/support/howto/cloud-storage-setting/cloudflare-r2-credential)
+- **EC2 & Remote Rclone**
+	- [How to Run Rclone on AWS EC2](/support/howto/cloud-storage-setting/run-rclone-on-aws-ec2)
+- **Window & Connection Management**
+	- [Using Multiple Rclone Connections with New Window](/support/howto/rcloneview-advanced/multi-window)
+	- [Manage Multiple RcloneView Windows](https://www.perplexity.ai/support/howto/rcloneview-advanced/multi-window) <!-- external duplicate, optional to keep -->
+- **Synchronization and Job Control**
+	- [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)
+	- [Create Sync Jobs](/support/howto/rcloneview-basic/create-sync-jobs)
+	- [Execute & Manage Jobs](/support/howto/rcloneview-basic/execute-manage-job)
+	- [Job Scheduling and Execution](/support/howto/rcloneview-advanced/job-scheduling-and-execution)
+- **Cost Considerations**
+	- [AWS Pricing – Data Transfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer)
+- **Performance Optimization**
+	- [How to Maximize Multipart Upload Speed to Cloudflare R2](https://forum.rclone.org/t/how-to-maximize-single-file-multipart-upload-speed-to-cloudflare-r2-s3-compatible/34311)
 
-### 🚀 EC2 & Remote Rclone
-- [How to Run Rclone on AWS EC2](/support/howto/cloud-storage-setting/run-rclone-on-aws-ec2)
-
-### 🪟 Window & Connection Management
-- [Using Multiple Rclone Connections with New Window](/support/howto/rcloneview-advanced/multi-window)
-- [Manage Multiple RcloneView Windows](https://www.perplexity.ai/support/howto/rcloneview-advanced/multi-window) <!-- external duplicate, optional to keep -->
-
-### 🔄 Synchronization and Job Control
-- [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)
-- [Create Sync Jobs](/support/howto/rcloneview-basic/create-sync-jobs)
-- [Execute & Manage Jobs](/support/howto/rcloneview-basic/execute-manage-job)
-- [Job Scheduling and Execution](/support/howto/rcloneview-advanced/job-scheduling-and-execution)
-
-### 💸 Cost Considerations
-- [AWS Pricing – Data Transfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer)
-
-### 📈 Performance Optimization
-- [How to Maximize Multipart Upload Speed to Cloudflare R2](https://forum.rclone.org/t/how-to-maximize-single-file-multipart-upload-speed-to-cloudflare-r2-s3-compatible/34311)
+<CloudSupportGrid />
