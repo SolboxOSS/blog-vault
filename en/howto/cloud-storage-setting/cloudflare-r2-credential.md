@@ -91,20 +91,36 @@ These credentials will be shown only once. Make sure to copy and store them secu
 
 ---
 
-## 🌐 Step 3: Get the R2 Endpoint URL
+## **🌐 Step 3: Get the R2 Endpoint URL**
 
-1. Return to **R2 → Object Storage** in your dashboard.
-2. Click your **bucket name**.
-3. Go to the **Settings** tab of the bucket.
-4. Look for the **S3 API-compatible endpoint**. It will look something like this:
+1. Go to **R2 → Object Storage** in your Cloudflare dashboard.  
+2. Click your **bucket name** to open its details.  
+3. Navigate to the **Settings** tab.  
+4. In the **S3 API** section, you’ll find the endpoint format and account details.    
+    
+Depending on how your API token was created, you should use one of the following endpoint formats:
+
+ ### 🔐 If your API Token has Admin-level access and is allowed to access all buckets:
+
+Use the base endpoint (without a bucket path):
 
 ```
-https://<ACCOUNT_ID>.r2.cloudflarestorage.com/westerneurope
+https://<ACCOUNT_ID>.r2.cloudflarestorage.com
 ```
+
+### 📦 If your API Token is scoped to a specific bucket only — or if you want to access to a particular bucket:
+
+Use the bucket-specific endpoint:
+
+```
+https://<ACCOUNT_ID>.r2.cloudflarestorage.com/<BUCKET-NAME>
+```
+
+You can find both your **ACCOUNT_ID** and **bucket name** in the **S3 API** section of the bucket’s **Settings** tab:
 
 <img src="/support/images/en/howto/cloud-storage-setting/cloudflare-r2-s3-api-endpoint.png" alt="cloudflare r2 s3 api endpoint" class="img-medium img-center" />
 
-This is the endpoint you’ll enter into Rclone or RcloneView when connecting to Cloudflare R2.
+Use this endpoint when setting up your Cloudflare R2 remote in **RcloneView** or via **Rclone CLI**.
 
 ---
    
