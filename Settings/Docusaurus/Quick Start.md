@@ -28,6 +28,9 @@ npm run serve
 
 Open [`http://localhost:3000`](http://localhost:3000/) and follow the tutorial.
 
+## 클린 빌드
+
+rm -rf build .docusaurus && npm run build
 
 ## Base URL을 /Support/로 변경
 

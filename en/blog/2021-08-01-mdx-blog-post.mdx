@@ -1,0 +1,33 @@
+---
+slug: mdx-blog-post
+title: MDX Blog Post
+authors: [jay]
+tags: [docusaurus]
+---
+import CloudSupportGrid from '../src/components/CloudSupportGrid';
+import cloudIcons from '../src/contexts/cloudIcons';
+import RvCta from '../src/components/RvCta';
+
+
+
+Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
+
+:::tip
+
+Use the power of React to create interactive blog posts.
+
+:::
+
+<RvCta imageSrc="/img/rcloneview-preview.png" downloadUrl="/src/download.html" />
+
+{/* truncate */}
+
+For example, use JSX to create an interactive button:
+
+```js
+<button onClick={() => alert('button clicked!')}>Click me!</button>
+```
+
+<button onClick={() => alert('button clicked!')}>Click me!</button>
+
+<CloudSupportGrid />

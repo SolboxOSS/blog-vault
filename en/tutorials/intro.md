@@ -29,6 +29,7 @@ tags:
   - cloud-to-cloud
 date: 2025-05-19
 author: Jay
+slug: /tutorials/
 ---
 import CloudSupportGrid from '../src/components/CloudSupportGrid';
 import cloudIcons from '../src/contexts/cloudIcons';
