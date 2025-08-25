@@ -44,7 +44,7 @@ The process involves performing an OAuth login on your **local RcloneView** usin
 ## ✅ Step 1: Connect Google Drive via Embedded Rclone (with Browser OAuth)
 
 Follow this guide on your **local machine with browser access** to set up Google Drive using the embedded Rclone:  
-👉 [Quick Guide: Add Google Drive Remote](../intro.md#step-2-adding-remote-storage-google-drive-example)
+👉 [Quick Guide: Add Google Drive Remote](../#step-2-adding-remote-storage-google-drive-example)
 
 Once added successfully, you will be able to retrieve the required OAuth token.
 

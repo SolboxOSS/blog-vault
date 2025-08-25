@@ -20,7 +20,7 @@ tags:
   - Remote-Storage
 date: 2025-05-26
 author: Jay
-slug: /howto/
+slug: /
 ---
 # Quick Start Guide
 

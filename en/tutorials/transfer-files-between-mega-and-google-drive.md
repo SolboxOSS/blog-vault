@@ -64,7 +64,7 @@ RcloneView streamlines complex cloud transfers by offering:
 4. Repeat the process for **Google Drive** using web browser based OAuth login.
 
 👉 Learn more:  
-- [Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
+- [Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)
 
 ### Step 2: Open Both Remotes in the Explorer Pane
 
@@ -140,7 +140,7 @@ Try it today and take control of your multi-cloud data.
 
 ## 🔗 Related Guides
 
-- [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
+- [How to Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)
 - [Browse & Manage Remote Storage](/support/howto/rcloneview-basic/browse-and-manage-remote-storage)
 - [Compare Folder Contents](/support/howto/rcloneview-basic/compare-folder-contents)
 - [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)

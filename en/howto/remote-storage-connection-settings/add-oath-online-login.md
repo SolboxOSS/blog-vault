@@ -57,8 +57,7 @@ When you click **Save**, RcloneView will open a browser window where you can sig
 5. A browser window will open — log in to your cloud account.
 6. After login, the remote will be added automatically.
 
-👉 Want a detailed example? See: [How to Connect Google Drive](../intro.md#step-2-adding-remote-storage-google-drive-example)
-
+👉 Want a detailed example? See: [How to Connect Google Drive](../#step-2-adding-remote-storage-google-drive-example)
 ## Supported Cloud Providers & Setup Requirements
 
 | Cloud Provider              | Required Option(s)                                               |

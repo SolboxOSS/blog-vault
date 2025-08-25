@@ -29,7 +29,7 @@ tags:
   - cloud-to-cloud
 date: 2025-05-19
 author: Jay
-slug: /tutorials/
+slug: /
 ---
 import CloudSupportGrid from '../src/components/CloudSupportGrid';
 import cloudIcons from '../src/contexts/cloudIcons';
@@ -69,7 +69,7 @@ Unlike traditional manual download/upload methods, RcloneView automates the proc
 4. Repeat the same process for **OneDrive**.  
 
  🔍 For detailed setup, see:
- - [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
+ - [How to Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)
  - [How to Add OneDrive Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)
 
 ### Open Both Remotes in the Explorer Pane
@@ -165,7 +165,7 @@ This method is fast, secure, and reliable, whether you’re moving gigabytes of 
 
 ## 🔗 Related Guides
 
-- [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
+- [How to Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)
 - [How to Add OneDrive Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)
 - [Browse & Manage Remote Storage](/support/howto/rcloneview-basic/browse-and-manage-remote-storage)
 - [Compare Folder Contents guide](/support/howto/rcloneview-basic/compare-folder-contents)

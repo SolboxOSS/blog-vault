@@ -69,7 +69,7 @@ Whether you’re syncing large amounts of data or just migrating a few folders, 
 
 👉 For detailed setup, see:
 - [How to Add Dropbox Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)
-- [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
+- [How to Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)
 
 :::important Connecting to Dropbox Business
 If you're using **Dropbox Business**, make sure to enable the business mode when adding the remote.  
@@ -153,7 +153,7 @@ Try it today and simplify your Dropbox ↔ Google Drive file workflows.
 ## 🔗 Related Guides
 
 - [How to Add Dropbox Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)
-- [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
+- [How to Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)
 - [Browse & Manage Remote Storage](/support/howto/rcloneview-basic/browse-and-manage-remote-storage)
 - [Compare Folder Contents](/support/howto/rcloneview-basic/compare-folder-contents)
 - [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)

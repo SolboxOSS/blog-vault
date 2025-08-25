@@ -67,7 +67,7 @@ Rather than manually downloading then re-uploading files, RcloneView leverages d
 👉 Learn more:  
 
 - [Add Box Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)  
-- [Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)
+- [Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)
 
 ### Step 2: Open Remotes Side-by-Side
 
@@ -154,7 +154,7 @@ Give it a try and streamline your multi-cloud workflows!
 ## 🔗 Related Guides
 
 - [How to Add Box Remote](/support/howto/remote-storage-connection-settings/add-oath-online-login#quick-setup-guide)  
-- [How to Add Google Drive Remote](/support/howto/intro#step-2-adding-remote-storage-google-drive-example)  
+- [How to Add Google Drive Remote](/support/howto/#step-2-adding-remote-storage-google-drive-example)  
 - [Browse & Manage Remote Storage](/support/howto/rcloneview-basic/browse-and-manage-remote-storage)  
 - [Compare Folder Contents](/support/howto/rcloneview-basic/compare-folder-contents)  
 - [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)  
