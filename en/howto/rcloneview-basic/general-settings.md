@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-description: Learn how to configure general preferences, interface layout, paths, and embedded Rclone settings in RcloneView.
+description: Learn how to configure general preferences, interface layout, Notifications, and embedded Rclone settings in RcloneView.
 keywords:
   - rcloneview
   - rclone
@@ -19,15 +19,27 @@ author: Jay
 ---
 # General Settings
 
-RcloneView's **Settings** page allows you to configure language, paths, logging options, and interface preferences. This guide explains each section and its functionality.
+RcloneView's **Settings** menu is divided into four tabs for better clarity and customization:
 
-## General Options
+- **General**
+- **Interfaces & Notifications**
+- **Embedded Rclone**
+- **Network & Misc.**
+
+Each tab allows you to configure different parts of the application. Below is a breakdown of each section.
+
+---
+
+## 🛠 General
 
 <img src="/support/images/en/howto/rcloneview-basic/general-settings.png" alt="general settings" class="img-medium img-center" />
+### Language
 
-- **Language**: Select your preferred language for the RcloneView user interface.  
+- **Language**: Choose your preferred UI language from the dropdown.
 
-- **Launch at login**: When enabled, RcloneView will automatically start when the user logs into the system.
+### Startup Behavior
+
+- **Launch at login**: Automatically starts RcloneView when you log into your system.
 
 :::important Auto Start: Scheduling and Mounting
 
@@ -37,67 +49,102 @@ When **Launch at login** is enabled:
 - Any remotes configured for auto-mounting in the [**Mount Manager**](./mount-cloud-storage-as-a-local-drive.md#method-1-mount-from-remote-explorer) will be mounted automatically when RcloneView starts.  
 :::
 
-### Locations
-Specify the locations for key components:
+- **Start minimized**: Launches RcloneView into the system tray.
 
-- **Local Rclone location**: Path to the `rclone` binary.
-- **Local Rclone config location**: Path to `rclone.conf`, where remote definitions are stored.
-- **Default download folder**: Folder used for downloads from remote to local.
-- **Default upload folder**: Folder used as the source for uploads to remote.
+- **Auto-detect Synology NAS**: Automatically scan the local network for Synology NAS devices.
 
-:::caution Restart rclone Required to Apply Location Changes
+### Reset
 
-Click **`Restart rclone`** to apply any changes made to the location settings.  
-This will restart the embedded Rclone instance and may interrupt any currently running jobs.  
-
-:::
-
-## Interface Preferences
-
-<img src="/support/images/en/howto/rcloneview-basic/interface-settings.png" alt="interface settings" class="img-medium img-center" />
-Customize how the interface behaves:
-
-- **Dark mode**: Enable dark theme.
-- **Theme color**: Choose from predefined accent colors.
-- **Confirm drag and drop**: Prompts confirmation when dragging files.
-- **Jobs view items**: Show or hide job types: Download, Upload, Sync.
-- **Show job state log**: Notify dialog to displays logs for each job execution.
-- **Show comparison completed**: Alerts dialog when folder comparison finishes.
-- **Show confirmation dialog before deleting files in compare**: Confirm dialog to add extra safety before deletion.
-- **Show sync completion notification**: Notify dialog when sync job completes.
-- **Show network error dialog**: Alert dialog for network failures.
-
-## Embedded Rclone Configuration
-
-<img src="/support/images/en/howto/rcloneview-basic/embedded-rclone-settings.png" alt="embedded rclone settings" class="img-medium img-center" />
-- **Stop embedded rclone with RcloneView**: Terminates the rclone process when RcloneView closes.
-- **Enable embedded rclone log**: Enables logging for embedded rclone operations.
-	Logging options:  
-	- **Log folder**: Path where log files are saved.  
-	- **Log file name**: Customize the filename for rclone logs.  
-	- **Log level**: Choose from standard rclone log levels (DEBUG, INFO, NOTICE, ERROR).  
-
-Advanced options:  
-- **Rclone global flags**: Enter any global rclone flags (e.g. `--no-check-certificate`).  
-- **Rclone config password**: Password for encrypted rclone configurations. If you set this password, then rclone config files will be encrypted.  
-
-:::caution Restart rclone Required to Apply Embedded Rclone Settings
-
-Click **`Restart rclone`** to apply any changes made to the Embedded Rclone settings.  
-This will restart the embedded Rclone instance and may interrupt any currently running jobs.  
-
-:::
-
-## Network & Logs
-
-<img src="/support/images/en/howto/rcloneview-basic/network-etc-settings.png" alt="network etc settings" class="img-medium img-center" />
-### Network
-- **`Proxy settings`**: Features coming soon.
-- **`Rclone connection manager`**: Open [**Connection Manager**](./connection-manager.md)
-
-### Etc
-- **`Application Log`**: Open log viewer for app-level logs.
-
-- **`Restore Settings`**: Reset all settings to default values.
+- **Restore Default Settings**: Resets all options to their original default values.
 
 ---
+
+## 🎛  Interfaces & Notifications
+
+<img src="/support/images/en/howto/rcloneview-basic/interface-settings.png" alt="interface settings" class="img-medium img-center" />
+### UI Appearance
+
+- **Dark mode**: Toggle between light and dark themes.
+- **Theme color**: Choose from available accent colors.
+
+### Drag and Drop
+
+- **Confirm drag and drop**: Enables a confirmation popup when moving files via drag-and-drop.
+
+### Show Job Types (Transfer Log Filters)
+
+Select which types of jobs to display in the Transfer Log panel:
+- **Download**
+- **Upload**
+- **Sync**
+
+<img src="/support/images/en/howto/rcloneview-basic/notification-dialogs-settings.png" alt="notification dialogs settings" class="img-medium img-center" />
+### Notification Dialogs
+
+Decide which types of pop-up notifications you'd like to receive while using RcloneView:
+
+- **Show job state log**: Display a detailed log dialog after each transfer job finishes.
+- **Show comparison completed**: Notify when a folder comparison task has completed successfully.
+- **Show confirmation before deleting files in compare**: Ask for confirmation before deleting any files during folder comparison.
+- **Show sync completion notification**: Show a message when a sync operation finishes.
+- **Show network error dialog**: Alert you immediately if a network connection error occurs during a job.
+
+---
+
+## ⚙️ Embedded Rclone
+
+<img src="/support/images/en/howto/rcloneview-basic/embedded-rclone-settings.png" alt="embedded rclone settings" class="img-medium img-center" />
+
+### Embedded Lifecycle
+
+- **Stop rclone on App Exit**: Automatically shuts down the embedded `rclone` process when RcloneView is closed.
+
+:::caution Restart Required After Any Changes
+
+After modifying any setting in the **Embedded Rclone** tab — including path configuration, global flags, or logging options — click **Restart Embedded Rclone** to apply the changes.  
+This will restart the embedded Rclone process and may interrupt any currently running jobs.
+
+:::
+### Path Settings
+
+- **Local Rclone location**: Absolute path to your `rclone` binary.
+- **Local Rclone config location**: Path to your `rclone.conf` file (contains remote info).
+- **Default download folder**: Directory where downloaded files will be saved.
+- **Default upload folder**: Directory used as the source for upload jobs.
+
+   <img src="/support/images/en/howto/rcloneview-basic/embedded-rclone-advanced-options-settings.png" alt="embedded rclone advanced options settings" class="img-medium img-center" />
+### Advanced Options
+
+- **Global Rclone Flags**: Additional flags to pass to rclone (e.g., `--s3-directory-markers`).
+- **Config Password**: Password for encrypted rclone configurations. If you set this password, then rclone config files will be encrypted.
+
+<img src="/support/images/en/howto/rcloneview-basic/embedded-rclone-logging-configuration-settings.png" alt="embedded rclone logging configuration settings" class="img-medium img-center" />
+### Logging Configuration
+
+- **Enable rclone Logging**: Activate file-based logging for Rclone operations.
+- **Log folder**: Directory to store log files.
+- **Log file name**: Default filename for logs.
+- **Log level**: Choose verbosity level (DEBUG, INFO, NOTICE, ERROR).
+
+---
+
+## 🌐 Network & Misc
+
+<img src="/support/images/en/howto/rcloneview-basic/network-etc-settings.png" alt="network etc settings" class="img-medium img-center" />
+
+### Network
+
+- **Proxy settings**: Configure proxy (feature coming soon).
+- **Rclone connection manager**: View or manage active Rclone connections.  
+  → [Read more](./connection-manager.md)
+
+### Diagnostics
+
+- **Application Log**: Opens internal logs to aid troubleshooting or bug reporting.
+
+---
+
+## ✅ Summary
+
+These settings allow you to fully control how RcloneView behaves at startup, how it interfaces with Rclone, and how it communicates job results or errors to you. Adjust them to match your workflow, whether you're scheduling syncs, automounting drives, or troubleshooting network issues.
+

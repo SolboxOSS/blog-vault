@@ -41,18 +41,17 @@ This guide will walk you step-by-step through installing **RcloneView** and addi
 <img src="/support/images/howto/add-new-remote.png" alt="add new remote" class="img-medium img-center" />
 ### Adding Google Drive Remote
 
-#### In the **`Provider`** tab:
-
 1. Enter **`google`** in the search bar.
 2. Select **`Google Drive`** from the results.
-3. Click **`Next`**.
-#### In the **`Options`** tab:
+3. Enter a recognizable **`Remote name`** (e.g., MyGoogleDrive).
+4. click **`Add Remote`** to finish adding the remote.
 
-4. Usually, you can skip this step by directly clicking **`Next`** unless you have specific configurations.
-
+:::tip
+Fields marked with an asterisk (*) are required. Ensure all mandatory fields are completed before saving.
+:::
 <div class="img-grid-2">
-<img src="/support/images/howto/new-remote-step1.png" alt="Add new google remote" class="img-medium img-center" />
-<img src="/support/images/howto/add-remote-step2.png" alt="Add google drive option" class="img-medium img-center" />
+<img src="/support/images/en/howto/new-remote-step1.png" alt="new remote step1" class="img-medium img-center" />
+<img src="/support/images/en/howto/add-remote-step2.png" alt="add remote step2" class="img-medium img-center" />
 </div>
 
 :::tip OAuth-based Cloud Remotes
@@ -67,24 +66,6 @@ However, **some providers require additional configuration** in the `Options` ta
 - **Box for Business** – Select `enterprise` for box_sub_type
 
 👉 See guide: [Connect via Web Browser Login](./remote-storage-connection-settings/add-oath-online-login.md#supported-cloud-providers--setup-requirements)
-:::
-
-#### In the **`Name`** tab:
-
-5. Enter a recognizable **`Remote name`** (e.g., MyGoogleDrive).
-6. Click **`Next`**.
-
-#### In the **`Save`** tab:
-
-7. Review your settings and click **`Save`** to finish adding the remote.
-
-<div class="img-grid-2">
-<img src="/support/images/howto/add-remote-step3.png" alt="add google drive step3" class="img-medium img-center" />
-<img src="/support/images/howto/add-remote-step4.png" alt="add google drive step4" class="img-medium img-center" />
-</div>
-
-:::tip
-Fields marked with an asterisk (*) are required. Ensure all mandatory fields are completed before saving.
 :::
 
 ## **Step 3: Connecting Your Remote Storage (GoogleDrive Single Sign-On)**
