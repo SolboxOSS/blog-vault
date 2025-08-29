@@ -76,7 +76,7 @@ Maybe you're exploring cost optimization, redundancy, or vendor diversification.
 - Ensure access keys or credentials for both platforms are ready (AWS IAM keys, Cloudflare API keys).  
 - Decide whether you're performing a one-time transfer, selective sync, or scheduled replication.
 
-🔍 Helpful guides:  
+🔍 Helpful guides:
 - [How to retrieve AWS S3 access credentials](/support/howto/cloud-storage-setting/aws-account-info)
 - [How to obtain Cloudflare R2 API credentials and endpoint](/support/howto/cloud-storage-setting/cloudflare-r2-credential)
 
@@ -94,13 +94,21 @@ Maybe you're exploring cost optimization, redundancy, or vendor diversification.
 #### A) Drag & Drop  
 Easily move individual files or folders between S3 and R2.
 
-#### B) Compare & Sync  
+👉 See more: [Copying Files using Drag and Drop](/support/howto/rcloneview-basic/browse-and-manage-remote-storage#copying-files-using-drag-and-drop)
+#### B) Compare & Copy 
 Preview differences between buckets and sync only updated or missing objects.
+
+👉 See more: [Compare and Manage Files](/support/howto/rcloneview-basic/compare-folder-contents#compare-results-and-manage-files)
 
 <img src="/support/images/en/howto/rcloneview-basic/compare-display-select.png" alt="compare display select" class="img-medium img-center" />
 
 #### C) Sync & Schedule Jobs  
 Set up recurring jobs—e.g., nightly sync from S3 to R2 for redundancy or cost-saving purposes.
+
+👉 See more:
+- [Synchronize Remote Storages](/support/howto/rcloneview-basic/synchronize-remote-storages)
+- [Create Sync Jobs](/support/howto/rcloneview-basic/create-sync-jobs)
+- [Job Scheduling and Execution](/support/howto/rcloneview-advanced/job-scheduling-and-execution)
 
 <img src="/support/images/en/howto/rcloneview-basic/job-run-click.png" alt="job run click" class="img-medium img-center" />
 
@@ -133,6 +141,6 @@ Set up recurring jobs—e.g., nightly sync from S3 to R2 for redundancy or cost-
 
 
 **Ready to streamline your storage management?**  
-<RvCta imageSrc="/img/rcloneview-preview.png" downloadUrl="https://rcloneview.com/src/download.html" />
+
 
 <CloudSupportGrid />
