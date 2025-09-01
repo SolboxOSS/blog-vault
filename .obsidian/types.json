@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "keywords": "multitext",
-    "sidebar_position": "number"
+    "sidebar_position": "number",
+    "authors": "multitext"
   }
 }
