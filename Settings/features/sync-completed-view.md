@@ -1,0 +1,1 @@
+Job 결과 로깅(.json)-> 결과 Compare View 형태??
