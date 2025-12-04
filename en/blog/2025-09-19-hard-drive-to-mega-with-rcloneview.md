@@ -12,10 +12,10 @@ keywords:
   - rclone GUI
   - scheduled jobs
 tags:
-  - RcloneView
-  - Mega
+  - rcloneview
+  - mega
   - HardDrive
-  - CloudBackup
+  - cloud-backup
 ---
 
 import CloudSupportGrid from '../src/components/CloudSupportGrid';

@@ -13,11 +13,11 @@ keywords:
   - multi-cloud workflow
   - file transfer cloudflare R2
 tags:
-  - Cloudflare-R2
-  - AWS-S3
-  - RcloneView
-  - Cloud-Sync
-  - Cloud-Migration
+  - cloudflare
+  - aws-s3
+  - rcloneview
+  - cloud-sync
+  - cloud-migration
 ---
 import CloudSupportGrid from '../src/components/CloudSupportGrid';
 import cloudIcons from '../src/contexts/cloudIcons';

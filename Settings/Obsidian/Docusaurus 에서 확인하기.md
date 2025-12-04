@@ -12,6 +12,7 @@ https://github.com/SolboxOSS/rcloneview-support.git
 | :-----------------: | :------------------------- | :------------------------ | :------------------------------- |
 |     .md or .mdx     | /en/howto                  | /howto                    | - help guide(매뉴얼) 문서 작성 폴더       |
 |     .md or .mdx     | /en/tutorials              | /tutorials                | - Tutorial 문서 작성 폴더              |
+|     .md or .mdx     | /en/blog                   | /blog                     | -Blog 문서 작성 폴더                   |
 | html 문법 첨부파일(이미지 등) | /support/images/[md파일 폴더명] | /static/images/[md파일 폴더명] | - .md 파일내에 첨부된 파일(이미지 등) 저장 폴더   |
 |   md, mdx 문법 첨부파일   | /en/[md파일폴더]/attachments   | /[md파일폴더]/attatchments    | - .md, .mdx와 함께 첨부파일 폴더 그대로 복사하기 |
 |                     |                            |                           |                                  |

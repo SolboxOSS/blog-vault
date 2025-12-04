@@ -13,10 +13,10 @@ keywords:
   - scheduled jobs
   - cloud file transfer
 tags:
-  - RcloneView
-  - Mega
-  - GoogleDrive
-  - CloudMigration
+  - rcloneview
+  - mega
+  - google-drive
+  - cloud-migration
 ---
 
 import CloudSupportGrid from '../src/components/CloudSupportGrid';

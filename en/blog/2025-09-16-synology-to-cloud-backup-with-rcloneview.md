@@ -16,14 +16,14 @@ keywords:
   - scheduled sync
   - rclone GUI
 tags:
-  - RcloneView
+  - rcloneview
   - SynologyNAS
-  - CloudBackup
-  - S3
-  - GoogleDrive
+  - cloud-backup
+  - s3
+  - google-drive
   - Backblaze
   - Wasabi
-  - pCloud
+  - pcloud
 ---
 
 import CloudSupportGrid from '../src/components/CloudSupportGrid';

@@ -5,7 +5,31 @@ jay:
   image_url: https://avatars.githubusercontent.com/u/73866943?v=4
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-jay-kim-articles'
+    permalink: "/all-jay-kim-articles"
+  socials:
+    x: rcloneview
+    github: rcloneview
+    newsletter: https://rcloneview.com
+
+steve:
+  name: Steve
+  title: Senior Engineer
+  url: https://rcloneview.com
+  image_url: https://avatars.githubusercontent.com/u/239593223?s=400&u=7dce367eb7b4c9eae26860e3342e0b511b7aa5a5&v=4
+  page:
+    permalink: "/all-steve-articles"
+  socials:
+    x: rcloneview
+    github: rcloneview
+    newsletter: https://rcloneview.com
+
+tayson:
+  name: Tayson
+  title: Senior Engineer
+  url: https://rcloneview.com
+  image_url: https://ca.slack-edge.com/T0446FEU0-ULG2X9M9D-0e5dfa042fb2-512
+  page:
+    permalink: "/all-tayson-articles"
   socials:
     x: rcloneview
     github: rcloneview

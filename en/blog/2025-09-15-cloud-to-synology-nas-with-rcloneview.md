@@ -15,10 +15,10 @@ keywords:
   - rclone GUI
   - scheduled sync
 tags:
-  - RcloneView
+  - rcloneview
   - SynologyNAS
-  - GoogleDrive
-  - OneDrive
+  - google-drive
+  - onedrive
   - cloud-file-transfer
   - backup
 ---

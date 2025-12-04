@@ -12,10 +12,10 @@ keywords:
   - cloud sync
   - rclone gui
 tags:
-  - RcloneView
-  - GoogleDrive
-  - AmazonS3
-  - CloudBackup
+  - rcloneview
+  - google-drive
+  - amazon-s3
+  - cloud-backup
 ---
 
 import CloudSupportGrid from '../src/components/CloudSupportGrid';
@@ -83,7 +83,7 @@ Once the first run looks good:
 - **Bucket versioning**: Turn it on if you want every overwrite preserved. Each RcloneView run then becomes a restore point.  
 - **Tags**: Add tags like `Team=Finance` or `Compliance=SOC2` to objects so billing and audits stay simple.
 
-Our blog on [RcloneView cloud-to-cloud transfers](/blog/effortless-cloud-to-cloud-transfers-syncing) covers more ideas for filtering and organizing cloud copies.
+Our blog on [RcloneView cloud-to-cloud transfers](/support/blog/Effortless-Cloud-to-Cloud-Transfers-&-Syncing) covers more ideas for filtering and organizing cloud copies.
 
 ## Monitor and restore with confidence
 

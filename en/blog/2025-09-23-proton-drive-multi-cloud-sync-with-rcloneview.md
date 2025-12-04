@@ -16,13 +16,13 @@ keywords:
   - scheduled jobs
   - encrypted cloud storage
 tags:
-  - RcloneView
-  - ProtonDrive
-  - GoogleDrive
-  - OneDrive
-  - S3
-  - CloudBackup
-  - CloudSync
+  - rcloneview
+  - proton-drive
+  - google-drive
+  - onedrive
+  - s3
+  - cloud-backup
+  - cloud-sync
 ---
 
 import CloudSupportGrid from '../src/components/CloudSupportGrid';

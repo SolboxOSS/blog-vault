@@ -1,19 +1,194 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+amazon-s3:
+  label: Amazon S3
+  permalink: /amazon-s3
+  description: Posts about Amazon S3.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+aws-s3:
+  label: AWS S3
+  permalink: /aws-s3
+  description: Posts about AWS S3.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+Backblaze:
+  label: Backblaze
+  permalink: /backblaze
+  description: Posts about Backblaze.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+backup:
+  label: Backup
+  permalink: /backup
+  description: Posts about Backup.
+
+cloud-backup:
+  label: Cloud Backup
+  permalink: /cloud-backup
+  description: Posts about Cloud Backup.
+
+cloud-file-transfer:
+  label: Cloud File Transfer
+  permalink: /cloud-file-transfer
+  description: Posts about Cloud File Transfer.
+
+cloud-migration:
+  label: Cloud Migration
+  permalink: /cloud-migration
+  description: Posts about Cloud Migration.
+
+cloud-storage:
+  label: Cloud Storage
+  permalink: /cloud-storage
+  description: Posts about Cloud Storage.
+
+cloud-storage-synchronization:
+  label: Cloud Storage Synchronization
+  permalink: /cloud-storage-synchronization
+  description: Posts about Cloud Storage Synchronization.
+
+cloud-to-cloud:
+  label: Cloud To Cloud
+  permalink: /cloud-to-cloud
+  description: Posts about Cloud To Cloud.
+
+cloudflare:
+  label: Cloudflare
+  permalink: /cloudflare
+  description: Posts about Cloudflare.
+
+cloudflare-r2:
+  label: Cloudflare R2
+  permalink: /cloudflare-r2
+  description: Posts about Cloudflare R2.
+
+cloud-sync:
+  label: Cloud Sync
+  permalink: /cloud-sync
+  description: Posts about Cloud Sync.
+
+dropbox:
+  label: Dropbox
+  permalink: /dropbox
+  description: Posts about Dropbox.
+
+external-drive:
+  label: External Drive
+  permalink: /external-drive
+  description: Posts about External Drive.
+
+file-management:
+  label: File Management
+  permalink: /file-management
+  description: Posts about File Management.
+
+Gofile:
+  label: Gofile
+  permalink: /gofile
+  description: Posts about Gofile.
+
+google-drive:
+  label: Google Drive
+  permalink: /google-drive
+  description: Posts about Google Drive.
+
+google-drive-sync:
+  label: Google Drive Sync
+  permalink: /google-drive-sync
+  description: Posts about Google Drive Sync.
+
+google-to-onedrive:
+  label: Google To Onedrive
+  permalink: /google-to-onedrive
+  description: Posts about Google To Onedrive.
+
+hard-drive-backup:
+  label: Hard Drive Backup
+  permalink: /hard-drive-backup
+  description: Posts about Hard Drive Backup.
+
+HardDrive:
+  label: Hard Drive
+  permalink: /hard-drive
+  description: Posts about Hard Drive.
+
+media:
+  label: Media
+  permalink: /media
+  description: Posts about Media.
+
+mega:
+  label: Mega
+  permalink: /mega
+  description: Posts about Mega.
+
+migration:
+  label: Migration
+  permalink: /migration
+  description: Posts about Migration.
+
+multi-cloud-management:
+  label: Multi Cloud Management
+  permalink: /multi-cloud-management
+  description: Posts about Multi Cloud Management.
+
+offline-sync:
+  label: Offline Sync
+  permalink: /offline-sync
+  description: Posts about Offline Sync.
+
+onedrive:
+  label: One Drive
+  permalink: /one-drive
+  description: Posts about One Drive.
+
+onedrive-sync:
+  label: Onedrive Sync
+  permalink: /onedrive-sync
+  description: Posts about Onedrive Sync.
+
+onedrive-to-googledrive:
+  label: Onedrive To Googledrive
+  permalink: /onedrive-to-googledrive
+  description: Posts about Onedrive To Googledrive.
+
+pcloud:
+  label: P Cloud
+  permalink: /p-cloud
+  description: Posts about P Cloud.
+
+portable-backup:
+  label: Portable Backup
+  permalink: /portable-backup
+  description: Posts about Portable Backup.
+
+proton-drive:
+  label: Proton Drive
+  permalink: /proton-drive
+  description: Posts about Proton Drive.
+
+rcloneview:
+  label: Rclone View
+  permalink: /rclone-view
+  description: Posts about Rclone View.
+
+s3:
+  label: S3
+  permalink: /s3
+  description: Posts about S3.
+
+storage-comparison:
+  label: Storage Comparison
+  permalink: /storage-comparison
+  description: Posts about Storage Comparison.
+
+sync:
+  label: Sync
+  permalink: /sync
+  description: Posts about Sync.
+
+SynologyNAS:
+  label: Synology Nas
+  permalink: /synology-nas
+  description: Posts about Synology Nas.
+
+Wasabi:
+  label: Wasabi
+  permalink: /wasabi
+  description: Posts about Wasabi.

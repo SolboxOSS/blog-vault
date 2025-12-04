@@ -12,10 +12,10 @@ keywords:
   - microsoft 365
   - rclone GUI
 tags:
-  - RcloneView
-  - Mega
-  - OneDrive
-  - CloudBackup
+  - rcloneview
+  - mega
+  - onedrive
+  - cloud-backup
 ---
 
 import CloudSupportGrid from '../src/components/CloudSupportGrid';

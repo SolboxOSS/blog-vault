@@ -32,6 +32,7 @@ This guide will walk you step-by-step through installing **RcloneView** and addi
 2. Run the downloaded installer and follow the on-screen instructions to complete the installation.
 3. When installation is successful, you will see the following confirmation screen:
 <img src="/support/images/howto/Completed-install.png" alt="Completed-install" class="img-medium img-center" />
+
 ## **Step 2: Adding Remote Storage (Google Drive Example)**
 
 ### **Opening New Remote Configuration Window**
